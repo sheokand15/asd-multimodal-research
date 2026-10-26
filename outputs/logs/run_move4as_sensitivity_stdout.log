@@ -1,0 +1,29 @@
+2026-10-25 23:20:53,851 INFO move4as_sens: motion_feat_lr_reference: AUC=0.9849624060150376 BA=0.8665413533834586
+2026-10-25 23:20:58,594 INFO move4as_sens: motion_feat_lr_walk_only: AUC=1.0 BA=0.7777777777777778
+2026-10-25 23:21:01,941 INFO move4as_sens: eeg_feat_lr_walk_only: AUC=0.7037037037037037 BA=0.6333333333333333
+2026-10-25 23:21:05,165 INFO move4as_sens: early_fusion_lr_walk_only: AUC=0.962962962962963 BA=0.7777777777777778
+2026-10-25 23:21:08,593 INFO move4as_sens: motion_feat_lr_dance_only: AUC=0.9814814814814814 BA=0.8611111111111112
+2026-10-25 23:21:12,193 INFO move4as_sens: eeg_feat_lr_dance_only: AUC=0.6111111111111112 BA=0.6111111111111112
+2026-10-25 23:21:15,912 INFO move4as_sens: early_fusion_lr_dance_only: AUC=0.9212962962962963 BA=0.8055555555555556
+2026-10-25 23:21:19,828 INFO move4as_sens: motion_feat_lr_excl_40fps: AUC=0.9904761904761905 BA=0.9285714285714286
+2026-10-25 23:21:23,432 INFO move4as_sens: eeg_feat_lr_excl_40fps: AUC=0.7714285714285714 BA=0.7214285714285715
+2026-10-25 23:21:27,376 INFO move4as_sens: motion_feat_lr_lowpass6hz: AUC=0.9586466165413534 BA=0.9473684210526316
+2026-10-25 23:21:31,273 INFO move4as_sens: motion_feat_lr_no_acc_jerk: AUC=0.9548872180451128 BA=0.8139097744360901
+2026-10-25 23:21:35,055 INFO move4as_sens: motion_feat_lr_lowpass6hz_no_acc_jerk_excl_40fps: AUC=0.9666666666666668 BA=0.861904761904762
+2026-10-25 23:21:36,951 INFO move4as_sens: demographics_age_sex_lr: AUC=0.5339285714285714
+2026-10-25 23:21:37,111 INFO move4as_sens: 
+                                               model   n  pooled_roc_auc  roc_auc_mean  roc_auc_std  balanced_accuracy_mean
+0                           motion_feat_lr_reference  33        0.984962      1.000000     0.000000                0.858333
+1                       motion_feat_lr_task_balanced  33        0.981203      1.000000     0.000000                0.858333
+2                           motion_feat_lr_walk_only  24        1.000000      1.000000     0.000000                0.750000
+3                              eeg_feat_lr_walk_only  24        0.703704      0.880556     0.172245                0.600000
+4                          early_fusion_lr_walk_only  24        0.962963      0.950000     0.111803                0.766667
+5                          motion_feat_lr_dance_only  30        0.981481      1.000000     0.000000                0.866667
+6                             eeg_feat_lr_dance_only  30        0.611111      0.627778     0.255797                0.650000
+7                         early_fusion_lr_dance_only  30        0.921296      0.872222     0.120442                0.816667
+8                          motion_feat_lr_excl_40fps  29        0.990476      1.000000     0.000000                0.916667
+9                             eeg_feat_lr_excl_40fps  29        0.771429      0.800000     0.144871                0.733333
+10                         motion_feat_lr_lowpass6hz  33        0.958647      0.908333     0.145535                0.941667
+11                        motion_feat_lr_no_acc_jerk  33        0.954887      0.938889     0.097024                0.816667
+12  motion_feat_lr_lowpass6hz_no_acc_jerk_excl_40fps  29        0.966667      0.955556     0.099381                0.866667
+13                           demographics_age_sex_lr  34        0.533929      0.562500     0.219493                0.550000

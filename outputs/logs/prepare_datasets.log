@@ -1,0 +1,16 @@
+[questionnaire] preparing ...
+  CRC test autism-screening-for-toddlers-data.zip: OK (0s)
+[questionnaire] ok 
+[mmasd] preparing ...
+  CRC test drive-download-20261023T064244Z-1-002.zip: OK (2s)
+  CRC test drive-download-20261023T064244Z-1-003.zip: OK (0s)
+  CRC test drive-download-20261023T064244Z-1-004.zip: OK (1s)
+  CRC test 2D_openpose.zip: OK (5s)
+  CRC test ROMP_2D_Coordinates.zip: OK (5s)
+  CRC test ROMP_3D_Coordinates.zip: OK (5s)
+  CRC test ROMP_3D_Coordinates_71-joints.zip: OK (7s)
+[mmasd] ok 
+[move4as] preparing ...
+  CRC test 28296518.zip: OK (3s)
+  CRC test Dataset.zip: OK (31s)
+[move4as] ok 

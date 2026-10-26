@@ -1,0 +1,26 @@
+# FULL-TRAINING configuration (not yet run — recommended next step after the SMOKE_TEST).
+# Inherits everything from default.yaml and overrides training length / stopping.
+extends: "default.yaml"
+run_label: "FULL_TRAINING"
+
+paths:
+  checkpoints: "E:/ASD Project/outputs/full/checkpoints"
+  predictions: "E:/ASD Project/outputs/full/predictions"
+  metrics: "E:/ASD Project/outputs/full/metrics"
+  plots: "E:/ASD Project/outputs/full/plots"
+  logs: "E:/ASD Project/outputs/full/logs"
+  reports: "E:/ASD Project/outputs/full/reports"
+
+experiment:
+  epochs: 100
+  batch_size: 32
+  early_stopping: true      # on inner-validation participants of each training fold (never the test fold)
+
+training:
+  learning_rate: 0.0005
+  weight_decay: 0.0005
+  early_stopping_patience: 10
+  mixed_precision: true
+
+mae:
+  lr: 0.001

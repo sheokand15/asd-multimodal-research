@@ -1,0 +1,6 @@
+model,experiment,level,fold,n_participants,accuracy,balanced_accuracy,precision,recall_sensitivity,specificity,f1,macro_f1,mcc,cohen_kappa,roc_auc,pr_auc,npv,fpr,fnr,log_loss,brier,threshold,tp,fp,tn,fn,unavailable
+logreg__items,C_questionnaire,participant,0,211,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000000000002,1.0,0.0,0.0,0.022089800072160003,0.00257692803946194,0.42761850604329255,146,0,65,0,
+logreg__items,C_questionnaire,participant,1,211,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.022558489993252984,0.0029861756830680264,0.4700933598937648,146,0,65,0,
+logreg__items,C_questionnaire,participant,2,211,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.022762355712460918,0.0030554356065960932,0.5,145,0,66,0,
+logreg__items,C_questionnaire,participant,3,211,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.03213751099067676,0.004760230398226684,0.4836613033581274,146,0,65,0,
+logreg__items,C_questionnaire,participant,4,210,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.03312557145396711,0.004956850216899881,0.5,145,0,65,0,

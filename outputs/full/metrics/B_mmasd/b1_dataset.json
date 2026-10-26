@@ -1,0 +1,28 @@
+{
+  "activities": [
+    "arm_swing_as",
+    "body_swing_bs",
+    "chest_expansion_ce",
+    "drumming_dr",
+    "maracas_forward_shaking_mfs",
+    "maracas_shaking_ms",
+    "sing_and_clap_sac",
+    "squat_sq",
+    "tree_pose_tr",
+    "twist_pose_tw"
+  ],
+  "n_clips": 1367,
+  "n_participants": 32,
+  "clips_by_activity": {
+    "drumming_dr": 340,
+    "maracas_shaking_ms": 130,
+    "tree_pose_tr": 129,
+    "twist_pose_tw": 120,
+    "body_swing_bs": 115,
+    "chest_expansion_ce": 114,
+    "sing_and_clap_sac": 113,
+    "arm_swing_as": 103,
+    "squat_sq": 102,
+    "maracas_forward_shaking_mfs": 101
+  }
+}

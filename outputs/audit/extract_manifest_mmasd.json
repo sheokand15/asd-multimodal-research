@@ -1,0 +1,88 @@
+{
+ "dest": "E:\\ASD Project\\Dataset\\MMASD",
+ "parts": {
+  "drive-download-20261023T064244Z-1-002.zip": {
+   "archive_size": 1072029435,
+   "crc_failed_member": null,
+   "files": [
+    {
+     "member": "3D skeleton/ROMP_3D_Coordinates_71-joints.zip",
+     "path": "E:\\ASD Project\\Dataset\\MMASD\\archives\\3D skeleton\\ROMP_3D_Coordinates_71-joints.zip",
+     "size": 795772821,
+     "crc": "1ffabf51",
+     "status": "extracted"
+    },
+    {
+     "member": "2D skeleton/ROMP_2D_Coordinates.zip",
+     "path": "E:\\ASD Project\\Dataset\\MMASD\\archives\\2D skeleton\\ROMP_2D_Coordinates.zip",
+     "size": 276092492,
+     "crc": "377f9c1d",
+     "status": "extracted"
+    }
+   ]
+  },
+  "drive-download-20261023T064244Z-1-003.zip": {
+   "archive_size": 315520444,
+   "crc_failed_member": null,
+   "files": [
+    {
+     "member": "ADOS_rating.xlsx",
+     "path": "E:\\ASD Project\\Dataset\\MMASD\\archives\\ADOS_rating.xlsx",
+     "size": 47541,
+     "crc": "e793340d",
+     "status": "extracted"
+    },
+    {
+     "member": "2D skeleton/2D_openpose.zip",
+     "path": "E:\\ASD Project\\Dataset\\MMASD\\archives\\2D skeleton\\2D_openpose.zip",
+     "size": 315459994,
+     "crc": "61bc6c24",
+     "status": "extracted"
+    }
+   ]
+  },
+  "drive-download-20261023T064244Z-1-004.zip": {
+   "archive_size": 357010174,
+   "crc_failed_member": null,
+   "files": [
+    {
+     "member": "README.txt",
+     "path": "E:\\ASD Project\\Dataset\\MMASD\\archives\\README.txt",
+     "size": 108,
+     "crc": "1cb6c9a9",
+     "status": "extracted"
+    },
+    {
+     "member": "3D skeleton/ROMP_3D_Coordinates.zip",
+     "path": "E:\\ASD Project\\Dataset\\MMASD\\archives\\3D skeleton\\ROMP_3D_Coordinates.zip",
+     "size": 356955183,
+     "crc": "7d659726",
+     "status": "extracted"
+    }
+   ]
+  }
+ },
+ "inner": {
+  "2D_openpose.zip": {
+   "crc_failed_member": null,
+   "n_files": 254674,
+   "total_bytes": 660389965
+  },
+  "ROMP_2D_Coordinates.zip": {
+   "crc_failed_member": null,
+   "n_files": 311080,
+   "total_bytes": 266911200
+  },
+  "ROMP_3D_Coordinates.zip": {
+   "crc_failed_member": null,
+   "n_files": 311080,
+   "total_bytes": 357437760
+  },
+  "ROMP_3D_Coordinates_71-joints.zip": {
+   "crc_failed_member": null,
+   "n_files": 311080,
+   "total_bytes": 889281300
+  }
+ },
+ "status": "ok"
+}

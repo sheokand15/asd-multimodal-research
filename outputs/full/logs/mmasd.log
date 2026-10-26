@@ -1,0 +1,1809 @@
+2026-10-25 23:50:45,760 INFO mmasd: B1: 1367 clips, 10 activities ['arm_swing_as', 'body_swing_bs', 'chest_expansion_ce', 'drumming_dr', 'maracas_forward_shaking_mfs', 'maracas_shaking_ms', 'sing_and_clap_sac', 'squat_sq', 'tree_pose_tr', 'twist_pose_tw'], 32 participants (excluded: ['frog_pose_fg'] — <30 clips or no OpenPose)
+2026-10-25 23:50:45,767 INFO mmasd: --- ctrgcn__2d_openpose
+2026-10-25 23:50:49,892 INFO mmasd:     epoch 1/100 train_loss=4.5681 val_loss=2.2829 (1.4s)
+2026-10-25 23:50:50,885 INFO mmasd:     epoch 2/100 train_loss=2.8292 val_loss=1.8795 (0.9s)
+2026-10-25 23:50:51,850 INFO mmasd:     epoch 3/100 train_loss=2.3359 val_loss=1.8347 (0.9s)
+2026-10-25 23:50:52,843 INFO mmasd:     epoch 4/100 train_loss=2.1016 val_loss=1.7118 (0.9s)
+2026-10-25 23:50:53,808 INFO mmasd:     epoch 5/100 train_loss=1.9647 val_loss=1.7262 (0.9s)
+2026-10-25 23:50:54,767 INFO mmasd:     epoch 6/100 train_loss=1.8381 val_loss=1.6665 (0.9s)
+2026-10-25 23:50:55,731 INFO mmasd:     epoch 7/100 train_loss=1.7084 val_loss=1.5651 (0.9s)
+2026-10-25 23:50:56,696 INFO mmasd:     epoch 8/100 train_loss=1.6308 val_loss=1.5343 (0.9s)
+2026-10-25 23:50:57,676 INFO mmasd:     epoch 9/100 train_loss=1.5131 val_loss=1.3987 (0.9s)
+2026-10-25 23:50:58,647 INFO mmasd:     epoch 10/100 train_loss=1.3627 val_loss=1.3674 (0.9s)
+2026-10-25 23:50:59,612 INFO mmasd:     epoch 11/100 train_loss=1.2945 val_loss=1.2919 (0.9s)
+2026-10-25 23:51:00,606 INFO mmasd:     epoch 12/100 train_loss=1.2069 val_loss=1.1710 (0.9s)
+2026-10-25 23:51:01,592 INFO mmasd:     epoch 13/100 train_loss=1.1084 val_loss=1.1653 (0.9s)
+2026-10-25 23:51:02,577 INFO mmasd:     epoch 14/100 train_loss=0.9620 val_loss=1.1069 (0.9s)
+2026-10-25 23:51:03,543 INFO mmasd:     epoch 15/100 train_loss=0.9020 val_loss=1.1705 (0.9s)
+2026-10-25 23:51:04,522 INFO mmasd:     epoch 16/100 train_loss=0.9164 val_loss=1.0476 (0.9s)
+2026-10-25 23:51:05,487 INFO mmasd:     epoch 17/100 train_loss=0.8794 val_loss=1.0441 (0.9s)
+2026-10-25 23:51:06,466 INFO mmasd:     epoch 18/100 train_loss=0.8105 val_loss=1.0215 (0.9s)
+2026-10-25 23:51:07,445 INFO mmasd:     epoch 19/100 train_loss=0.7466 val_loss=1.0344 (0.9s)
+2026-10-25 23:51:08,417 INFO mmasd:     epoch 20/100 train_loss=0.7039 val_loss=1.0133 (0.9s)
+2026-10-25 23:51:09,389 INFO mmasd:     epoch 21/100 train_loss=0.7080 val_loss=0.9557 (0.9s)
+2026-10-25 23:51:10,341 INFO mmasd:     epoch 22/100 train_loss=0.6539 val_loss=1.0094 (0.9s)
+2026-10-25 23:51:11,312 INFO mmasd:     epoch 23/100 train_loss=0.6088 val_loss=0.9557 (0.9s)
+2026-10-25 23:51:12,264 INFO mmasd:     epoch 24/100 train_loss=0.5775 val_loss=0.9360 (0.9s)
+2026-10-25 23:51:13,215 INFO mmasd:     epoch 25/100 train_loss=0.5438 val_loss=1.0052 (0.9s)
+2026-10-25 23:51:14,180 INFO mmasd:     epoch 26/100 train_loss=0.5378 val_loss=0.9575 (0.9s)
+2026-10-25 23:51:15,145 INFO mmasd:     epoch 27/100 train_loss=0.5295 val_loss=0.9431 (0.9s)
+2026-10-25 23:51:16,124 INFO mmasd:     epoch 28/100 train_loss=0.5156 val_loss=0.9878 (0.9s)
+2026-10-25 23:51:17,092 INFO mmasd:     epoch 29/100 train_loss=0.4356 val_loss=0.9755 (0.9s)
+2026-10-25 23:51:18,056 INFO mmasd:     epoch 30/100 train_loss=0.4423 val_loss=0.9804 (0.9s)
+2026-10-25 23:51:19,048 INFO mmasd:     epoch 31/100 train_loss=0.4391 val_loss=0.8651 (0.9s)
+2026-10-25 23:51:20,048 INFO mmasd:     epoch 32/100 train_loss=0.4360 val_loss=1.0112 (0.9s)
+2026-10-25 23:51:21,020 INFO mmasd:     epoch 33/100 train_loss=0.5111 val_loss=0.9045 (0.9s)
+2026-10-25 23:51:21,987 INFO mmasd:     epoch 34/100 train_loss=0.4176 val_loss=1.0060 (0.9s)
+2026-10-25 23:51:22,964 INFO mmasd:     epoch 35/100 train_loss=0.3770 val_loss=0.8733 (0.9s)
+2026-10-25 23:51:23,943 INFO mmasd:     epoch 36/100 train_loss=0.3559 val_loss=0.8751 (0.9s)
+2026-10-25 23:51:24,908 INFO mmasd:     epoch 37/100 train_loss=0.3710 val_loss=0.9495 (0.9s)
+2026-10-25 23:51:25,881 INFO mmasd:     epoch 38/100 train_loss=0.3461 val_loss=0.9301 (0.9s)
+2026-10-25 23:51:26,866 INFO mmasd:     epoch 39/100 train_loss=0.3519 val_loss=0.8598 (0.9s)
+2026-10-25 23:51:27,852 INFO mmasd:     epoch 40/100 train_loss=0.3076 val_loss=0.9425 (0.9s)
+2026-10-25 23:51:28,831 INFO mmasd:     epoch 41/100 train_loss=0.3326 val_loss=1.0702 (0.9s)
+2026-10-25 23:51:29,824 INFO mmasd:     epoch 42/100 train_loss=0.2967 val_loss=1.0228 (0.9s)
+2026-10-25 23:51:30,810 INFO mmasd:     epoch 43/100 train_loss=0.2857 val_loss=0.9285 (0.9s)
+2026-10-25 23:51:31,803 INFO mmasd:     epoch 44/100 train_loss=0.2859 val_loss=0.8907 (0.9s)
+2026-10-25 23:51:32,796 INFO mmasd:     epoch 45/100 train_loss=0.2646 val_loss=0.9032 (0.9s)
+2026-10-25 23:51:33,782 INFO mmasd:     epoch 46/100 train_loss=0.2775 val_loss=0.9575 (0.9s)
+2026-10-25 23:51:34,768 INFO mmasd:     epoch 47/100 train_loss=0.2863 val_loss=1.0288 (0.9s)
+2026-10-25 23:51:35,744 INFO mmasd:     epoch 48/100 train_loss=0.2502 val_loss=0.9691 (0.9s)
+2026-10-25 23:51:36,740 INFO mmasd:     epoch 49/100 train_loss=0.2513 val_loss=0.9699 (0.9s)
+2026-10-25 23:51:36,740 INFO mmasd:     early stop at epoch 49
+2026-10-25 23:51:37,996 INFO mmasd:     epoch 1/100 train_loss=4.6152 val_loss=2.6339 (0.9s)
+2026-10-25 23:51:38,996 INFO mmasd:     epoch 2/100 train_loss=2.7009 val_loss=1.9409 (0.9s)
+2026-10-25 23:51:39,996 INFO mmasd:     epoch 3/100 train_loss=2.2528 val_loss=1.9626 (0.9s)
+2026-10-25 23:51:40,989 INFO mmasd:     epoch 4/100 train_loss=2.1386 val_loss=1.8860 (0.9s)
+2026-10-25 23:51:41,996 INFO mmasd:     epoch 5/100 train_loss=2.0007 val_loss=1.8507 (0.9s)
+2026-10-25 23:51:42,989 INFO mmasd:     epoch 6/100 train_loss=1.8952 val_loss=1.6867 (0.9s)
+2026-10-25 23:51:43,978 INFO mmasd:     epoch 7/100 train_loss=1.8185 val_loss=1.5832 (0.9s)
+2026-10-25 23:51:44,982 INFO mmasd:     epoch 8/100 train_loss=1.6746 val_loss=1.4155 (0.9s)
+2026-10-25 23:51:45,975 INFO mmasd:     epoch 9/100 train_loss=1.5406 val_loss=1.3917 (0.9s)
+2026-10-25 23:51:46,981 INFO mmasd:     epoch 10/100 train_loss=1.3525 val_loss=1.3164 (0.9s)
+2026-10-25 23:51:47,974 INFO mmasd:     epoch 11/100 train_loss=1.3121 val_loss=1.1718 (0.9s)
+2026-10-25 23:51:48,968 INFO mmasd:     epoch 12/100 train_loss=1.2190 val_loss=1.1326 (0.9s)
+2026-10-25 23:51:49,960 INFO mmasd:     epoch 13/100 train_loss=1.1469 val_loss=1.0632 (0.9s)
+2026-10-25 23:51:50,960 INFO mmasd:     epoch 14/100 train_loss=1.0478 val_loss=1.0556 (0.9s)
+2026-10-25 23:51:51,960 INFO mmasd:     epoch 15/100 train_loss=0.9605 val_loss=0.9777 (0.9s)
+2026-10-25 23:51:52,953 INFO mmasd:     epoch 16/100 train_loss=0.9245 val_loss=0.9494 (0.9s)
+2026-10-25 23:51:54,022 INFO mmasd:     epoch 17/100 train_loss=0.8588 val_loss=1.0070 (1.0s)
+2026-10-25 23:51:55,071 INFO mmasd:     epoch 18/100 train_loss=0.8233 val_loss=0.9863 (1.0s)
+2026-10-25 23:51:56,119 INFO mmasd:     epoch 19/100 train_loss=0.7729 val_loss=0.8898 (1.0s)
+2026-10-25 23:51:57,168 INFO mmasd:     epoch 20/100 train_loss=0.7639 val_loss=0.9956 (1.0s)
+2026-10-25 23:51:58,195 INFO mmasd:     epoch 21/100 train_loss=0.6902 val_loss=0.8643 (1.0s)
+2026-10-25 23:51:59,251 INFO mmasd:     epoch 22/100 train_loss=0.6486 val_loss=0.8959 (1.0s)
+2026-10-25 23:52:00,286 INFO mmasd:     epoch 23/100 train_loss=0.6289 val_loss=0.8717 (1.0s)
+2026-10-25 23:52:01,306 INFO mmasd:     epoch 24/100 train_loss=0.6125 val_loss=0.9515 (1.0s)
+2026-10-25 23:52:02,327 INFO mmasd:     epoch 25/100 train_loss=0.5655 val_loss=0.9666 (1.0s)
+2026-10-25 23:52:03,361 INFO mmasd:     epoch 26/100 train_loss=0.5061 val_loss=0.7922 (1.0s)
+2026-10-25 23:52:04,424 INFO mmasd:     epoch 27/100 train_loss=0.5301 val_loss=0.8388 (1.0s)
+2026-10-25 23:52:05,486 INFO mmasd:     epoch 28/100 train_loss=0.5358 val_loss=0.9763 (1.0s)
+2026-10-25 23:52:06,542 INFO mmasd:     epoch 29/100 train_loss=0.4920 val_loss=0.9896 (1.0s)
+2026-10-25 23:52:07,600 INFO mmasd:     epoch 30/100 train_loss=0.4954 val_loss=0.7885 (1.0s)
+2026-10-25 23:52:08,659 INFO mmasd:     epoch 31/100 train_loss=0.4310 val_loss=0.8932 (1.0s)
+2026-10-25 23:52:09,701 INFO mmasd:     epoch 32/100 train_loss=0.4137 val_loss=0.8337 (1.0s)
+2026-10-25 23:52:10,777 INFO mmasd:     epoch 33/100 train_loss=0.3860 val_loss=0.9406 (1.0s)
+2026-10-25 23:52:11,840 INFO mmasd:     epoch 34/100 train_loss=0.3913 val_loss=0.8965 (1.0s)
+2026-10-25 23:52:12,881 INFO mmasd:     epoch 35/100 train_loss=0.4210 val_loss=0.8265 (1.0s)
+2026-10-25 23:52:13,909 INFO mmasd:     epoch 36/100 train_loss=0.3888 val_loss=0.8789 (1.0s)
+2026-10-25 23:52:14,957 INFO mmasd:     epoch 37/100 train_loss=0.3728 val_loss=0.9554 (1.0s)
+2026-10-25 23:52:15,992 INFO mmasd:     epoch 38/100 train_loss=0.3587 val_loss=0.9330 (1.0s)
+2026-10-25 23:52:17,026 INFO mmasd:     epoch 39/100 train_loss=0.3095 val_loss=0.8840 (1.0s)
+2026-10-25 23:52:18,076 INFO mmasd:     epoch 40/100 train_loss=0.3336 val_loss=0.9190 (1.0s)
+2026-10-25 23:52:18,076 INFO mmasd:     early stop at epoch 40
+2026-10-25 23:52:19,373 INFO mmasd:     epoch 1/100 train_loss=3.6134 val_loss=2.4062 (1.0s)
+2026-10-25 23:52:20,450 INFO mmasd:     epoch 2/100 train_loss=2.7022 val_loss=2.0022 (1.0s)
+2026-10-25 23:52:21,526 INFO mmasd:     epoch 3/100 train_loss=2.2968 val_loss=1.7994 (1.0s)
+2026-10-25 23:52:22,602 INFO mmasd:     epoch 4/100 train_loss=2.1152 val_loss=1.6756 (1.0s)
+2026-10-25 23:52:23,671 INFO mmasd:     epoch 5/100 train_loss=1.9737 val_loss=1.5309 (1.0s)
+2026-10-25 23:52:24,692 INFO mmasd:     epoch 6/100 train_loss=1.7946 val_loss=1.4454 (1.0s)
+2026-10-25 23:52:25,734 INFO mmasd:     epoch 7/100 train_loss=1.7544 val_loss=1.3486 (1.0s)
+2026-10-25 23:52:26,803 INFO mmasd:     epoch 8/100 train_loss=1.6030 val_loss=1.3002 (1.0s)
+2026-10-25 23:52:27,824 INFO mmasd:     epoch 9/100 train_loss=1.5612 val_loss=1.2551 (1.0s)
+2026-10-25 23:52:28,851 INFO mmasd:     epoch 10/100 train_loss=1.4631 val_loss=1.1798 (1.0s)
+2026-10-25 23:52:29,907 INFO mmasd:     epoch 11/100 train_loss=1.3863 val_loss=1.0865 (1.0s)
+2026-10-25 23:52:30,955 INFO mmasd:     epoch 12/100 train_loss=1.3172 val_loss=1.0153 (1.0s)
+2026-10-25 23:52:31,976 INFO mmasd:     epoch 13/100 train_loss=1.2285 val_loss=1.0245 (1.0s)
+2026-10-25 23:52:33,010 INFO mmasd:     epoch 14/100 train_loss=1.1103 val_loss=0.9926 (1.0s)
+2026-10-25 23:52:34,038 INFO mmasd:     epoch 15/100 train_loss=1.0258 val_loss=0.8751 (1.0s)
+2026-10-25 23:52:35,073 INFO mmasd:     epoch 16/100 train_loss=1.0213 val_loss=0.8773 (1.0s)
+2026-10-25 23:52:36,107 INFO mmasd:     epoch 17/100 train_loss=0.9293 val_loss=0.8521 (1.0s)
+2026-10-25 23:52:37,142 INFO mmasd:     epoch 18/100 train_loss=0.8842 val_loss=0.8402 (1.0s)
+2026-10-25 23:52:38,214 INFO mmasd:     epoch 19/100 train_loss=0.8925 val_loss=0.8419 (1.0s)
+2026-10-25 23:52:39,345 INFO mmasd:     epoch 20/100 train_loss=0.7374 val_loss=0.7935 (1.1s)
+2026-10-25 23:52:40,377 INFO mmasd:     epoch 21/100 train_loss=0.7549 val_loss=0.7824 (1.0s)
+2026-10-25 23:52:41,405 INFO mmasd:     epoch 22/100 train_loss=0.7631 val_loss=0.7865 (1.0s)
+2026-10-25 23:52:42,426 INFO mmasd:     epoch 23/100 train_loss=0.7426 val_loss=0.8267 (1.0s)
+2026-10-25 23:52:43,454 INFO mmasd:     epoch 24/100 train_loss=0.6761 val_loss=0.8121 (1.0s)
+2026-10-25 23:52:44,495 INFO mmasd:     epoch 25/100 train_loss=0.6320 val_loss=0.7959 (1.0s)
+2026-10-25 23:52:45,516 INFO mmasd:     epoch 26/100 train_loss=0.5923 val_loss=0.7720 (1.0s)
+2026-10-25 23:52:46,585 INFO mmasd:     epoch 27/100 train_loss=0.5342 val_loss=0.7608 (1.0s)
+2026-10-25 23:52:47,620 INFO mmasd:     epoch 28/100 train_loss=0.5556 val_loss=0.7732 (1.0s)
+2026-10-25 23:52:48,664 INFO mmasd:     epoch 29/100 train_loss=0.5947 val_loss=0.7641 (1.0s)
+2026-10-25 23:52:49,696 INFO mmasd:     epoch 30/100 train_loss=0.5174 val_loss=0.7708 (1.0s)
+2026-10-25 23:52:50,737 INFO mmasd:     epoch 31/100 train_loss=0.5213 val_loss=0.8182 (1.0s)
+2026-10-25 23:52:51,765 INFO mmasd:     epoch 32/100 train_loss=0.5048 val_loss=0.8219 (1.0s)
+2026-10-25 23:52:52,807 INFO mmasd:     epoch 33/100 train_loss=0.4310 val_loss=0.7846 (1.0s)
+2026-10-25 23:52:53,855 INFO mmasd:     epoch 34/100 train_loss=0.4473 val_loss=0.8542 (1.0s)
+2026-10-25 23:52:54,896 INFO mmasd:     epoch 35/100 train_loss=0.4424 val_loss=0.8128 (1.0s)
+2026-10-25 23:52:55,938 INFO mmasd:     epoch 36/100 train_loss=0.3940 val_loss=0.8643 (1.0s)
+2026-10-25 23:52:57,000 INFO mmasd:     epoch 37/100 train_loss=0.4162 val_loss=0.7677 (1.0s)
+2026-10-25 23:52:57,000 INFO mmasd:     early stop at epoch 37
+2026-10-25 23:52:58,299 INFO mmasd:     epoch 1/100 train_loss=3.7777 val_loss=2.8371 (1.0s)
+2026-10-25 23:52:59,396 INFO mmasd:     epoch 2/100 train_loss=2.5403 val_loss=2.0908 (1.0s)
+2026-10-25 23:53:00,486 INFO mmasd:     epoch 3/100 train_loss=2.1647 val_loss=1.7798 (1.0s)
+2026-10-25 23:53:01,597 INFO mmasd:     epoch 4/100 train_loss=2.0499 val_loss=1.6670 (1.1s)
+2026-10-25 23:53:02,694 INFO mmasd:     epoch 5/100 train_loss=1.9221 val_loss=1.5445 (1.0s)
+2026-10-25 23:53:03,805 INFO mmasd:     epoch 6/100 train_loss=1.7564 val_loss=1.4949 (1.1s)
+2026-10-25 23:53:04,902 INFO mmasd:     epoch 7/100 train_loss=1.7444 val_loss=1.4217 (1.0s)
+2026-10-25 23:53:05,985 INFO mmasd:     epoch 8/100 train_loss=1.5858 val_loss=1.3474 (1.0s)
+2026-10-25 23:53:07,089 INFO mmasd:     epoch 9/100 train_loss=1.5503 val_loss=1.3455 (1.0s)
+2026-10-25 23:53:08,200 INFO mmasd:     epoch 10/100 train_loss=1.3100 val_loss=1.3368 (1.1s)
+2026-10-25 23:53:09,304 INFO mmasd:     epoch 11/100 train_loss=1.3144 val_loss=1.1971 (1.1s)
+2026-10-25 23:53:10,401 INFO mmasd:     epoch 12/100 train_loss=1.1947 val_loss=1.1348 (1.0s)
+2026-10-25 23:53:11,499 INFO mmasd:     epoch 13/100 train_loss=1.0529 val_loss=1.1445 (1.1s)
+2026-10-25 23:53:12,582 INFO mmasd:     epoch 14/100 train_loss=1.0332 val_loss=1.0199 (1.0s)
+2026-10-25 23:53:13,665 INFO mmasd:     epoch 15/100 train_loss=0.9492 val_loss=1.0564 (1.0s)
+2026-10-25 23:53:14,748 INFO mmasd:     epoch 16/100 train_loss=0.8882 val_loss=0.9877 (1.0s)
+2026-10-25 23:53:15,838 INFO mmasd:     epoch 17/100 train_loss=0.8451 val_loss=0.9850 (1.0s)
+2026-10-25 23:53:16,923 INFO mmasd:     epoch 18/100 train_loss=0.8444 val_loss=0.9604 (1.0s)
+2026-10-25 23:53:18,012 INFO mmasd:     epoch 19/100 train_loss=0.7400 val_loss=1.0209 (1.0s)
+2026-10-25 23:53:19,088 INFO mmasd:     epoch 20/100 train_loss=0.6923 val_loss=0.9585 (1.0s)
+2026-10-25 23:53:20,171 INFO mmasd:     epoch 21/100 train_loss=0.6586 val_loss=0.9501 (1.0s)
+2026-10-25 23:53:21,261 INFO mmasd:     epoch 22/100 train_loss=0.6894 val_loss=0.8995 (1.0s)
+2026-10-25 23:53:22,386 INFO mmasd:     epoch 23/100 train_loss=0.5631 val_loss=0.9463 (1.1s)
+2026-10-25 23:53:23,476 INFO mmasd:     epoch 24/100 train_loss=0.5722 val_loss=0.8579 (1.0s)
+2026-10-25 23:53:24,566 INFO mmasd:     epoch 25/100 train_loss=0.5092 val_loss=0.8731 (1.0s)
+2026-10-25 23:53:25,664 INFO mmasd:     epoch 26/100 train_loss=0.4862 val_loss=0.8312 (1.0s)
+2026-10-25 23:53:26,788 INFO mmasd:     epoch 27/100 train_loss=0.5049 val_loss=0.9323 (1.1s)
+2026-10-25 23:53:27,885 INFO mmasd:     epoch 28/100 train_loss=0.4820 val_loss=0.8943 (1.1s)
+2026-10-25 23:53:28,991 INFO mmasd:     epoch 29/100 train_loss=0.4747 val_loss=0.8961 (1.1s)
+2026-10-25 23:53:30,079 INFO mmasd:     epoch 30/100 train_loss=0.4853 val_loss=0.8153 (1.0s)
+2026-10-25 23:53:31,175 INFO mmasd:     epoch 31/100 train_loss=0.4236 val_loss=0.9235 (1.0s)
+2026-10-25 23:53:32,260 INFO mmasd:     epoch 32/100 train_loss=0.4432 val_loss=0.8288 (1.0s)
+2026-10-25 23:53:33,350 INFO mmasd:     epoch 33/100 train_loss=0.3792 val_loss=0.8143 (1.0s)
+2026-10-25 23:53:34,468 INFO mmasd:     epoch 34/100 train_loss=0.4168 val_loss=0.8494 (1.1s)
+2026-10-25 23:53:35,579 INFO mmasd:     epoch 35/100 train_loss=0.4137 val_loss=0.7356 (1.1s)
+2026-10-25 23:53:36,692 INFO mmasd:     epoch 36/100 train_loss=0.3701 val_loss=0.8320 (1.1s)
+2026-10-25 23:53:37,839 INFO mmasd:     epoch 37/100 train_loss=0.3663 val_loss=0.8351 (1.1s)
+2026-10-25 23:53:38,995 INFO mmasd:     epoch 38/100 train_loss=0.3767 val_loss=0.8470 (1.1s)
+2026-10-25 23:53:40,085 INFO mmasd:     epoch 39/100 train_loss=0.3733 val_loss=0.7750 (1.0s)
+2026-10-25 23:53:41,224 INFO mmasd:     epoch 40/100 train_loss=0.3789 val_loss=0.8037 (1.1s)
+2026-10-25 23:53:42,349 INFO mmasd:     epoch 41/100 train_loss=0.3332 val_loss=0.8542 (1.1s)
+2026-10-25 23:53:43,460 INFO mmasd:     epoch 42/100 train_loss=0.2939 val_loss=0.8384 (1.1s)
+2026-10-25 23:53:44,605 INFO mmasd:     epoch 43/100 train_loss=0.3067 val_loss=0.8646 (1.1s)
+2026-10-25 23:53:45,759 INFO mmasd:     epoch 44/100 train_loss=0.3105 val_loss=0.8784 (1.1s)
+2026-10-25 23:53:46,862 INFO mmasd:     epoch 45/100 train_loss=0.3125 val_loss=0.8439 (1.1s)
+2026-10-25 23:53:46,862 INFO mmasd:     early stop at epoch 45
+2026-10-25 23:53:48,230 INFO mmasd:     epoch 1/100 train_loss=3.9059 val_loss=2.4024 (1.1s)
+2026-10-25 23:53:49,369 INFO mmasd:     epoch 2/100 train_loss=2.7973 val_loss=1.8920 (1.1s)
+2026-10-25 23:53:50,501 INFO mmasd:     epoch 3/100 train_loss=2.3624 val_loss=1.7851 (1.1s)
+2026-10-25 23:53:51,667 INFO mmasd:     epoch 4/100 train_loss=2.2213 val_loss=1.6998 (1.1s)
+2026-10-25 23:53:52,813 INFO mmasd:     epoch 5/100 train_loss=2.0469 val_loss=1.6845 (1.1s)
+2026-10-25 23:53:53,934 INFO mmasd:     epoch 6/100 train_loss=1.8961 val_loss=1.6682 (1.1s)
+2026-10-25 23:53:55,043 INFO mmasd:     epoch 7/100 train_loss=1.8555 val_loss=1.6694 (1.1s)
+2026-10-25 23:53:56,144 INFO mmasd:     epoch 8/100 train_loss=1.7979 val_loss=1.5920 (1.1s)
+2026-10-25 23:53:57,273 INFO mmasd:     epoch 9/100 train_loss=1.6157 val_loss=1.5772 (1.1s)
+2026-10-25 23:53:58,369 INFO mmasd:     epoch 10/100 train_loss=1.4675 val_loss=1.5733 (1.0s)
+2026-10-25 23:53:59,490 INFO mmasd:     epoch 11/100 train_loss=1.3856 val_loss=1.5455 (1.1s)
+2026-10-25 23:54:00,605 INFO mmasd:     epoch 12/100 train_loss=1.2622 val_loss=1.5191 (1.1s)
+2026-10-25 23:54:01,721 INFO mmasd:     epoch 13/100 train_loss=1.1340 val_loss=1.5016 (1.1s)
+2026-10-25 23:54:02,825 INFO mmasd:     epoch 14/100 train_loss=1.0733 val_loss=1.4696 (1.1s)
+2026-10-25 23:54:03,945 INFO mmasd:     epoch 15/100 train_loss=1.0013 val_loss=1.4490 (1.1s)
+2026-10-25 23:54:05,056 INFO mmasd:     epoch 16/100 train_loss=0.9017 val_loss=1.4165 (1.1s)
+2026-10-25 23:54:06,165 INFO mmasd:     epoch 17/100 train_loss=0.8326 val_loss=1.4178 (1.1s)
+2026-10-25 23:54:07,297 INFO mmasd:     epoch 18/100 train_loss=0.8141 val_loss=1.4743 (1.1s)
+2026-10-25 23:54:08,401 INFO mmasd:     epoch 19/100 train_loss=0.7694 val_loss=1.4893 (1.1s)
+2026-10-25 23:54:09,519 INFO mmasd:     epoch 20/100 train_loss=0.6564 val_loss=1.5031 (1.1s)
+2026-10-25 23:54:10,625 INFO mmasd:     epoch 21/100 train_loss=0.7092 val_loss=1.5418 (1.1s)
+2026-10-25 23:54:11,720 INFO mmasd:     epoch 22/100 train_loss=0.6288 val_loss=1.6132 (1.0s)
+2026-10-25 23:54:12,833 INFO mmasd:     epoch 23/100 train_loss=0.5784 val_loss=1.5740 (1.1s)
+2026-10-25 23:54:13,937 INFO mmasd:     epoch 24/100 train_loss=0.5880 val_loss=1.7926 (1.1s)
+2026-10-25 23:54:15,034 INFO mmasd:     epoch 25/100 train_loss=0.5466 val_loss=1.7223 (1.0s)
+2026-10-25 23:54:16,117 INFO mmasd:     epoch 26/100 train_loss=0.5132 val_loss=1.7609 (1.0s)
+2026-10-25 23:54:16,117 INFO mmasd:     early stop at epoch 26
+2026-10-25 23:54:18,698 INFO mmasd: ==> ctrgcn__2d_openpose: acc=0.702 bal_acc=0.704 macroF1=0.694
+2026-10-25 23:54:18,698 INFO mmasd: --- poseformerv2__2d_openpose
+2026-10-25 23:54:19,726 INFO mmasd:     epoch 1/100 train_loss=2.0001 val_loss=2.1044 (1.0s)
+2026-10-25 23:54:20,490 INFO mmasd:     epoch 2/100 train_loss=1.3128 val_loss=1.4407 (0.7s)
+2026-10-25 23:54:21,283 INFO mmasd:     epoch 3/100 train_loss=0.9028 val_loss=1.2392 (0.7s)
+2026-10-25 23:54:22,045 INFO mmasd:     epoch 4/100 train_loss=0.6937 val_loss=1.1058 (0.7s)
+2026-10-25 23:54:22,823 INFO mmasd:     epoch 5/100 train_loss=0.5691 val_loss=1.1767 (0.7s)
+2026-10-25 23:54:23,569 INFO mmasd:     epoch 6/100 train_loss=0.4664 val_loss=0.9064 (0.7s)
+2026-10-25 23:54:24,331 INFO mmasd:     epoch 7/100 train_loss=0.3849 val_loss=0.8844 (0.7s)
+2026-10-25 23:54:25,100 INFO mmasd:     epoch 8/100 train_loss=0.3061 val_loss=0.9883 (0.7s)
+2026-10-25 23:54:25,831 INFO mmasd:     epoch 9/100 train_loss=0.2492 val_loss=0.8577 (0.7s)
+2026-10-25 23:54:26,603 INFO mmasd:     epoch 10/100 train_loss=0.1928 val_loss=0.9825 (0.7s)
+2026-10-25 23:54:27,342 INFO mmasd:     epoch 11/100 train_loss=0.1447 val_loss=0.9172 (0.7s)
+2026-10-25 23:54:28,074 INFO mmasd:     epoch 12/100 train_loss=0.1341 val_loss=1.0560 (0.7s)
+2026-10-25 23:54:28,815 INFO mmasd:     epoch 13/100 train_loss=0.0960 val_loss=0.8038 (0.7s)
+2026-10-25 23:54:29,610 INFO mmasd:     epoch 14/100 train_loss=0.0637 val_loss=1.0421 (0.7s)
+2026-10-25 23:54:30,335 INFO mmasd:     epoch 15/100 train_loss=0.1040 val_loss=0.9553 (0.7s)
+2026-10-25 23:54:31,081 INFO mmasd:     epoch 16/100 train_loss=0.0635 val_loss=0.9507 (0.7s)
+2026-10-25 23:54:31,829 INFO mmasd:     epoch 17/100 train_loss=0.0515 val_loss=0.9161 (0.7s)
+2026-10-25 23:54:32,568 INFO mmasd:     epoch 18/100 train_loss=0.0362 val_loss=1.0026 (0.7s)
+2026-10-25 23:54:33,301 INFO mmasd:     epoch 19/100 train_loss=0.0267 val_loss=1.0704 (0.7s)
+2026-10-25 23:54:34,037 INFO mmasd:     epoch 20/100 train_loss=0.0238 val_loss=1.0071 (0.7s)
+2026-10-25 23:54:34,780 INFO mmasd:     epoch 21/100 train_loss=0.0256 val_loss=0.9642 (0.7s)
+2026-10-25 23:54:35,527 INFO mmasd:     epoch 22/100 train_loss=0.0271 val_loss=0.9862 (0.7s)
+2026-10-25 23:54:36,259 INFO mmasd:     epoch 23/100 train_loss=0.0431 val_loss=0.9657 (0.7s)
+2026-10-25 23:54:36,259 INFO mmasd:     early stop at epoch 23
+2026-10-25 23:54:37,189 INFO mmasd:     epoch 1/100 train_loss=2.0837 val_loss=1.5779 (0.7s)
+2026-10-25 23:54:37,983 INFO mmasd:     epoch 2/100 train_loss=1.2744 val_loss=1.1251 (0.7s)
+2026-10-25 23:54:38,747 INFO mmasd:     epoch 3/100 train_loss=0.8625 val_loss=1.0905 (0.7s)
+2026-10-25 23:54:39,519 INFO mmasd:     epoch 4/100 train_loss=0.6477 val_loss=0.8994 (0.7s)
+2026-10-25 23:54:40,281 INFO mmasd:     epoch 5/100 train_loss=0.5220 val_loss=0.9615 (0.7s)
+2026-10-25 23:54:41,017 INFO mmasd:     epoch 6/100 train_loss=0.3937 val_loss=0.8649 (0.7s)
+2026-10-25 23:54:41,798 INFO mmasd:     epoch 7/100 train_loss=0.3258 val_loss=0.7927 (0.7s)
+2026-10-25 23:54:42,574 INFO mmasd:     epoch 8/100 train_loss=0.2338 val_loss=0.8955 (0.7s)
+2026-10-25 23:54:43,312 INFO mmasd:     epoch 9/100 train_loss=0.2202 val_loss=0.8255 (0.7s)
+2026-10-25 23:54:44,048 INFO mmasd:     epoch 10/100 train_loss=0.2026 val_loss=0.9280 (0.7s)
+2026-10-25 23:54:44,778 INFO mmasd:     epoch 11/100 train_loss=0.1624 val_loss=0.8579 (0.7s)
+2026-10-25 23:54:45,514 INFO mmasd:     epoch 12/100 train_loss=0.1341 val_loss=0.8660 (0.7s)
+2026-10-25 23:54:46,250 INFO mmasd:     epoch 13/100 train_loss=0.0987 val_loss=0.7645 (0.7s)
+2026-10-25 23:54:47,007 INFO mmasd:     epoch 14/100 train_loss=0.0822 val_loss=0.7349 (0.7s)
+2026-10-25 23:54:47,792 INFO mmasd:     epoch 15/100 train_loss=0.0741 val_loss=0.8322 (0.7s)
+2026-10-25 23:54:48,523 INFO mmasd:     epoch 16/100 train_loss=0.0461 val_loss=0.7566 (0.7s)
+2026-10-25 23:54:49,256 INFO mmasd:     epoch 17/100 train_loss=0.0249 val_loss=0.7656 (0.7s)
+2026-10-25 23:54:49,986 INFO mmasd:     epoch 18/100 train_loss=0.0214 val_loss=0.8152 (0.7s)
+2026-10-25 23:54:50,722 INFO mmasd:     epoch 19/100 train_loss=0.0260 val_loss=0.8797 (0.7s)
+2026-10-25 23:54:51,463 INFO mmasd:     epoch 20/100 train_loss=0.0443 val_loss=0.7505 (0.7s)
+2026-10-25 23:54:52,193 INFO mmasd:     epoch 21/100 train_loss=0.0300 val_loss=0.7854 (0.7s)
+2026-10-25 23:54:52,938 INFO mmasd:     epoch 22/100 train_loss=0.0374 val_loss=0.8407 (0.7s)
+2026-10-25 23:54:53,672 INFO mmasd:     epoch 23/100 train_loss=0.0301 val_loss=0.8358 (0.7s)
+2026-10-25 23:54:54,418 INFO mmasd:     epoch 24/100 train_loss=0.0336 val_loss=0.8725 (0.7s)
+2026-10-25 23:54:54,418 INFO mmasd:     early stop at epoch 24
+2026-10-25 23:54:55,359 INFO mmasd:     epoch 1/100 train_loss=2.1589 val_loss=1.7150 (0.7s)
+2026-10-25 23:54:56,145 INFO mmasd:     epoch 2/100 train_loss=1.5109 val_loss=1.2137 (0.7s)
+2026-10-25 23:54:56,931 INFO mmasd:     epoch 3/100 train_loss=1.0211 val_loss=1.0562 (0.7s)
+2026-10-25 23:54:57,739 INFO mmasd:     epoch 4/100 train_loss=0.7219 val_loss=0.8889 (0.7s)
+2026-10-25 23:54:58,520 INFO mmasd:     epoch 5/100 train_loss=0.5415 val_loss=0.8061 (0.7s)
+2026-10-25 23:54:59,320 INFO mmasd:     epoch 6/100 train_loss=0.4529 val_loss=0.8629 (0.7s)
+2026-10-25 23:55:00,068 INFO mmasd:     epoch 7/100 train_loss=0.3601 val_loss=0.8216 (0.7s)
+2026-10-25 23:55:00,832 INFO mmasd:     epoch 8/100 train_loss=0.3246 val_loss=0.7143 (0.7s)
+2026-10-25 23:55:01,624 INFO mmasd:     epoch 9/100 train_loss=0.2384 val_loss=0.7193 (0.7s)
+2026-10-25 23:55:02,380 INFO mmasd:     epoch 10/100 train_loss=0.1668 val_loss=0.8529 (0.7s)
+2026-10-25 23:55:03,144 INFO mmasd:     epoch 11/100 train_loss=0.1385 val_loss=0.8002 (0.7s)
+2026-10-25 23:55:03,898 INFO mmasd:     epoch 12/100 train_loss=0.1280 val_loss=0.9341 (0.7s)
+2026-10-25 23:55:04,652 INFO mmasd:     epoch 13/100 train_loss=0.0964 val_loss=0.8670 (0.7s)
+2026-10-25 23:55:05,411 INFO mmasd:     epoch 14/100 train_loss=0.1175 val_loss=0.8436 (0.7s)
+2026-10-25 23:55:06,165 INFO mmasd:     epoch 15/100 train_loss=0.0758 val_loss=0.8901 (0.7s)
+2026-10-25 23:55:06,924 INFO mmasd:     epoch 16/100 train_loss=0.0554 val_loss=0.8761 (0.7s)
+2026-10-25 23:55:07,685 INFO mmasd:     epoch 17/100 train_loss=0.0618 val_loss=0.9397 (0.7s)
+2026-10-25 23:55:08,442 INFO mmasd:     epoch 18/100 train_loss=0.0674 val_loss=0.8988 (0.7s)
+2026-10-25 23:55:08,442 INFO mmasd:     early stop at epoch 18
+2026-10-25 23:55:09,393 INFO mmasd:     epoch 1/100 train_loss=1.9717 val_loss=1.5382 (0.8s)
+2026-10-25 23:55:10,195 INFO mmasd:     epoch 2/100 train_loss=1.2810 val_loss=1.1976 (0.8s)
+2026-10-25 23:55:10,999 INFO mmasd:     epoch 3/100 train_loss=0.8247 val_loss=1.1994 (0.8s)
+2026-10-25 23:55:11,758 INFO mmasd:     epoch 4/100 train_loss=0.6797 val_loss=1.0642 (0.7s)
+2026-10-25 23:55:12,578 INFO mmasd:     epoch 5/100 train_loss=0.4821 val_loss=0.8426 (0.8s)
+2026-10-25 23:55:13,393 INFO mmasd:     epoch 6/100 train_loss=0.3594 val_loss=1.0157 (0.8s)
+2026-10-25 23:55:14,163 INFO mmasd:     epoch 7/100 train_loss=0.3001 val_loss=1.2664 (0.7s)
+2026-10-25 23:55:14,948 INFO mmasd:     epoch 8/100 train_loss=0.2636 val_loss=1.1455 (0.7s)
+2026-10-25 23:55:15,733 INFO mmasd:     epoch 9/100 train_loss=0.1834 val_loss=1.3664 (0.7s)
+2026-10-25 23:55:16,517 INFO mmasd:     epoch 10/100 train_loss=0.1484 val_loss=1.4296 (0.7s)
+2026-10-25 23:55:17,281 INFO mmasd:     epoch 11/100 train_loss=0.1348 val_loss=1.2221 (0.7s)
+2026-10-25 23:55:18,052 INFO mmasd:     epoch 12/100 train_loss=0.1039 val_loss=1.3404 (0.7s)
+2026-10-25 23:55:18,825 INFO mmasd:     epoch 13/100 train_loss=0.1480 val_loss=1.6208 (0.7s)
+2026-10-25 23:55:19,607 INFO mmasd:     epoch 14/100 train_loss=0.0947 val_loss=1.2019 (0.7s)
+2026-10-25 23:55:20,371 INFO mmasd:     epoch 15/100 train_loss=0.0611 val_loss=1.5173 (0.7s)
+2026-10-25 23:55:20,371 INFO mmasd:     early stop at epoch 15
+2026-10-25 23:55:21,336 INFO mmasd:     epoch 1/100 train_loss=2.1773 val_loss=1.9313 (0.8s)
+2026-10-25 23:55:22,150 INFO mmasd:     epoch 2/100 train_loss=1.4943 val_loss=1.6394 (0.8s)
+2026-10-25 23:55:22,957 INFO mmasd:     epoch 3/100 train_loss=0.9603 val_loss=1.4136 (0.8s)
+2026-10-25 23:55:23,782 INFO mmasd:     epoch 4/100 train_loss=0.6632 val_loss=1.5722 (0.8s)
+2026-10-25 23:55:24,551 INFO mmasd:     epoch 5/100 train_loss=0.5103 val_loss=1.6563 (0.7s)
+2026-10-25 23:55:25,329 INFO mmasd:     epoch 6/100 train_loss=0.3964 val_loss=1.7024 (0.7s)
+2026-10-25 23:55:26,101 INFO mmasd:     epoch 7/100 train_loss=0.3290 val_loss=1.9859 (0.7s)
+2026-10-25 23:55:26,891 INFO mmasd:     epoch 8/100 train_loss=0.2158 val_loss=1.9823 (0.7s)
+2026-10-25 23:55:27,671 INFO mmasd:     epoch 9/100 train_loss=0.1551 val_loss=1.9591 (0.7s)
+2026-10-25 23:55:28,447 INFO mmasd:     epoch 10/100 train_loss=0.1491 val_loss=1.9616 (0.7s)
+2026-10-25 23:55:29,226 INFO mmasd:     epoch 11/100 train_loss=0.1027 val_loss=1.9013 (0.7s)
+2026-10-25 23:55:30,007 INFO mmasd:     epoch 12/100 train_loss=0.0942 val_loss=2.2919 (0.7s)
+2026-10-25 23:55:30,780 INFO mmasd:     epoch 13/100 train_loss=0.0914 val_loss=1.9632 (0.7s)
+2026-10-25 23:55:30,780 INFO mmasd:     early stop at epoch 13
+2026-10-25 23:55:33,175 INFO mmasd: ==> poseformerv2__2d_openpose: acc=0.657 bal_acc=0.655 macroF1=0.646
+2026-10-25 23:55:33,175 INFO mmasd: --- mae__2d_openpose
+2026-10-25 23:55:33,885 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2947 val=0.0763
+2026-10-25 23:55:34,334 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1022 val=0.0593
+2026-10-25 23:55:34,810 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0725 val=0.0442
+2026-10-25 23:55:35,273 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0548 val=0.0410
+2026-10-25 23:55:35,718 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0462 val=0.0361
+2026-10-25 23:55:36,168 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0407 val=0.0329
+2026-10-25 23:55:36,612 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0373 val=0.0321
+2026-10-25 23:55:37,058 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0341 val=0.0297
+2026-10-25 23:55:37,522 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0320 val=0.0293
+2026-10-25 23:55:38,016 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0304 val=0.0281
+2026-10-25 23:55:38,468 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0286 val=0.0273
+2026-10-25 23:55:38,930 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0273 val=0.0266
+2026-10-25 23:55:39,393 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0263 val=0.0254
+2026-10-25 23:55:39,857 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0255 val=0.0253
+2026-10-25 23:55:40,299 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0248 val=0.0261
+2026-10-25 23:55:40,757 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0238 val=0.0251
+2026-10-25 23:55:41,209 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0230 val=0.0246
+2026-10-25 23:55:41,689 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0225 val=0.0258
+2026-10-25 23:55:42,154 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0217 val=0.0247
+2026-10-25 23:55:42,613 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0213 val=0.0264
+2026-10-25 23:55:43,049 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0208 val=0.0241
+2026-10-25 23:55:43,500 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0202 val=0.0237
+2026-10-25 23:55:43,967 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0199 val=0.0255
+2026-10-25 23:55:44,429 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0195 val=0.0234
+2026-10-25 23:55:44,888 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0194 val=0.0232
+2026-10-25 23:55:45,348 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0190 val=0.0227
+2026-10-25 23:55:45,785 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0190 val=0.0242
+2026-10-25 23:55:46,239 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0189 val=0.0236
+2026-10-25 23:55:46,708 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0185 val=0.0229
+2026-10-25 23:55:47,161 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0181 val=0.0237
+2026-10-25 23:55:47,647 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0174 val=0.0227
+2026-10-25 23:55:48,105 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0175 val=0.0225
+2026-10-25 23:55:48,548 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0176 val=0.0220
+2026-10-25 23:55:48,992 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0175 val=0.0224
+2026-10-25 23:55:49,437 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0175 val=0.0220
+2026-10-25 23:55:49,881 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0172 val=0.0230
+2026-10-25 23:55:50,319 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0168 val=0.0232
+2026-10-25 23:55:50,751 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0166 val=0.0218
+2026-10-25 23:55:51,173 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0164 val=0.0218
+2026-10-25 23:55:51,618 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0163 val=0.0225
+2026-10-25 23:55:52,040 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0162 val=0.0219
+2026-10-25 23:55:52,464 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0162 val=0.0227
+2026-10-25 23:55:52,915 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0158 val=0.0213
+2026-10-25 23:55:53,388 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0159 val=0.0222
+2026-10-25 23:55:53,890 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0159 val=0.0215
+2026-10-25 23:55:54,421 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0158 val=0.0212
+2026-10-25 23:55:54,920 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0156 val=0.0214
+2026-10-25 23:55:55,382 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0154 val=0.0209
+2026-10-25 23:55:55,827 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0161 val=0.0216
+2026-10-25 23:55:56,291 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0153 val=0.0208
+2026-10-25 23:55:56,728 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0153 val=0.0229
+2026-10-25 23:55:57,197 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0153 val=0.0218
+2026-10-25 23:55:57,674 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0151 val=0.0212
+2026-10-25 23:55:58,137 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0152 val=0.0224
+2026-10-25 23:55:58,602 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0152 val=0.0220
+2026-10-25 23:55:59,068 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0150 val=0.0218
+2026-10-25 23:55:59,521 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0147 val=0.0221
+2026-10-25 23:55:59,967 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0145 val=0.0216
+2026-10-25 23:56:00,467 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0145 val=0.0211
+2026-10-25 23:56:00,932 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0148 val=0.0214
+2026-10-25 23:56:01,380 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0149 val=0.0216
+2026-10-25 23:56:01,866 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0148 val=0.0207
+2026-10-25 23:56:02,319 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0146 val=0.0213
+2026-10-25 23:56:02,789 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0144 val=0.0212
+2026-10-25 23:56:03,256 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0144 val=0.0204
+2026-10-25 23:56:03,704 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0142 val=0.0207
+2026-10-25 23:56:04,143 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0139 val=0.0214
+2026-10-25 23:56:04,617 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0142 val=0.0203
+2026-10-25 23:56:05,076 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0142 val=0.0207
+2026-10-25 23:56:05,520 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0144 val=0.0208
+2026-10-25 23:56:05,953 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0143 val=0.0211
+2026-10-25 23:56:06,416 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0140 val=0.0218
+2026-10-25 23:56:06,860 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0144 val=0.0209
+2026-10-25 23:56:07,303 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0142 val=0.0211
+2026-10-25 23:56:07,796 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0140 val=0.0208
+2026-10-25 23:56:08,229 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0142 val=0.0206
+2026-10-25 23:56:08,686 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0140 val=0.0222
+2026-10-25 23:56:09,157 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0137 val=0.0207
+2026-10-25 23:56:09,601 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0140 val=0.0209
+2026-10-25 23:56:10,059 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0138 val=0.0213
+2026-10-25 23:56:10,500 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0136 val=0.0209
+2026-10-25 23:56:10,944 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0136 val=0.0208
+2026-10-25 23:56:11,391 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0136 val=0.0212
+2026-10-25 23:56:11,851 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0138 val=0.0212
+2026-10-25 23:56:12,288 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0135 val=0.0219
+2026-10-25 23:56:12,740 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0137 val=0.0207
+2026-10-25 23:56:13,197 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0139 val=0.0210
+2026-10-25 23:56:13,642 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0134 val=0.0217
+2026-10-25 23:56:14,093 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0135 val=0.0230
+2026-10-25 23:56:14,540 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0137 val=0.0223
+2026-10-25 23:56:14,996 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0136 val=0.0211
+2026-10-25 23:56:15,427 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0134 val=0.0214
+2026-10-25 23:56:15,887 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0134 val=0.0212
+2026-10-25 23:56:16,329 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0136 val=0.0213
+2026-10-25 23:56:16,799 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0133 val=0.0207
+2026-10-25 23:56:17,267 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0134 val=0.0215
+2026-10-25 23:56:17,756 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0135 val=0.0209
+2026-10-25 23:56:18,233 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0131 val=0.0209
+2026-10-25 23:56:18,671 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0130 val=0.0209
+2026-10-25 23:56:19,134 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0131 val=0.0218
+2026-10-25 23:56:19,475 INFO mmasd:     epoch 1/100 train_loss=1.5505 val_loss=1.2561 (0.3s)
+2026-10-25 23:56:19,929 INFO mmasd:     epoch 2/100 train_loss=0.7226 val_loss=1.2121 (0.4s)
+2026-10-25 23:56:20,386 INFO mmasd:     epoch 3/100 train_loss=0.4505 val_loss=1.2016 (0.4s)
+2026-10-25 23:56:20,850 INFO mmasd:     epoch 4/100 train_loss=0.3415 val_loss=1.1446 (0.4s)
+2026-10-25 23:56:21,287 INFO mmasd:     epoch 5/100 train_loss=0.2737 val_loss=1.2563 (0.4s)
+2026-10-25 23:56:21,610 INFO mmasd:     epoch 6/100 train_loss=0.2208 val_loss=1.2871 (0.3s)
+2026-10-25 23:56:21,905 INFO mmasd:     epoch 7/100 train_loss=0.1499 val_loss=1.1388 (0.3s)
+2026-10-25 23:56:22,356 INFO mmasd:     epoch 8/100 train_loss=0.0921 val_loss=1.3122 (0.4s)
+2026-10-25 23:56:22,676 INFO mmasd:     epoch 9/100 train_loss=0.0882 val_loss=1.2094 (0.3s)
+2026-10-25 23:56:22,981 INFO mmasd:     epoch 10/100 train_loss=0.0744 val_loss=1.2788 (0.3s)
+2026-10-25 23:56:23,287 INFO mmasd:     epoch 11/100 train_loss=0.0513 val_loss=1.4275 (0.3s)
+2026-10-25 23:56:23,587 INFO mmasd:     epoch 12/100 train_loss=0.0323 val_loss=1.2390 (0.3s)
+2026-10-25 23:56:23,906 INFO mmasd:     epoch 13/100 train_loss=0.0299 val_loss=1.3195 (0.3s)
+2026-10-25 23:56:24,196 INFO mmasd:     epoch 14/100 train_loss=0.0216 val_loss=1.4557 (0.3s)
+2026-10-25 23:56:24,496 INFO mmasd:     epoch 15/100 train_loss=0.0171 val_loss=1.3387 (0.3s)
+2026-10-25 23:56:24,802 INFO mmasd:     epoch 16/100 train_loss=0.0130 val_loss=1.3960 (0.3s)
+2026-10-25 23:56:25,078 INFO mmasd:     epoch 17/100 train_loss=0.0144 val_loss=1.3792 (0.3s)
+2026-10-25 23:56:25,078 INFO mmasd:     early stop at epoch 17
+2026-10-25 23:56:25,724 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2829 val=0.1202
+2026-10-25 23:56:26,170 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1003 val=0.0886
+2026-10-25 23:56:26,606 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0754 val=0.0632
+2026-10-25 23:56:27,042 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0609 val=0.0479
+2026-10-25 23:56:27,480 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0525 val=0.0400
+2026-10-25 23:56:27,924 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0464 val=0.0361
+2026-10-25 23:56:28,371 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0425 val=0.0322
+2026-10-25 23:56:28,829 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0396 val=0.0292
+2026-10-25 23:56:29,274 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0361 val=0.0278
+2026-10-25 23:56:29,737 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0340 val=0.0261
+2026-10-25 23:56:30,175 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0320 val=0.0258
+2026-10-25 23:56:30,613 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0313 val=0.0262
+2026-10-25 23:56:31,022 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0295 val=0.0247
+2026-10-25 23:56:31,453 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0285 val=0.0247
+2026-10-25 23:56:31,885 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0274 val=0.0231
+2026-10-25 23:56:32,320 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0266 val=0.0230
+2026-10-25 23:56:32,746 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0252 val=0.0217
+2026-10-25 23:56:33,188 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0246 val=0.0224
+2026-10-25 23:56:33,619 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0240 val=0.0221
+2026-10-25 23:56:34,035 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0237 val=0.0211
+2026-10-25 23:56:34,470 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0231 val=0.0207
+2026-10-25 23:56:34,919 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0228 val=0.0210
+2026-10-25 23:56:35,362 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0228 val=0.0209
+2026-10-25 23:56:35,786 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0225 val=0.0214
+2026-10-25 23:56:36,223 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0226 val=0.0204
+2026-10-25 23:56:36,677 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0220 val=0.0200
+2026-10-25 23:56:37,104 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0216 val=0.0211
+2026-10-25 23:56:37,549 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0210 val=0.0197
+2026-10-25 23:56:38,014 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0207 val=0.0191
+2026-10-25 23:56:38,459 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0203 val=0.0194
+2026-10-25 23:56:38,896 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0204 val=0.0198
+2026-10-25 23:56:39,328 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0206 val=0.0202
+2026-10-25 23:56:39,751 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0199 val=0.0194
+2026-10-25 23:56:40,180 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0195 val=0.0192
+2026-10-25 23:56:40,605 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0193 val=0.0202
+2026-10-25 23:56:41,034 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0191 val=0.0193
+2026-10-25 23:56:41,460 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0189 val=0.0186
+2026-10-25 23:56:41,894 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0189 val=0.0189
+2026-10-25 23:56:42,326 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0185 val=0.0187
+2026-10-25 23:56:42,744 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0185 val=0.0196
+2026-10-25 23:56:43,183 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0187 val=0.0188
+2026-10-25 23:56:43,610 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0183 val=0.0190
+2026-10-25 23:56:44,029 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0184 val=0.0191
+2026-10-25 23:56:44,466 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0183 val=0.0184
+2026-10-25 23:56:44,912 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0180 val=0.0195
+2026-10-25 23:56:45,334 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0183 val=0.0185
+2026-10-25 23:56:45,763 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0176 val=0.0195
+2026-10-25 23:56:46,186 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0178 val=0.0185
+2026-10-25 23:56:46,628 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0175 val=0.0182
+2026-10-25 23:56:47,061 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0177 val=0.0188
+2026-10-25 23:56:47,488 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0171 val=0.0179
+2026-10-25 23:56:47,943 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0176 val=0.0185
+2026-10-25 23:56:48,402 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0177 val=0.0188
+2026-10-25 23:56:48,818 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0172 val=0.0183
+2026-10-25 23:56:49,256 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0174 val=0.0185
+2026-10-25 23:56:49,697 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0170 val=0.0187
+2026-10-25 23:56:50,132 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0169 val=0.0186
+2026-10-25 23:56:50,568 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0169 val=0.0181
+2026-10-25 23:56:51,012 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0165 val=0.0178
+2026-10-25 23:56:51,449 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0169 val=0.0181
+2026-10-25 23:56:51,887 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0169 val=0.0189
+2026-10-25 23:56:52,317 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0166 val=0.0179
+2026-10-25 23:56:52,755 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0165 val=0.0179
+2026-10-25 23:56:53,193 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0168 val=0.0192
+2026-10-25 23:56:53,625 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0166 val=0.0180
+2026-10-25 23:56:54,041 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0163 val=0.0186
+2026-10-25 23:56:54,471 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0166 val=0.0181
+2026-10-25 23:56:54,928 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0165 val=0.0185
+2026-10-25 23:56:55,363 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0160 val=0.0181
+2026-10-25 23:56:55,805 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0162 val=0.0191
+2026-10-25 23:56:56,237 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0159 val=0.0187
+2026-10-25 23:56:56,668 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0159 val=0.0178
+2026-10-25 23:56:57,099 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0162 val=0.0178
+2026-10-25 23:56:57,544 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0160 val=0.0194
+2026-10-25 23:56:57,991 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0160 val=0.0180
+2026-10-25 23:56:58,470 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0160 val=0.0188
+2026-10-25 23:56:58,907 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0160 val=0.0181
+2026-10-25 23:56:59,346 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0156 val=0.0185
+2026-10-25 23:56:59,765 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0157 val=0.0177
+2026-10-25 23:57:00,185 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0156 val=0.0185
+2026-10-25 23:57:00,602 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0158 val=0.0183
+2026-10-25 23:57:01,018 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0157 val=0.0177
+2026-10-25 23:57:01,442 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0158 val=0.0180
+2026-10-25 23:57:01,858 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0156 val=0.0182
+2026-10-25 23:57:02,296 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0157 val=0.0181
+2026-10-25 23:57:02,719 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0158 val=0.0189
+2026-10-25 23:57:03,136 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0155 val=0.0177
+2026-10-25 23:57:03,546 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0158 val=0.0186
+2026-10-25 23:57:03,962 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0156 val=0.0187
+2026-10-25 23:57:04,392 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0154 val=0.0190
+2026-10-25 23:57:04,816 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0152 val=0.0186
+2026-10-25 23:57:05,233 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0155 val=0.0188
+2026-10-25 23:57:05,664 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0155 val=0.0185
+2026-10-25 23:57:06,076 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0152 val=0.0175
+2026-10-25 23:57:06,524 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0151 val=0.0180
+2026-10-25 23:57:06,943 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0149 val=0.0177
+2026-10-25 23:57:07,364 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0153 val=0.0185
+2026-10-25 23:57:07,802 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0152 val=0.0181
+2026-10-25 23:57:08,239 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0154 val=0.0186
+2026-10-25 23:57:08,675 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0151 val=0.0179
+2026-10-25 23:57:09,010 INFO mmasd:     epoch 1/100 train_loss=1.5611 val_loss=1.0526 (0.3s)
+2026-10-25 23:57:09,435 INFO mmasd:     epoch 2/100 train_loss=0.7295 val_loss=0.9034 (0.4s)
+2026-10-25 23:57:09,878 INFO mmasd:     epoch 3/100 train_loss=0.4879 val_loss=0.8765 (0.4s)
+2026-10-25 23:57:10,331 INFO mmasd:     epoch 4/100 train_loss=0.3711 val_loss=0.9548 (0.4s)
+2026-10-25 23:57:10,636 INFO mmasd:     epoch 5/100 train_loss=0.2718 val_loss=0.8760 (0.3s)
+2026-10-25 23:57:11,076 INFO mmasd:     epoch 6/100 train_loss=0.2046 val_loss=0.8898 (0.4s)
+2026-10-25 23:57:11,386 INFO mmasd:     epoch 7/100 train_loss=0.2052 val_loss=0.9770 (0.3s)
+2026-10-25 23:57:11,683 INFO mmasd:     epoch 8/100 train_loss=0.1727 val_loss=0.9122 (0.3s)
+2026-10-25 23:57:11,961 INFO mmasd:     epoch 9/100 train_loss=0.1154 val_loss=1.1220 (0.3s)
+2026-10-25 23:57:12,260 INFO mmasd:     epoch 10/100 train_loss=0.1049 val_loss=1.1007 (0.3s)
+2026-10-25 23:57:12,541 INFO mmasd:     epoch 11/100 train_loss=0.0725 val_loss=0.9405 (0.3s)
+2026-10-25 23:57:12,815 INFO mmasd:     epoch 12/100 train_loss=0.0621 val_loss=1.1239 (0.3s)
+2026-10-25 23:57:13,124 INFO mmasd:     epoch 13/100 train_loss=0.0285 val_loss=1.1470 (0.3s)
+2026-10-25 23:57:13,424 INFO mmasd:     epoch 14/100 train_loss=0.0255 val_loss=1.3039 (0.3s)
+2026-10-25 23:57:13,725 INFO mmasd:     epoch 15/100 train_loss=0.0261 val_loss=0.9882 (0.3s)
+2026-10-25 23:57:13,725 INFO mmasd:     early stop at epoch 15
+2026-10-25 23:57:14,370 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2813 val=0.0993
+2026-10-25 23:57:14,818 INFO mmasd:     [MAE] epoch 2/100 recon train=0.0991 val=0.0729
+2026-10-25 23:57:15,282 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0691 val=0.0562
+2026-10-25 23:57:15,707 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0539 val=0.0477
+2026-10-25 23:57:16,141 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0471 val=0.0445
+2026-10-25 23:57:16,564 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0435 val=0.0423
+2026-10-25 23:57:17,016 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0398 val=0.0383
+2026-10-25 23:57:17,454 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0361 val=0.0373
+2026-10-25 23:57:17,915 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0344 val=0.0352
+2026-10-25 23:57:18,361 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0317 val=0.0333
+2026-10-25 23:57:18,787 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0306 val=0.0347
+2026-10-25 23:57:19,210 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0289 val=0.0306
+2026-10-25 23:57:19,642 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0265 val=0.0314
+2026-10-25 23:57:20,092 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0252 val=0.0301
+2026-10-25 23:57:20,526 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0247 val=0.0294
+2026-10-25 23:57:20,965 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0241 val=0.0298
+2026-10-25 23:57:21,389 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0235 val=0.0296
+2026-10-25 23:57:21,821 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0224 val=0.0283
+2026-10-25 23:57:22,257 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0217 val=0.0278
+2026-10-25 23:57:22,696 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0216 val=0.0279
+2026-10-25 23:57:23,118 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0210 val=0.0275
+2026-10-25 23:57:23,550 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0207 val=0.0278
+2026-10-25 23:57:23,987 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0204 val=0.0261
+2026-10-25 23:57:24,414 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0199 val=0.0258
+2026-10-25 23:57:24,842 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0196 val=0.0282
+2026-10-25 23:57:25,286 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0196 val=0.0260
+2026-10-25 23:57:25,725 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0193 val=0.0262
+2026-10-25 23:57:26,155 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0191 val=0.0250
+2026-10-25 23:57:26,606 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0182 val=0.0255
+2026-10-25 23:57:27,036 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0191 val=0.0257
+2026-10-25 23:57:27,473 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0182 val=0.0256
+2026-10-25 23:57:27,903 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0182 val=0.0258
+2026-10-25 23:57:28,356 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0182 val=0.0275
+2026-10-25 23:57:28,801 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0184 val=0.0252
+2026-10-25 23:57:29,237 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0181 val=0.0255
+2026-10-25 23:57:29,668 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0176 val=0.0248
+2026-10-25 23:57:30,078 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0173 val=0.0245
+2026-10-25 23:57:30,490 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0174 val=0.0258
+2026-10-25 23:57:30,915 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0172 val=0.0256
+2026-10-25 23:57:31,322 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0171 val=0.0246
+2026-10-25 23:57:31,757 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0170 val=0.0250
+2026-10-25 23:57:32,198 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0173 val=0.0258
+2026-10-25 23:57:32,627 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0170 val=0.0239
+2026-10-25 23:57:33,034 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0167 val=0.0253
+2026-10-25 23:57:33,444 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0169 val=0.0253
+2026-10-25 23:57:33,878 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0167 val=0.0250
+2026-10-25 23:57:34,298 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0163 val=0.0251
+2026-10-25 23:57:34,717 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0163 val=0.0239
+2026-10-25 23:57:35,131 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0162 val=0.0242
+2026-10-25 23:57:35,562 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0159 val=0.0231
+2026-10-25 23:57:35,987 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0154 val=0.0231
+2026-10-25 23:57:36,408 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0158 val=0.0231
+2026-10-25 23:57:36,819 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0158 val=0.0230
+2026-10-25 23:57:37,235 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0160 val=0.0240
+2026-10-25 23:57:37,667 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0159 val=0.0237
+2026-10-25 23:57:38,110 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0158 val=0.0260
+2026-10-25 23:57:38,542 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0160 val=0.0238
+2026-10-25 23:57:38,951 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0157 val=0.0233
+2026-10-25 23:57:39,376 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0156 val=0.0234
+2026-10-25 23:57:39,798 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0157 val=0.0235
+2026-10-25 23:57:40,207 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0155 val=0.0232
+2026-10-25 23:57:40,643 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0154 val=0.0232
+2026-10-25 23:57:41,075 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0152 val=0.0228
+2026-10-25 23:57:41,504 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0154 val=0.0236
+2026-10-25 23:57:41,922 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0154 val=0.0242
+2026-10-25 23:57:42,342 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0151 val=0.0239
+2026-10-25 23:57:42,756 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0149 val=0.0233
+2026-10-25 23:57:43,158 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0151 val=0.0239
+2026-10-25 23:57:43,589 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0149 val=0.0241
+2026-10-25 23:57:44,034 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0147 val=0.0227
+2026-10-25 23:57:44,450 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0149 val=0.0232
+2026-10-25 23:57:44,895 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0149 val=0.0233
+2026-10-25 23:57:45,306 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0149 val=0.0244
+2026-10-25 23:57:45,726 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0149 val=0.0240
+2026-10-25 23:57:46,151 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0147 val=0.0247
+2026-10-25 23:57:46,581 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0145 val=0.0240
+2026-10-25 23:57:46,984 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0148 val=0.0232
+2026-10-25 23:57:47,415 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0147 val=0.0234
+2026-10-25 23:57:47,852 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0149 val=0.0230
+2026-10-25 23:57:48,283 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0146 val=0.0231
+2026-10-25 23:57:48,726 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0147 val=0.0237
+2026-10-25 23:57:49,144 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0145 val=0.0227
+2026-10-25 23:57:49,567 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0142 val=0.0229
+2026-10-25 23:57:49,998 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0141 val=0.0235
+2026-10-25 23:57:50,422 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0144 val=0.0226
+2026-10-25 23:57:50,852 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0142 val=0.0230
+2026-10-25 23:57:51,255 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0140 val=0.0243
+2026-10-25 23:57:51,679 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0141 val=0.0229
+2026-10-25 23:57:52,102 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0139 val=0.0229
+2026-10-25 23:57:52,520 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0141 val=0.0240
+2026-10-25 23:57:52,963 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0141 val=0.0232
+2026-10-25 23:57:53,379 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0142 val=0.0237
+2026-10-25 23:57:53,817 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0143 val=0.0234
+2026-10-25 23:57:54,247 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0141 val=0.0237
+2026-10-25 23:57:54,664 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0138 val=0.0226
+2026-10-25 23:57:55,077 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0138 val=0.0229
+2026-10-25 23:57:55,497 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0142 val=0.0226
+2026-10-25 23:57:55,928 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0140 val=0.0233
+2026-10-25 23:57:56,367 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0139 val=0.0226
+2026-10-25 23:57:56,761 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0138 val=0.0240
+2026-10-25 23:57:57,075 INFO mmasd:     epoch 1/100 train_loss=1.6254 val_loss=1.0748 (0.3s)
+2026-10-25 23:57:57,505 INFO mmasd:     epoch 2/100 train_loss=0.8223 val_loss=0.8765 (0.4s)
+2026-10-25 23:57:57,934 INFO mmasd:     epoch 3/100 train_loss=0.5731 val_loss=0.6332 (0.4s)
+2026-10-25 23:57:58,400 INFO mmasd:     epoch 4/100 train_loss=0.4331 val_loss=0.7573 (0.4s)
+2026-10-25 23:57:58,731 INFO mmasd:     epoch 5/100 train_loss=0.3284 val_loss=0.5822 (0.3s)
+2026-10-25 23:57:59,149 INFO mmasd:     epoch 6/100 train_loss=0.2432 val_loss=0.5635 (0.4s)
+2026-10-25 23:57:59,591 INFO mmasd:     epoch 7/100 train_loss=0.1550 val_loss=0.6656 (0.4s)
+2026-10-25 23:57:59,880 INFO mmasd:     epoch 8/100 train_loss=0.1335 val_loss=0.5837 (0.3s)
+2026-10-25 23:58:00,164 INFO mmasd:     epoch 9/100 train_loss=0.1047 val_loss=0.6878 (0.3s)
+2026-10-25 23:58:00,460 INFO mmasd:     epoch 10/100 train_loss=0.1479 val_loss=0.6547 (0.3s)
+2026-10-25 23:58:00,734 INFO mmasd:     epoch 11/100 train_loss=0.0866 val_loss=0.6823 (0.3s)
+2026-10-25 23:58:01,025 INFO mmasd:     epoch 12/100 train_loss=0.0515 val_loss=0.7194 (0.3s)
+2026-10-25 23:58:01,299 INFO mmasd:     epoch 13/100 train_loss=0.0587 val_loss=0.7902 (0.3s)
+2026-10-25 23:58:01,593 INFO mmasd:     epoch 14/100 train_loss=0.1080 val_loss=0.8173 (0.3s)
+2026-10-25 23:58:01,885 INFO mmasd:     epoch 15/100 train_loss=0.0633 val_loss=0.7961 (0.3s)
+2026-10-25 23:58:02,165 INFO mmasd:     epoch 16/100 train_loss=0.0507 val_loss=0.8947 (0.3s)
+2026-10-25 23:58:02,165 INFO mmasd:     early stop at epoch 16
+2026-10-25 23:58:02,746 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2777 val=0.1287
+2026-10-25 23:58:03,170 INFO mmasd:     [MAE] epoch 2/100 recon train=0.0973 val=0.1015
+2026-10-25 23:58:03,604 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0691 val=0.0796
+2026-10-25 23:58:04,024 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0547 val=0.0647
+2026-10-25 23:58:04,456 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0467 val=0.0557
+2026-10-25 23:58:04,872 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0430 val=0.0518
+2026-10-25 23:58:05,298 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0393 val=0.0484
+2026-10-25 23:58:05,711 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0374 val=0.0444
+2026-10-25 23:58:06,148 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0336 val=0.0414
+2026-10-25 23:58:06,579 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0311 val=0.0392
+2026-10-25 23:58:07,011 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0290 val=0.0360
+2026-10-25 23:58:07,456 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0268 val=0.0331
+2026-10-25 23:58:07,884 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0253 val=0.0318
+2026-10-25 23:58:08,303 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0246 val=0.0311
+2026-10-25 23:58:08,745 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0240 val=0.0312
+2026-10-25 23:58:09,163 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0233 val=0.0302
+2026-10-25 23:58:09,585 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0223 val=0.0296
+2026-10-25 23:58:10,013 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0217 val=0.0297
+2026-10-25 23:58:10,457 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0214 val=0.0288
+2026-10-25 23:58:10,893 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0210 val=0.0290
+2026-10-25 23:58:11,321 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0204 val=0.0274
+2026-10-25 23:58:11,777 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0198 val=0.0286
+2026-10-25 23:58:12,262 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0194 val=0.0276
+2026-10-25 23:58:12,787 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0191 val=0.0271
+2026-10-25 23:58:13,300 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0187 val=0.0273
+2026-10-25 23:58:13,818 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0188 val=0.0271
+2026-10-25 23:58:14,302 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0184 val=0.0262
+2026-10-25 23:58:14,768 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0183 val=0.0264
+2026-10-25 23:58:15,239 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0181 val=0.0266
+2026-10-25 23:58:15,723 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0176 val=0.0263
+2026-10-25 23:58:16,196 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0176 val=0.0262
+2026-10-25 23:58:16,668 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0172 val=0.0249
+2026-10-25 23:58:17,126 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0171 val=0.0251
+2026-10-25 23:58:17,592 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0168 val=0.0250
+2026-10-25 23:58:18,036 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0169 val=0.0242
+2026-10-25 23:58:18,498 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0166 val=0.0247
+2026-10-25 23:58:18,960 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0163 val=0.0252
+2026-10-25 23:58:19,440 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0165 val=0.0238
+2026-10-25 23:58:19,892 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0162 val=0.0241
+2026-10-25 23:58:20,350 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0165 val=0.0244
+2026-10-25 23:58:20,805 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0165 val=0.0264
+2026-10-25 23:58:21,282 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0169 val=0.0246
+2026-10-25 23:58:21,765 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0160 val=0.0238
+2026-10-25 23:58:22,224 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0158 val=0.0248
+2026-10-25 23:58:22,714 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0159 val=0.0241
+2026-10-25 23:58:23,202 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0158 val=0.0240
+2026-10-25 23:58:23,640 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0155 val=0.0237
+2026-10-25 23:58:24,064 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0157 val=0.0243
+2026-10-25 23:58:24,500 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0155 val=0.0249
+2026-10-25 23:58:24,933 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0154 val=0.0239
+2026-10-25 23:58:25,365 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0152 val=0.0253
+2026-10-25 23:58:25,778 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0153 val=0.0239
+2026-10-25 23:58:26,243 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0154 val=0.0239
+2026-10-25 23:58:26,674 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0152 val=0.0237
+2026-10-25 23:58:27,126 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0153 val=0.0237
+2026-10-25 23:58:27,556 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0150 val=0.0235
+2026-10-25 23:58:27,997 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0149 val=0.0230
+2026-10-25 23:58:28,443 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0148 val=0.0245
+2026-10-25 23:58:28,884 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0149 val=0.0237
+2026-10-25 23:58:29,300 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0149 val=0.0233
+2026-10-25 23:58:29,749 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0146 val=0.0233
+2026-10-25 23:58:30,167 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0148 val=0.0241
+2026-10-25 23:58:30,592 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0146 val=0.0234
+2026-10-25 23:58:31,014 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0144 val=0.0235
+2026-10-25 23:58:31,460 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0144 val=0.0229
+2026-10-25 23:58:31,890 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0145 val=0.0231
+2026-10-25 23:58:32,319 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0145 val=0.0242
+2026-10-25 23:58:32,752 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0144 val=0.0234
+2026-10-25 23:58:33,173 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0142 val=0.0234
+2026-10-25 23:58:33,589 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0139 val=0.0242
+2026-10-25 23:58:34,045 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0141 val=0.0229
+2026-10-25 23:58:34,471 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0146 val=0.0224
+2026-10-25 23:58:34,902 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0149 val=0.0237
+2026-10-25 23:58:35,334 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0146 val=0.0240
+2026-10-25 23:58:35,771 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0141 val=0.0236
+2026-10-25 23:58:36,200 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0143 val=0.0238
+2026-10-25 23:58:36,624 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0142 val=0.0238
+2026-10-25 23:58:37,033 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0140 val=0.0238
+2026-10-25 23:58:37,463 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0137 val=0.0231
+2026-10-25 23:58:37,894 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0137 val=0.0230
+2026-10-25 23:58:38,341 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0137 val=0.0232
+2026-10-25 23:58:38,765 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0139 val=0.0239
+2026-10-25 23:58:39,183 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0137 val=0.0228
+2026-10-25 23:58:39,617 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0140 val=0.0233
+2026-10-25 23:58:40,047 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0136 val=0.0232
+2026-10-25 23:58:40,473 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0136 val=0.0228
+2026-10-25 23:58:40,905 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0135 val=0.0230
+2026-10-25 23:58:41,339 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0133 val=0.0226
+2026-10-25 23:58:41,783 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0136 val=0.0229
+2026-10-25 23:58:42,197 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0136 val=0.0233
+2026-10-25 23:58:42,617 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0138 val=0.0230
+2026-10-25 23:58:43,047 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0133 val=0.0228
+2026-10-25 23:58:43,484 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0136 val=0.0239
+2026-10-25 23:58:43,922 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0135 val=0.0232
+2026-10-25 23:58:44,345 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0132 val=0.0229
+2026-10-25 23:58:44,793 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0132 val=0.0229
+2026-10-25 23:58:45,221 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0133 val=0.0233
+2026-10-25 23:58:45,644 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0132 val=0.0233
+2026-10-25 23:58:46,081 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0133 val=0.0234
+2026-10-25 23:58:46,539 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0131 val=0.0233
+2026-10-25 23:58:46,871 INFO mmasd:     epoch 1/100 train_loss=1.4571 val_loss=1.2322 (0.3s)
+2026-10-25 23:58:47,247 INFO mmasd:     epoch 2/100 train_loss=0.7244 val_loss=0.8840 (0.4s)
+2026-10-25 23:58:47,647 INFO mmasd:     epoch 3/100 train_loss=0.5052 val_loss=0.9394 (0.4s)
+2026-10-25 23:58:47,956 INFO mmasd:     epoch 4/100 train_loss=0.3892 val_loss=0.9806 (0.3s)
+2026-10-25 23:58:48,260 INFO mmasd:     epoch 5/100 train_loss=0.2992 val_loss=0.9555 (0.3s)
+2026-10-25 23:58:48,562 INFO mmasd:     epoch 6/100 train_loss=0.2427 val_loss=1.0982 (0.3s)
+2026-10-25 23:58:48,861 INFO mmasd:     epoch 7/100 train_loss=0.2272 val_loss=1.1146 (0.3s)
+2026-10-25 23:58:49,166 INFO mmasd:     epoch 8/100 train_loss=0.1557 val_loss=1.3086 (0.3s)
+2026-10-25 23:58:49,478 INFO mmasd:     epoch 9/100 train_loss=0.1660 val_loss=1.2242 (0.3s)
+2026-10-25 23:58:49,783 INFO mmasd:     epoch 10/100 train_loss=0.1306 val_loss=1.1925 (0.3s)
+2026-10-25 23:58:50,081 INFO mmasd:     epoch 11/100 train_loss=0.0780 val_loss=1.2496 (0.3s)
+2026-10-25 23:58:50,390 INFO mmasd:     epoch 12/100 train_loss=0.0885 val_loss=1.2553 (0.3s)
+2026-10-25 23:58:50,390 INFO mmasd:     early stop at epoch 12
+2026-10-25 23:58:50,945 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2681 val=0.0886
+2026-10-25 23:58:51,379 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1042 val=0.0698
+2026-10-25 23:58:51,813 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0770 val=0.0565
+2026-10-25 23:58:52,254 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0601 val=0.0434
+2026-10-25 23:58:52,668 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0504 val=0.0363
+2026-10-25 23:58:53,123 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0450 val=0.0328
+2026-10-25 23:58:53,553 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0410 val=0.0307
+2026-10-25 23:58:54,005 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0374 val=0.0274
+2026-10-25 23:58:54,434 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0350 val=0.0265
+2026-10-25 23:58:54,848 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0325 val=0.0256
+2026-10-25 23:58:55,310 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0303 val=0.0242
+2026-10-25 23:58:55,753 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0287 val=0.0243
+2026-10-25 23:58:56,191 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0274 val=0.0217
+2026-10-25 23:58:56,626 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0262 val=0.0216
+2026-10-25 23:58:57,061 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0255 val=0.0223
+2026-10-25 23:58:57,496 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0251 val=0.0214
+2026-10-25 23:58:57,922 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0242 val=0.0203
+2026-10-25 23:58:58,354 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0234 val=0.0234
+2026-10-25 23:58:58,788 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0230 val=0.0207
+2026-10-25 23:58:59,239 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0227 val=0.0210
+2026-10-25 23:58:59,668 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0224 val=0.0197
+2026-10-25 23:59:00,086 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0222 val=0.0218
+2026-10-25 23:59:00,511 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0217 val=0.0194
+2026-10-25 23:59:00,940 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0211 val=0.0195
+2026-10-25 23:59:01,386 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0211 val=0.0236
+2026-10-25 23:59:01,810 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0215 val=0.0193
+2026-10-25 23:59:02,259 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0213 val=0.0199
+2026-10-25 23:59:02,691 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0204 val=0.0185
+2026-10-25 23:59:03,135 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0201 val=0.0181
+2026-10-25 23:59:03,568 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0199 val=0.0181
+2026-10-25 23:59:04,013 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0198 val=0.0175
+2026-10-25 23:59:04,440 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0199 val=0.0183
+2026-10-25 23:59:04,896 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0200 val=0.0171
+2026-10-25 23:59:05,336 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0195 val=0.0182
+2026-10-25 23:59:05,759 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0193 val=0.0175
+2026-10-25 23:59:06,203 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0191 val=0.0170
+2026-10-25 23:59:06,634 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0189 val=0.0171
+2026-10-25 23:59:07,073 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0189 val=0.0186
+2026-10-25 23:59:07,509 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0185 val=0.0178
+2026-10-25 23:59:07,944 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0183 val=0.0173
+2026-10-25 23:59:08,387 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0182 val=0.0174
+2026-10-25 23:59:08,814 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0181 val=0.0170
+2026-10-25 23:59:09,259 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0180 val=0.0173
+2026-10-25 23:59:09,675 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0179 val=0.0172
+2026-10-25 23:59:10,114 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0179 val=0.0171
+2026-10-25 23:59:10,543 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0179 val=0.0179
+2026-10-25 23:59:10,988 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0177 val=0.0168
+2026-10-25 23:59:11,439 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0177 val=0.0164
+2026-10-25 23:59:11,894 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0178 val=0.0175
+2026-10-25 23:59:12,341 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0174 val=0.0168
+2026-10-25 23:59:12,780 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0174 val=0.0170
+2026-10-25 23:59:13,209 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0174 val=0.0170
+2026-10-25 23:59:13,647 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0174 val=0.0210
+2026-10-25 23:59:14,086 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0178 val=0.0166
+2026-10-25 23:59:14,537 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0170 val=0.0159
+2026-10-25 23:59:14,982 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0169 val=0.0169
+2026-10-25 23:59:15,425 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0171 val=0.0161
+2026-10-25 23:59:15,869 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0170 val=0.0171
+2026-10-25 23:59:16,334 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0168 val=0.0169
+2026-10-25 23:59:16,776 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0168 val=0.0174
+2026-10-25 23:59:17,224 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0164 val=0.0159
+2026-10-25 23:59:17,646 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0166 val=0.0166
+2026-10-25 23:59:18,101 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0164 val=0.0163
+2026-10-25 23:59:18,522 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0166 val=0.0162
+2026-10-25 23:59:18,972 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0164 val=0.0172
+2026-10-25 23:59:19,412 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0165 val=0.0166
+2026-10-25 23:59:19,826 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0165 val=0.0171
+2026-10-25 23:59:20,292 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0162 val=0.0172
+2026-10-25 23:59:20,744 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0164 val=0.0162
+2026-10-25 23:59:21,167 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0161 val=0.0159
+2026-10-25 23:59:21,612 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0161 val=0.0168
+2026-10-25 23:59:22,043 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0161 val=0.0178
+2026-10-25 23:59:22,479 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0158 val=0.0154
+2026-10-25 23:59:22,931 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0160 val=0.0164
+2026-10-25 23:59:23,375 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0161 val=0.0178
+2026-10-25 23:59:23,856 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0161 val=0.0164
+2026-10-25 23:59:24,323 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0159 val=0.0160
+2026-10-25 23:59:24,814 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0162 val=0.0166
+2026-10-25 23:59:25,292 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0157 val=0.0168
+2026-10-25 23:59:25,750 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0155 val=0.0161
+2026-10-25 23:59:26,223 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0157 val=0.0160
+2026-10-25 23:59:26,694 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0157 val=0.0161
+2026-10-25 23:59:27,160 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0161 val=0.0166
+2026-10-25 23:59:27,625 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0158 val=0.0166
+2026-10-25 23:59:28,096 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0156 val=0.0164
+2026-10-25 23:59:28,580 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0156 val=0.0159
+2026-10-25 23:59:29,039 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0155 val=0.0172
+2026-10-25 23:59:29,485 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0154 val=0.0165
+2026-10-25 23:59:29,917 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0155 val=0.0164
+2026-10-25 23:59:30,345 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0153 val=0.0168
+2026-10-25 23:59:30,789 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0154 val=0.0161
+2026-10-25 23:59:31,229 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0155 val=0.0159
+2026-10-25 23:59:31,658 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0154 val=0.0171
+2026-10-25 23:59:32,098 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0153 val=0.0153
+2026-10-25 23:59:32,528 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0149 val=0.0164
+2026-10-25 23:59:32,979 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0151 val=0.0191
+2026-10-25 23:59:33,437 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0154 val=0.0169
+2026-10-25 23:59:33,869 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0150 val=0.0162
+2026-10-25 23:59:34,332 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0149 val=0.0168
+2026-10-25 23:59:34,788 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0151 val=0.0164
+2026-10-25 23:59:35,123 INFO mmasd:     epoch 1/100 train_loss=1.4775 val_loss=1.5009 (0.3s)
+2026-10-25 23:59:35,506 INFO mmasd:     epoch 2/100 train_loss=0.6738 val_loss=1.4278 (0.4s)
+2026-10-25 23:59:35,901 INFO mmasd:     epoch 3/100 train_loss=0.4585 val_loss=1.5422 (0.4s)
+2026-10-25 23:59:36,208 INFO mmasd:     epoch 4/100 train_loss=0.3937 val_loss=1.5925 (0.3s)
+2026-10-25 23:59:36,494 INFO mmasd:     epoch 5/100 train_loss=0.3458 val_loss=1.5625 (0.3s)
+2026-10-25 23:59:36,789 INFO mmasd:     epoch 6/100 train_loss=0.2267 val_loss=1.7552 (0.3s)
+2026-10-25 23:59:37,080 INFO mmasd:     epoch 7/100 train_loss=0.1629 val_loss=1.8855 (0.3s)
+2026-10-25 23:59:37,391 INFO mmasd:     epoch 8/100 train_loss=0.1486 val_loss=2.0512 (0.3s)
+2026-10-25 23:59:37,687 INFO mmasd:     epoch 9/100 train_loss=0.1488 val_loss=2.0301 (0.3s)
+2026-10-25 23:59:37,999 INFO mmasd:     epoch 10/100 train_loss=0.0949 val_loss=2.0317 (0.3s)
+2026-10-25 23:59:38,285 INFO mmasd:     epoch 11/100 train_loss=0.1204 val_loss=2.3528 (0.3s)
+2026-10-25 23:59:38,588 INFO mmasd:     epoch 12/100 train_loss=0.1045 val_loss=2.0989 (0.3s)
+2026-10-25 23:59:38,588 INFO mmasd:     early stop at epoch 12
+2026-10-25 23:59:40,625 INFO mmasd: ==> mae__2d_openpose: acc=0.691 bal_acc=0.692 macroF1=0.685
+2026-10-25 23:59:40,625 INFO mmasd: --- ctrgcn__3d_romp
+2026-10-25 23:59:41,935 INFO mmasd:     epoch 1/100 train_loss=4.7419 val_loss=3.0264 (1.2s)
+2026-10-25 23:59:42,909 INFO mmasd:     epoch 2/100 train_loss=3.3647 val_loss=2.5232 (0.9s)
+2026-10-25 23:59:43,848 INFO mmasd:     epoch 3/100 train_loss=2.5438 val_loss=2.1844 (0.9s)
+2026-10-25 23:59:44,809 INFO mmasd:     epoch 4/100 train_loss=2.0634 val_loss=1.8893 (0.9s)
+2026-10-25 23:59:45,761 INFO mmasd:     epoch 5/100 train_loss=1.8332 val_loss=1.7595 (0.9s)
+2026-10-25 23:59:46,728 INFO mmasd:     epoch 6/100 train_loss=1.6304 val_loss=1.7152 (0.9s)
+2026-10-25 23:59:47,698 INFO mmasd:     epoch 7/100 train_loss=1.5691 val_loss=1.6062 (0.9s)
+2026-10-25 23:59:48,657 INFO mmasd:     epoch 8/100 train_loss=1.4136 val_loss=1.5537 (0.9s)
+2026-10-25 23:59:49,628 INFO mmasd:     epoch 9/100 train_loss=1.2879 val_loss=1.4404 (0.9s)
+2026-10-25 23:59:50,588 INFO mmasd:     epoch 10/100 train_loss=1.1747 val_loss=1.4655 (0.9s)
+2026-10-25 23:59:51,545 INFO mmasd:     epoch 11/100 train_loss=1.1164 val_loss=1.3620 (0.9s)
+2026-10-25 23:59:52,503 INFO mmasd:     epoch 12/100 train_loss=1.0620 val_loss=1.2678 (0.9s)
+2026-10-25 23:59:53,468 INFO mmasd:     epoch 13/100 train_loss=0.9209 val_loss=1.2937 (0.9s)
+2026-10-25 23:59:54,440 INFO mmasd:     epoch 14/100 train_loss=0.9269 val_loss=1.1865 (0.9s)
+2026-10-25 23:59:55,433 INFO mmasd:     epoch 15/100 train_loss=0.8880 val_loss=1.1359 (0.9s)
+2026-10-25 23:59:56,426 INFO mmasd:     epoch 16/100 train_loss=0.7762 val_loss=1.0917 (0.9s)
+2026-10-25 23:59:57,426 INFO mmasd:     epoch 17/100 train_loss=0.8493 val_loss=1.0606 (0.9s)
+2026-10-25 23:59:58,419 INFO mmasd:     epoch 18/100 train_loss=0.7831 val_loss=1.0533 (0.9s)
+2026-10-25 23:59:59,391 INFO mmasd:     epoch 19/100 train_loss=0.7238 val_loss=1.0643 (0.9s)
+2026-10-26 00:00:00,384 INFO mmasd:     epoch 20/100 train_loss=0.6545 val_loss=1.0089 (0.9s)
+2026-10-26 00:00:01,328 INFO mmasd:     epoch 21/100 train_loss=0.7008 val_loss=1.0425 (0.9s)
+2026-10-26 00:00:02,315 INFO mmasd:     epoch 22/100 train_loss=0.6081 val_loss=1.0202 (0.9s)
+2026-10-26 00:00:03,287 INFO mmasd:     epoch 23/100 train_loss=0.5900 val_loss=0.9233 (0.9s)
+2026-10-26 00:00:04,266 INFO mmasd:     epoch 24/100 train_loss=0.5530 val_loss=0.9975 (0.9s)
+2026-10-26 00:00:05,238 INFO mmasd:     epoch 25/100 train_loss=0.4899 val_loss=0.9930 (0.9s)
+2026-10-26 00:00:06,196 INFO mmasd:     epoch 26/100 train_loss=0.5052 val_loss=0.9878 (0.9s)
+2026-10-26 00:00:07,182 INFO mmasd:     epoch 27/100 train_loss=0.5318 val_loss=1.0000 (0.9s)
+2026-10-26 00:00:08,168 INFO mmasd:     epoch 28/100 train_loss=0.4685 val_loss=0.9177 (0.9s)
+2026-10-26 00:00:09,154 INFO mmasd:     epoch 29/100 train_loss=0.4490 val_loss=0.9172 (0.9s)
+2026-10-26 00:00:10,147 INFO mmasd:     epoch 30/100 train_loss=0.4388 val_loss=0.8772 (0.9s)
+2026-10-26 00:00:11,140 INFO mmasd:     epoch 31/100 train_loss=0.3912 val_loss=0.9063 (0.9s)
+2026-10-26 00:00:12,119 INFO mmasd:     epoch 32/100 train_loss=0.4099 val_loss=0.9169 (0.9s)
+2026-10-26 00:00:13,098 INFO mmasd:     epoch 33/100 train_loss=0.4095 val_loss=0.9260 (0.9s)
+2026-10-26 00:00:14,085 INFO mmasd:     epoch 34/100 train_loss=0.3730 val_loss=0.8828 (0.9s)
+2026-10-26 00:00:15,077 INFO mmasd:     epoch 35/100 train_loss=0.3208 val_loss=0.9087 (0.9s)
+2026-10-26 00:00:16,090 INFO mmasd:     epoch 36/100 train_loss=0.3327 val_loss=0.9322 (0.9s)
+2026-10-26 00:00:17,097 INFO mmasd:     epoch 37/100 train_loss=0.3180 val_loss=0.9161 (0.9s)
+2026-10-26 00:00:18,090 INFO mmasd:     epoch 38/100 train_loss=0.2851 val_loss=0.9307 (0.9s)
+2026-10-26 00:00:19,069 INFO mmasd:     epoch 39/100 train_loss=0.2954 val_loss=0.8623 (0.9s)
+2026-10-26 00:00:20,111 INFO mmasd:     epoch 40/100 train_loss=0.2677 val_loss=0.9996 (1.0s)
+2026-10-26 00:00:21,097 INFO mmasd:     epoch 41/100 train_loss=0.2526 val_loss=0.9041 (0.9s)
+2026-10-26 00:00:22,097 INFO mmasd:     epoch 42/100 train_loss=0.2290 val_loss=0.8955 (0.9s)
+2026-10-26 00:00:23,096 INFO mmasd:     epoch 43/100 train_loss=0.2558 val_loss=0.9172 (0.9s)
+2026-10-26 00:00:24,075 INFO mmasd:     epoch 44/100 train_loss=0.2576 val_loss=0.9249 (0.9s)
+2026-10-26 00:00:25,075 INFO mmasd:     epoch 45/100 train_loss=0.2101 val_loss=0.9399 (0.9s)
+2026-10-26 00:00:26,055 INFO mmasd:     epoch 46/100 train_loss=0.2152 val_loss=0.9439 (0.9s)
+2026-10-26 00:00:27,054 INFO mmasd:     epoch 47/100 train_loss=0.2699 val_loss=0.9788 (0.9s)
+2026-10-26 00:00:28,040 INFO mmasd:     epoch 48/100 train_loss=0.2119 val_loss=0.9858 (0.9s)
+2026-10-26 00:00:29,006 INFO mmasd:     epoch 49/100 train_loss=0.1991 val_loss=0.8631 (0.9s)
+2026-10-26 00:00:29,006 INFO mmasd:     early stop at epoch 49
+2026-10-26 00:00:30,234 INFO mmasd:     epoch 1/100 train_loss=4.9506 val_loss=3.3765 (0.9s)
+2026-10-26 00:00:31,220 INFO mmasd:     epoch 2/100 train_loss=3.1601 val_loss=2.0974 (0.9s)
+2026-10-26 00:00:32,220 INFO mmasd:     epoch 3/100 train_loss=2.3227 val_loss=1.7679 (0.9s)
+2026-10-26 00:00:33,199 INFO mmasd:     epoch 4/100 train_loss=2.0410 val_loss=1.5930 (0.9s)
+2026-10-26 00:00:34,241 INFO mmasd:     epoch 5/100 train_loss=1.9181 val_loss=1.4918 (1.0s)
+2026-10-26 00:00:35,285 INFO mmasd:     epoch 6/100 train_loss=1.6533 val_loss=1.4037 (1.0s)
+2026-10-26 00:00:36,306 INFO mmasd:     epoch 7/100 train_loss=1.5622 val_loss=1.3519 (1.0s)
+2026-10-26 00:00:37,296 INFO mmasd:     epoch 8/100 train_loss=1.4640 val_loss=1.2121 (0.9s)
+2026-10-26 00:00:38,289 INFO mmasd:     epoch 9/100 train_loss=1.3953 val_loss=1.2023 (0.9s)
+2026-10-26 00:00:39,269 INFO mmasd:     epoch 10/100 train_loss=1.2779 val_loss=1.1730 (0.9s)
+2026-10-26 00:00:40,268 INFO mmasd:     epoch 11/100 train_loss=1.2134 val_loss=1.1191 (0.9s)
+2026-10-26 00:00:41,261 INFO mmasd:     epoch 12/100 train_loss=1.1089 val_loss=1.0690 (0.9s)
+2026-10-26 00:00:42,261 INFO mmasd:     epoch 13/100 train_loss=1.0330 val_loss=0.9813 (0.9s)
+2026-10-26 00:00:43,288 INFO mmasd:     epoch 14/100 train_loss=1.0379 val_loss=0.9846 (1.0s)
+2026-10-26 00:00:44,285 INFO mmasd:     epoch 15/100 train_loss=0.9243 val_loss=0.8921 (0.9s)
+2026-10-26 00:00:45,274 INFO mmasd:     epoch 16/100 train_loss=0.8774 val_loss=0.8653 (0.9s)
+2026-10-26 00:00:46,260 INFO mmasd:     epoch 17/100 train_loss=0.7690 val_loss=0.8382 (0.9s)
+2026-10-26 00:00:47,260 INFO mmasd:     epoch 18/100 train_loss=0.8174 val_loss=0.8676 (0.9s)
+2026-10-26 00:00:48,253 INFO mmasd:     epoch 19/100 train_loss=0.7553 val_loss=0.7934 (0.9s)
+2026-10-26 00:00:49,246 INFO mmasd:     epoch 20/100 train_loss=0.7314 val_loss=0.7860 (0.9s)
+2026-10-26 00:00:50,253 INFO mmasd:     epoch 21/100 train_loss=0.7018 val_loss=0.7932 (0.9s)
+2026-10-26 00:00:51,239 INFO mmasd:     epoch 22/100 train_loss=0.6920 val_loss=0.7810 (0.9s)
+2026-10-26 00:00:52,246 INFO mmasd:     epoch 23/100 train_loss=0.6397 val_loss=0.7883 (0.9s)
+2026-10-26 00:00:53,266 INFO mmasd:     epoch 24/100 train_loss=0.5753 val_loss=0.6801 (1.0s)
+2026-10-26 00:00:54,281 INFO mmasd:     epoch 25/100 train_loss=0.5585 val_loss=0.7124 (0.9s)
+2026-10-26 00:00:55,245 INFO mmasd:     epoch 26/100 train_loss=0.5268 val_loss=0.6473 (0.9s)
+2026-10-26 00:00:56,252 INFO mmasd:     epoch 27/100 train_loss=0.5140 val_loss=0.6633 (0.9s)
+2026-10-26 00:00:57,245 INFO mmasd:     epoch 28/100 train_loss=0.5021 val_loss=0.7712 (0.9s)
+2026-10-26 00:00:58,231 INFO mmasd:     epoch 29/100 train_loss=0.4622 val_loss=0.6984 (0.9s)
+2026-10-26 00:00:59,245 INFO mmasd:     epoch 30/100 train_loss=0.4676 val_loss=0.6668 (1.0s)
+2026-10-26 00:01:00,244 INFO mmasd:     epoch 31/100 train_loss=0.4845 val_loss=0.6604 (0.9s)
+2026-10-26 00:01:01,272 INFO mmasd:     epoch 32/100 train_loss=0.3892 val_loss=0.5951 (1.0s)
+2026-10-26 00:01:02,281 INFO mmasd:     epoch 33/100 train_loss=0.4176 val_loss=0.6933 (0.9s)
+2026-10-26 00:01:03,258 INFO mmasd:     epoch 34/100 train_loss=0.3722 val_loss=0.6136 (0.9s)
+2026-10-26 00:01:04,258 INFO mmasd:     epoch 35/100 train_loss=0.3820 val_loss=0.7352 (0.9s)
+2026-10-26 00:01:05,251 INFO mmasd:     epoch 36/100 train_loss=0.3656 val_loss=0.6927 (0.9s)
+2026-10-26 00:01:06,251 INFO mmasd:     epoch 37/100 train_loss=0.3368 val_loss=0.7161 (0.9s)
+2026-10-26 00:01:07,251 INFO mmasd:     epoch 38/100 train_loss=0.2979 val_loss=0.6306 (0.9s)
+2026-10-26 00:01:08,223 INFO mmasd:     epoch 39/100 train_loss=0.2953 val_loss=0.5959 (0.9s)
+2026-10-26 00:01:09,216 INFO mmasd:     epoch 40/100 train_loss=0.2672 val_loss=0.6722 (0.9s)
+2026-10-26 00:01:10,209 INFO mmasd:     epoch 41/100 train_loss=0.3115 val_loss=0.6126 (0.9s)
+2026-10-26 00:01:11,201 INFO mmasd:     epoch 42/100 train_loss=0.2697 val_loss=0.5897 (0.9s)
+2026-10-26 00:01:12,201 INFO mmasd:     epoch 43/100 train_loss=0.2663 val_loss=0.7743 (0.9s)
+2026-10-26 00:01:13,195 INFO mmasd:     epoch 44/100 train_loss=0.2541 val_loss=0.7122 (0.9s)
+2026-10-26 00:01:14,202 INFO mmasd:     epoch 45/100 train_loss=0.1974 val_loss=0.6261 (0.9s)
+2026-10-26 00:01:15,205 INFO mmasd:     epoch 46/100 train_loss=0.1971 val_loss=0.6415 (0.9s)
+2026-10-26 00:01:16,187 INFO mmasd:     epoch 47/100 train_loss=0.2153 val_loss=0.6855 (0.9s)
+2026-10-26 00:01:17,184 INFO mmasd:     epoch 48/100 train_loss=0.1967 val_loss=0.6593 (0.9s)
+2026-10-26 00:01:18,179 INFO mmasd:     epoch 49/100 train_loss=0.2165 val_loss=0.6673 (0.9s)
+2026-10-26 00:01:19,187 INFO mmasd:     epoch 50/100 train_loss=0.2093 val_loss=0.6373 (0.9s)
+2026-10-26 00:01:20,186 INFO mmasd:     epoch 51/100 train_loss=0.1816 val_loss=0.7100 (0.9s)
+2026-10-26 00:01:21,193 INFO mmasd:     epoch 52/100 train_loss=0.1968 val_loss=0.7401 (0.9s)
+2026-10-26 00:01:21,193 INFO mmasd:     early stop at epoch 52
+2026-10-26 00:01:22,415 INFO mmasd:     epoch 1/100 train_loss=5.7024 val_loss=2.8695 (1.0s)
+2026-10-26 00:01:23,443 INFO mmasd:     epoch 2/100 train_loss=3.3726 val_loss=2.3122 (1.0s)
+2026-10-26 00:01:24,477 INFO mmasd:     epoch 3/100 train_loss=2.5611 val_loss=1.8612 (1.0s)
+2026-10-26 00:01:25,505 INFO mmasd:     epoch 4/100 train_loss=2.1097 val_loss=1.6553 (1.0s)
+2026-10-26 00:01:26,540 INFO mmasd:     epoch 5/100 train_loss=1.8051 val_loss=1.4871 (1.0s)
+2026-10-26 00:01:27,575 INFO mmasd:     epoch 6/100 train_loss=1.7113 val_loss=1.3624 (1.0s)
+2026-10-26 00:01:28,595 INFO mmasd:     epoch 7/100 train_loss=1.6591 val_loss=1.2713 (1.0s)
+2026-10-26 00:01:29,623 INFO mmasd:     epoch 8/100 train_loss=1.4692 val_loss=1.2543 (1.0s)
+2026-10-26 00:01:30,637 INFO mmasd:     epoch 9/100 train_loss=1.4023 val_loss=1.2240 (1.0s)
+2026-10-26 00:01:31,671 INFO mmasd:     epoch 10/100 train_loss=1.2833 val_loss=1.1428 (1.0s)
+2026-10-26 00:01:32,685 INFO mmasd:     epoch 11/100 train_loss=1.2034 val_loss=1.0763 (1.0s)
+2026-10-26 00:01:33,712 INFO mmasd:     epoch 12/100 train_loss=1.2048 val_loss=1.0764 (1.0s)
+2026-10-26 00:01:34,719 INFO mmasd:     epoch 13/100 train_loss=1.1480 val_loss=0.9840 (1.0s)
+2026-10-26 00:01:35,736 INFO mmasd:     epoch 14/100 train_loss=0.9898 val_loss=0.9682 (1.0s)
+2026-10-26 00:01:36,754 INFO mmasd:     epoch 15/100 train_loss=0.9107 val_loss=0.9519 (1.0s)
+2026-10-26 00:01:37,781 INFO mmasd:     epoch 16/100 train_loss=0.9321 val_loss=0.8792 (1.0s)
+2026-10-26 00:01:38,837 INFO mmasd:     epoch 17/100 train_loss=0.8737 val_loss=0.9120 (1.0s)
+2026-10-26 00:01:39,878 INFO mmasd:     epoch 18/100 train_loss=0.8499 val_loss=0.9149 (1.0s)
+2026-10-26 00:01:40,913 INFO mmasd:     epoch 19/100 train_loss=0.7816 val_loss=0.9175 (1.0s)
+2026-10-26 00:01:41,961 INFO mmasd:     epoch 20/100 train_loss=0.7427 val_loss=0.9277 (1.0s)
+2026-10-26 00:01:43,003 INFO mmasd:     epoch 21/100 train_loss=0.7094 val_loss=0.8485 (1.0s)
+2026-10-26 00:01:44,045 INFO mmasd:     epoch 22/100 train_loss=0.6361 val_loss=0.8349 (1.0s)
+2026-10-26 00:01:45,100 INFO mmasd:     epoch 23/100 train_loss=0.6685 val_loss=0.9060 (1.0s)
+2026-10-26 00:01:46,114 INFO mmasd:     epoch 24/100 train_loss=0.6146 val_loss=0.8676 (1.0s)
+2026-10-26 00:01:47,127 INFO mmasd:     epoch 25/100 train_loss=0.5657 val_loss=0.8752 (1.0s)
+2026-10-26 00:01:48,169 INFO mmasd:     epoch 26/100 train_loss=0.6114 val_loss=0.8478 (1.0s)
+2026-10-26 00:01:49,197 INFO mmasd:     epoch 27/100 train_loss=0.5353 val_loss=0.9046 (1.0s)
+2026-10-26 00:01:50,245 INFO mmasd:     epoch 28/100 train_loss=0.5659 val_loss=0.8651 (1.0s)
+2026-10-26 00:01:51,286 INFO mmasd:     epoch 29/100 train_loss=0.4948 val_loss=0.8438 (1.0s)
+2026-10-26 00:01:52,314 INFO mmasd:     epoch 30/100 train_loss=0.4576 val_loss=0.8087 (1.0s)
+2026-10-26 00:01:53,356 INFO mmasd:     epoch 31/100 train_loss=0.5012 val_loss=0.8110 (1.0s)
+2026-10-26 00:01:54,370 INFO mmasd:     epoch 32/100 train_loss=0.4688 val_loss=0.8447 (1.0s)
+2026-10-26 00:01:55,404 INFO mmasd:     epoch 33/100 train_loss=0.4202 val_loss=0.8925 (1.0s)
+2026-10-26 00:01:56,474 INFO mmasd:     epoch 34/100 train_loss=0.3846 val_loss=0.8545 (1.0s)
+2026-10-26 00:01:57,536 INFO mmasd:     epoch 35/100 train_loss=0.4021 val_loss=0.8980 (1.0s)
+2026-10-26 00:01:58,570 INFO mmasd:     epoch 36/100 train_loss=0.4014 val_loss=0.8800 (1.0s)
+2026-10-26 00:01:59,616 INFO mmasd:     epoch 37/100 train_loss=0.3515 val_loss=0.8150 (1.0s)
+2026-10-26 00:02:00,667 INFO mmasd:     epoch 38/100 train_loss=0.3632 val_loss=0.8767 (1.0s)
+2026-10-26 00:02:01,709 INFO mmasd:     epoch 39/100 train_loss=0.3196 val_loss=0.9397 (1.0s)
+2026-10-26 00:02:02,750 INFO mmasd:     epoch 40/100 train_loss=0.3279 val_loss=0.9398 (1.0s)
+2026-10-26 00:02:02,750 INFO mmasd:     early stop at epoch 40
+2026-10-26 00:02:04,070 INFO mmasd:     epoch 1/100 train_loss=4.3154 val_loss=1.8186 (1.0s)
+2026-10-26 00:02:05,146 INFO mmasd:     epoch 2/100 train_loss=2.6976 val_loss=1.4466 (1.0s)
+2026-10-26 00:02:06,215 INFO mmasd:     epoch 3/100 train_loss=2.2112 val_loss=1.3291 (1.0s)
+2026-10-26 00:02:07,298 INFO mmasd:     epoch 4/100 train_loss=2.0022 val_loss=1.3996 (1.0s)
+2026-10-26 00:02:08,383 INFO mmasd:     epoch 5/100 train_loss=1.8379 val_loss=1.3339 (1.0s)
+2026-10-26 00:02:09,444 INFO mmasd:     epoch 6/100 train_loss=1.6744 val_loss=1.3294 (1.0s)
+2026-10-26 00:02:10,528 INFO mmasd:     epoch 7/100 train_loss=1.6329 val_loss=1.2891 (1.0s)
+2026-10-26 00:02:11,617 INFO mmasd:     epoch 8/100 train_loss=1.4038 val_loss=1.2775 (1.0s)
+2026-10-26 00:02:12,693 INFO mmasd:     epoch 9/100 train_loss=1.3945 val_loss=1.2613 (1.0s)
+2026-10-26 00:02:13,763 INFO mmasd:     epoch 10/100 train_loss=1.1947 val_loss=1.2565 (1.0s)
+2026-10-26 00:02:14,846 INFO mmasd:     epoch 11/100 train_loss=1.1331 val_loss=1.1491 (1.0s)
+2026-10-26 00:02:15,915 INFO mmasd:     epoch 12/100 train_loss=1.1030 val_loss=1.1452 (1.0s)
+2026-10-26 00:02:17,005 INFO mmasd:     epoch 13/100 train_loss=0.9614 val_loss=1.0694 (1.0s)
+2026-10-26 00:02:18,071 INFO mmasd:     epoch 14/100 train_loss=0.9194 val_loss=1.1481 (1.0s)
+2026-10-26 00:02:19,207 INFO mmasd:     epoch 15/100 train_loss=0.7812 val_loss=1.1319 (1.1s)
+2026-10-26 00:02:20,352 INFO mmasd:     epoch 16/100 train_loss=0.8173 val_loss=1.0948 (1.1s)
+2026-10-26 00:02:21,470 INFO mmasd:     epoch 17/100 train_loss=0.7488 val_loss=1.0212 (1.1s)
+2026-10-26 00:02:22,574 INFO mmasd:     epoch 18/100 train_loss=0.7187 val_loss=1.0318 (1.1s)
+2026-10-26 00:02:23,685 INFO mmasd:     epoch 19/100 train_loss=0.6581 val_loss=1.0047 (1.1s)
+2026-10-26 00:02:24,817 INFO mmasd:     epoch 20/100 train_loss=0.6311 val_loss=0.9664 (1.1s)
+2026-10-26 00:02:25,920 INFO mmasd:     epoch 21/100 train_loss=0.6189 val_loss=1.0104 (1.0s)
+2026-10-26 00:02:27,032 INFO mmasd:     epoch 22/100 train_loss=0.5727 val_loss=1.0410 (1.1s)
+2026-10-26 00:02:28,145 INFO mmasd:     epoch 23/100 train_loss=0.5003 val_loss=0.9239 (1.1s)
+2026-10-26 00:02:29,254 INFO mmasd:     epoch 24/100 train_loss=0.5378 val_loss=1.0072 (1.0s)
+2026-10-26 00:02:30,337 INFO mmasd:     epoch 25/100 train_loss=0.4644 val_loss=0.9394 (1.0s)
+2026-10-26 00:02:31,434 INFO mmasd:     epoch 26/100 train_loss=0.4341 val_loss=0.8909 (1.1s)
+2026-10-26 00:02:32,545 INFO mmasd:     epoch 27/100 train_loss=0.3951 val_loss=0.9053 (1.1s)
+2026-10-26 00:02:33,629 INFO mmasd:     epoch 28/100 train_loss=0.4574 val_loss=0.9527 (1.0s)
+2026-10-26 00:02:34,712 INFO mmasd:     epoch 29/100 train_loss=0.4252 val_loss=0.9461 (1.0s)
+2026-10-26 00:02:35,788 INFO mmasd:     epoch 30/100 train_loss=0.4051 val_loss=0.8101 (1.0s)
+2026-10-26 00:02:36,885 INFO mmasd:     epoch 31/100 train_loss=0.4109 val_loss=1.0241 (1.0s)
+2026-10-26 00:02:37,996 INFO mmasd:     epoch 32/100 train_loss=0.3579 val_loss=0.8132 (1.1s)
+2026-10-26 00:02:39,100 INFO mmasd:     epoch 33/100 train_loss=0.3507 val_loss=0.9061 (1.1s)
+2026-10-26 00:02:40,204 INFO mmasd:     epoch 34/100 train_loss=0.3398 val_loss=0.8996 (1.1s)
+2026-10-26 00:02:41,287 INFO mmasd:     epoch 35/100 train_loss=0.3120 val_loss=0.8186 (1.0s)
+2026-10-26 00:02:42,378 INFO mmasd:     epoch 36/100 train_loss=0.2808 val_loss=0.9125 (1.0s)
+2026-10-26 00:02:43,461 INFO mmasd:     epoch 37/100 train_loss=0.3145 val_loss=0.9452 (1.0s)
+2026-10-26 00:02:44,537 INFO mmasd:     epoch 38/100 train_loss=0.2744 val_loss=0.8549 (1.0s)
+2026-10-26 00:02:45,621 INFO mmasd:     epoch 39/100 train_loss=0.2231 val_loss=0.8936 (1.0s)
+2026-10-26 00:02:46,710 INFO mmasd:     epoch 40/100 train_loss=0.2271 val_loss=0.8570 (1.0s)
+2026-10-26 00:02:46,710 INFO mmasd:     early stop at epoch 40
+2026-10-26 00:02:48,030 INFO mmasd:     epoch 1/100 train_loss=4.3864 val_loss=2.4939 (1.0s)
+2026-10-26 00:02:49,120 INFO mmasd:     epoch 2/100 train_loss=2.8011 val_loss=2.0670 (1.0s)
+2026-10-26 00:02:50,236 INFO mmasd:     epoch 3/100 train_loss=2.1777 val_loss=1.9387 (1.1s)
+2026-10-26 00:02:51,342 INFO mmasd:     epoch 4/100 train_loss=1.9059 val_loss=1.8093 (1.0s)
+2026-10-26 00:02:52,443 INFO mmasd:     epoch 5/100 train_loss=1.7642 val_loss=1.6849 (1.0s)
+2026-10-26 00:02:53,545 INFO mmasd:     epoch 6/100 train_loss=1.6061 val_loss=1.6378 (1.0s)
+2026-10-26 00:02:54,654 INFO mmasd:     epoch 7/100 train_loss=1.6014 val_loss=1.6620 (1.1s)
+2026-10-26 00:02:55,750 INFO mmasd:     epoch 8/100 train_loss=1.4995 val_loss=1.5715 (1.0s)
+2026-10-26 00:02:56,848 INFO mmasd:     epoch 9/100 train_loss=1.2531 val_loss=1.6425 (1.0s)
+2026-10-26 00:02:57,917 INFO mmasd:     epoch 10/100 train_loss=1.3058 val_loss=1.5711 (1.0s)
+2026-10-26 00:02:59,049 INFO mmasd:     epoch 11/100 train_loss=1.1729 val_loss=1.4894 (1.1s)
+2026-10-26 00:03:00,146 INFO mmasd:     epoch 12/100 train_loss=1.0520 val_loss=1.4585 (1.0s)
+2026-10-26 00:03:01,250 INFO mmasd:     epoch 13/100 train_loss=0.9492 val_loss=1.5359 (1.0s)
+2026-10-26 00:03:02,333 INFO mmasd:     epoch 14/100 train_loss=0.9387 val_loss=1.4824 (1.0s)
+2026-10-26 00:03:03,451 INFO mmasd:     epoch 15/100 train_loss=0.8868 val_loss=1.3833 (1.1s)
+2026-10-26 00:03:04,562 INFO mmasd:     epoch 16/100 train_loss=0.8305 val_loss=1.4440 (1.1s)
+2026-10-26 00:03:05,660 INFO mmasd:     epoch 17/100 train_loss=0.7906 val_loss=1.4629 (1.1s)
+2026-10-26 00:03:06,735 INFO mmasd:     epoch 18/100 train_loss=0.7327 val_loss=1.4248 (1.0s)
+2026-10-26 00:03:07,839 INFO mmasd:     epoch 19/100 train_loss=0.7046 val_loss=1.3933 (1.1s)
+2026-10-26 00:03:08,923 INFO mmasd:     epoch 20/100 train_loss=0.6011 val_loss=1.4919 (1.0s)
+2026-10-26 00:03:10,020 INFO mmasd:     epoch 21/100 train_loss=0.5815 val_loss=1.4493 (1.1s)
+2026-10-26 00:03:11,117 INFO mmasd:     epoch 22/100 train_loss=0.5762 val_loss=1.3316 (1.0s)
+2026-10-26 00:03:12,248 INFO mmasd:     epoch 23/100 train_loss=0.5149 val_loss=1.3895 (1.1s)
+2026-10-26 00:03:13,320 INFO mmasd:     epoch 24/100 train_loss=0.5157 val_loss=1.5942 (1.0s)
+2026-10-26 00:03:14,401 INFO mmasd:     epoch 25/100 train_loss=0.4902 val_loss=1.4562 (1.0s)
+2026-10-26 00:03:15,491 INFO mmasd:     epoch 26/100 train_loss=0.4983 val_loss=1.3861 (1.0s)
+2026-10-26 00:03:16,581 INFO mmasd:     epoch 27/100 train_loss=0.4636 val_loss=1.4350 (1.0s)
+2026-10-26 00:03:17,679 INFO mmasd:     epoch 28/100 train_loss=0.4011 val_loss=1.4650 (1.0s)
+2026-10-26 00:03:18,768 INFO mmasd:     epoch 29/100 train_loss=0.3788 val_loss=1.4405 (1.0s)
+2026-10-26 00:03:19,859 INFO mmasd:     epoch 30/100 train_loss=0.3849 val_loss=1.5056 (1.0s)
+2026-10-26 00:03:20,977 INFO mmasd:     epoch 31/100 train_loss=0.3280 val_loss=1.5561 (1.1s)
+2026-10-26 00:03:22,064 INFO mmasd:     epoch 32/100 train_loss=0.3406 val_loss=1.5213 (1.0s)
+2026-10-26 00:03:22,064 INFO mmasd:     early stop at epoch 32
+2026-10-26 00:03:24,553 INFO mmasd: ==> ctrgcn__3d_romp: acc=0.693 bal_acc=0.696 macroF1=0.688
+2026-10-26 00:03:24,553 INFO mmasd: --- poseformerv2__3d_romp
+2026-10-26 00:03:25,462 INFO mmasd:     epoch 1/100 train_loss=1.9196 val_loss=1.4325 (0.8s)
+2026-10-26 00:03:26,219 INFO mmasd:     epoch 2/100 train_loss=1.1518 val_loss=1.0096 (0.7s)
+2026-10-26 00:03:26,977 INFO mmasd:     epoch 3/100 train_loss=0.7562 val_loss=0.7361 (0.7s)
+2026-10-26 00:03:27,719 INFO mmasd:     epoch 4/100 train_loss=0.4998 val_loss=0.6853 (0.7s)
+2026-10-26 00:03:28,469 INFO mmasd:     epoch 5/100 train_loss=0.3620 val_loss=0.7627 (0.7s)
+2026-10-26 00:03:29,189 INFO mmasd:     epoch 6/100 train_loss=0.3205 val_loss=0.7467 (0.7s)
+2026-10-26 00:03:29,920 INFO mmasd:     epoch 7/100 train_loss=0.2834 val_loss=0.6548 (0.7s)
+2026-10-26 00:03:30,663 INFO mmasd:     epoch 8/100 train_loss=0.2039 val_loss=0.6949 (0.7s)
+2026-10-26 00:03:31,378 INFO mmasd:     epoch 9/100 train_loss=0.1779 val_loss=0.7322 (0.7s)
+2026-10-26 00:03:32,100 INFO mmasd:     epoch 10/100 train_loss=0.1437 val_loss=0.6904 (0.7s)
+2026-10-26 00:03:32,808 INFO mmasd:     epoch 11/100 train_loss=0.1380 val_loss=0.7020 (0.7s)
+2026-10-26 00:03:33,524 INFO mmasd:     epoch 12/100 train_loss=0.1182 val_loss=0.7309 (0.7s)
+2026-10-26 00:03:34,239 INFO mmasd:     epoch 13/100 train_loss=0.0706 val_loss=0.6727 (0.7s)
+2026-10-26 00:03:34,947 INFO mmasd:     epoch 14/100 train_loss=0.0711 val_loss=0.6834 (0.7s)
+2026-10-26 00:03:35,662 INFO mmasd:     epoch 15/100 train_loss=0.1248 val_loss=0.7421 (0.7s)
+2026-10-26 00:03:36,377 INFO mmasd:     epoch 16/100 train_loss=0.0739 val_loss=0.7326 (0.7s)
+2026-10-26 00:03:37,093 INFO mmasd:     epoch 17/100 train_loss=0.0493 val_loss=0.6971 (0.7s)
+2026-10-26 00:03:37,093 INFO mmasd:     early stop at epoch 17
+2026-10-26 00:03:37,995 INFO mmasd:     epoch 1/100 train_loss=1.8002 val_loss=1.2109 (0.7s)
+2026-10-26 00:03:38,759 INFO mmasd:     epoch 2/100 train_loss=0.8869 val_loss=0.9314 (0.7s)
+2026-10-26 00:03:39,509 INFO mmasd:     epoch 3/100 train_loss=0.6294 val_loss=0.8485 (0.7s)
+2026-10-26 00:03:40,266 INFO mmasd:     epoch 4/100 train_loss=0.4795 val_loss=0.7632 (0.7s)
+2026-10-26 00:03:41,030 INFO mmasd:     epoch 5/100 train_loss=0.3823 val_loss=0.6802 (0.7s)
+2026-10-26 00:03:41,780 INFO mmasd:     epoch 6/100 train_loss=0.3365 val_loss=0.8279 (0.7s)
+2026-10-26 00:03:42,495 INFO mmasd:     epoch 7/100 train_loss=0.2944 val_loss=0.6848 (0.7s)
+2026-10-26 00:03:43,203 INFO mmasd:     epoch 8/100 train_loss=0.2277 val_loss=0.6438 (0.7s)
+2026-10-26 00:03:43,953 INFO mmasd:     epoch 9/100 train_loss=0.2049 val_loss=0.7008 (0.7s)
+2026-10-26 00:03:44,661 INFO mmasd:     epoch 10/100 train_loss=0.1955 val_loss=0.6750 (0.7s)
+2026-10-26 00:03:45,376 INFO mmasd:     epoch 11/100 train_loss=0.1565 val_loss=0.6170 (0.7s)
+2026-10-26 00:03:46,119 INFO mmasd:     epoch 12/100 train_loss=0.1175 val_loss=0.6148 (0.7s)
+2026-10-26 00:03:46,870 INFO mmasd:     epoch 13/100 train_loss=0.0877 val_loss=0.6695 (0.7s)
+2026-10-26 00:03:47,584 INFO mmasd:     epoch 14/100 train_loss=0.0795 val_loss=0.8179 (0.7s)
+2026-10-26 00:03:48,299 INFO mmasd:     epoch 15/100 train_loss=0.0600 val_loss=0.6182 (0.7s)
+2026-10-26 00:03:48,997 INFO mmasd:     epoch 16/100 train_loss=0.0955 val_loss=0.6621 (0.7s)
+2026-10-26 00:03:49,702 INFO mmasd:     epoch 17/100 train_loss=0.0989 val_loss=0.6346 (0.7s)
+2026-10-26 00:03:50,412 INFO mmasd:     epoch 18/100 train_loss=0.0585 val_loss=0.8540 (0.7s)
+2026-10-26 00:03:51,126 INFO mmasd:     epoch 19/100 train_loss=0.0582 val_loss=0.7212 (0.7s)
+2026-10-26 00:03:51,820 INFO mmasd:     epoch 20/100 train_loss=0.0429 val_loss=0.6523 (0.7s)
+2026-10-26 00:03:52,537 INFO mmasd:     epoch 21/100 train_loss=0.0289 val_loss=0.7570 (0.7s)
+2026-10-26 00:03:53,260 INFO mmasd:     epoch 22/100 train_loss=0.0233 val_loss=0.7169 (0.7s)
+2026-10-26 00:03:53,260 INFO mmasd:     early stop at epoch 22
+2026-10-26 00:03:54,188 INFO mmasd:     epoch 1/100 train_loss=1.8615 val_loss=1.3049 (0.7s)
+2026-10-26 00:03:54,971 INFO mmasd:     epoch 2/100 train_loss=1.0133 val_loss=0.8407 (0.7s)
+2026-10-26 00:03:55,746 INFO mmasd:     epoch 3/100 train_loss=0.6949 val_loss=0.7489 (0.7s)
+2026-10-26 00:03:56,516 INFO mmasd:     epoch 4/100 train_loss=0.5192 val_loss=0.6556 (0.7s)
+2026-10-26 00:03:57,303 INFO mmasd:     epoch 5/100 train_loss=0.4399 val_loss=0.7281 (0.7s)
+2026-10-26 00:03:58,035 INFO mmasd:     epoch 6/100 train_loss=0.3576 val_loss=0.5844 (0.7s)
+2026-10-26 00:03:58,802 INFO mmasd:     epoch 7/100 train_loss=0.2713 val_loss=0.7584 (0.7s)
+2026-10-26 00:03:59,541 INFO mmasd:     epoch 8/100 train_loss=0.2468 val_loss=0.6733 (0.7s)
+2026-10-26 00:04:00,270 INFO mmasd:     epoch 9/100 train_loss=0.1721 val_loss=0.6508 (0.7s)
+2026-10-26 00:04:01,006 INFO mmasd:     epoch 10/100 train_loss=0.1230 val_loss=0.7705 (0.7s)
+2026-10-26 00:04:01,730 INFO mmasd:     epoch 11/100 train_loss=0.1505 val_loss=0.7193 (0.7s)
+2026-10-26 00:04:02,464 INFO mmasd:     epoch 12/100 train_loss=0.1143 val_loss=0.6050 (0.7s)
+2026-10-26 00:04:03,193 INFO mmasd:     epoch 13/100 train_loss=0.0840 val_loss=0.7150 (0.7s)
+2026-10-26 00:04:03,927 INFO mmasd:     epoch 14/100 train_loss=0.0775 val_loss=0.6603 (0.7s)
+2026-10-26 00:04:04,653 INFO mmasd:     epoch 15/100 train_loss=0.0696 val_loss=0.7974 (0.7s)
+2026-10-26 00:04:05,381 INFO mmasd:     epoch 16/100 train_loss=0.0787 val_loss=0.5883 (0.7s)
+2026-10-26 00:04:05,381 INFO mmasd:     early stop at epoch 16
+2026-10-26 00:04:06,326 INFO mmasd:     epoch 1/100 train_loss=2.0581 val_loss=1.6363 (0.8s)
+2026-10-26 00:04:07,112 INFO mmasd:     epoch 2/100 train_loss=0.9709 val_loss=0.8581 (0.7s)
+2026-10-26 00:04:07,915 INFO mmasd:     epoch 3/100 train_loss=0.5657 val_loss=0.9702 (0.8s)
+2026-10-26 00:04:08,668 INFO mmasd:     epoch 4/100 train_loss=0.4620 val_loss=0.8121 (0.7s)
+2026-10-26 00:04:09,456 INFO mmasd:     epoch 5/100 train_loss=0.3570 val_loss=0.7107 (0.7s)
+2026-10-26 00:04:10,255 INFO mmasd:     epoch 6/100 train_loss=0.2492 val_loss=1.0812 (0.8s)
+2026-10-26 00:04:11,006 INFO mmasd:     epoch 7/100 train_loss=0.1959 val_loss=0.6725 (0.7s)
+2026-10-26 00:04:11,782 INFO mmasd:     epoch 8/100 train_loss=0.1700 val_loss=0.7757 (0.7s)
+2026-10-26 00:04:12,534 INFO mmasd:     epoch 9/100 train_loss=0.1415 val_loss=1.2035 (0.7s)
+2026-10-26 00:04:13,282 INFO mmasd:     epoch 10/100 train_loss=0.1111 val_loss=0.7371 (0.7s)
+2026-10-26 00:04:14,020 INFO mmasd:     epoch 11/100 train_loss=0.1011 val_loss=0.6633 (0.7s)
+2026-10-26 00:04:14,800 INFO mmasd:     epoch 12/100 train_loss=0.1002 val_loss=0.7965 (0.7s)
+2026-10-26 00:04:15,545 INFO mmasd:     epoch 13/100 train_loss=0.0721 val_loss=0.7363 (0.7s)
+2026-10-26 00:04:16,300 INFO mmasd:     epoch 14/100 train_loss=0.0662 val_loss=0.9488 (0.7s)
+2026-10-26 00:04:17,053 INFO mmasd:     epoch 15/100 train_loss=0.0735 val_loss=0.8135 (0.7s)
+2026-10-26 00:04:17,789 INFO mmasd:     epoch 16/100 train_loss=0.0539 val_loss=0.9294 (0.7s)
+2026-10-26 00:04:18,546 INFO mmasd:     epoch 17/100 train_loss=0.0629 val_loss=1.1342 (0.7s)
+2026-10-26 00:04:19,298 INFO mmasd:     epoch 18/100 train_loss=0.0898 val_loss=0.9398 (0.7s)
+2026-10-26 00:04:20,045 INFO mmasd:     epoch 19/100 train_loss=0.0906 val_loss=0.8894 (0.7s)
+2026-10-26 00:04:20,795 INFO mmasd:     epoch 20/100 train_loss=0.0459 val_loss=0.6841 (0.7s)
+2026-10-26 00:04:21,540 INFO mmasd:     epoch 21/100 train_loss=0.0468 val_loss=0.7911 (0.7s)
+2026-10-26 00:04:21,540 INFO mmasd:     early stop at epoch 21
+2026-10-26 00:04:22,469 INFO mmasd:     epoch 1/100 train_loss=2.0228 val_loss=1.7024 (0.7s)
+2026-10-26 00:04:23,274 INFO mmasd:     epoch 2/100 train_loss=1.0657 val_loss=1.3001 (0.8s)
+2026-10-26 00:04:24,066 INFO mmasd:     epoch 3/100 train_loss=0.6236 val_loss=1.1404 (0.7s)
+2026-10-26 00:04:24,871 INFO mmasd:     epoch 4/100 train_loss=0.4445 val_loss=1.2338 (0.8s)
+2026-10-26 00:04:25,637 INFO mmasd:     epoch 5/100 train_loss=0.3590 val_loss=1.3541 (0.7s)
+2026-10-26 00:04:26,380 INFO mmasd:     epoch 6/100 train_loss=0.3062 val_loss=1.3141 (0.7s)
+2026-10-26 00:04:27,142 INFO mmasd:     epoch 7/100 train_loss=0.2177 val_loss=1.5539 (0.7s)
+2026-10-26 00:04:27,897 INFO mmasd:     epoch 8/100 train_loss=0.1789 val_loss=1.3104 (0.7s)
+2026-10-26 00:04:28,655 INFO mmasd:     epoch 9/100 train_loss=0.1387 val_loss=1.1616 (0.7s)
+2026-10-26 00:04:29,422 INFO mmasd:     epoch 10/100 train_loss=0.1046 val_loss=1.3529 (0.7s)
+2026-10-26 00:04:30,176 INFO mmasd:     epoch 11/100 train_loss=0.1019 val_loss=1.4381 (0.7s)
+2026-10-26 00:04:30,940 INFO mmasd:     epoch 12/100 train_loss=0.0896 val_loss=1.4052 (0.7s)
+2026-10-26 00:04:31,690 INFO mmasd:     epoch 13/100 train_loss=0.1094 val_loss=1.3980 (0.7s)
+2026-10-26 00:04:31,690 INFO mmasd:     early stop at epoch 13
+2026-10-26 00:04:34,086 INFO mmasd: ==> poseformerv2__3d_romp: acc=0.735 bal_acc=0.753 macroF1=0.745
+2026-10-26 00:04:34,086 INFO mmasd: --- mae__3d_romp
+2026-10-26 00:04:34,710 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2687 val=0.1229
+2026-10-26 00:04:35,177 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1252 val=0.0851
+2026-10-26 00:04:35,627 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0847 val=0.0688
+2026-10-26 00:04:36,108 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0680 val=0.0633
+2026-10-26 00:04:36,538 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0587 val=0.0584
+2026-10-26 00:04:36,996 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0522 val=0.0532
+2026-10-26 00:04:37,441 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0455 val=0.0505
+2026-10-26 00:04:37,889 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0418 val=0.0498
+2026-10-26 00:04:38,343 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0401 val=0.0490
+2026-10-26 00:04:38,774 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0388 val=0.0491
+2026-10-26 00:04:39,237 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0376 val=0.0483
+2026-10-26 00:04:39,682 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0365 val=0.0481
+2026-10-26 00:04:40,135 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0357 val=0.0475
+2026-10-26 00:04:40,581 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0351 val=0.0470
+2026-10-26 00:04:41,037 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0341 val=0.0463
+2026-10-26 00:04:41,494 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0328 val=0.0457
+2026-10-26 00:04:41,940 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0322 val=0.0444
+2026-10-26 00:04:42,376 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0313 val=0.0449
+2026-10-26 00:04:42,813 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0307 val=0.0444
+2026-10-26 00:04:43,258 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0303 val=0.0439
+2026-10-26 00:04:43,716 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0296 val=0.0429
+2026-10-26 00:04:44,164 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0293 val=0.0434
+2026-10-26 00:04:44,619 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0291 val=0.0427
+2026-10-26 00:04:45,070 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0287 val=0.0425
+2026-10-26 00:04:45,502 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0283 val=0.0422
+2026-10-26 00:04:45,940 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0284 val=0.0418
+2026-10-26 00:04:46,400 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0279 val=0.0418
+2026-10-26 00:04:46,848 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0277 val=0.0421
+2026-10-26 00:04:47,287 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0274 val=0.0417
+2026-10-26 00:04:47,740 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0275 val=0.0415
+2026-10-26 00:04:48,183 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0269 val=0.0417
+2026-10-26 00:04:48,639 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0270 val=0.0410
+2026-10-26 00:04:49,097 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0267 val=0.0416
+2026-10-26 00:04:49,542 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0268 val=0.0424
+2026-10-26 00:04:50,000 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0266 val=0.0415
+2026-10-26 00:04:50,437 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0269 val=0.0409
+2026-10-26 00:04:50,896 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0262 val=0.0423
+2026-10-26 00:04:51,363 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0261 val=0.0409
+2026-10-26 00:04:51,812 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0260 val=0.0415
+2026-10-26 00:04:52,250 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0260 val=0.0414
+2026-10-26 00:04:52,694 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0255 val=0.0404
+2026-10-26 00:04:53,131 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0254 val=0.0410
+2026-10-26 00:04:53,576 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0254 val=0.0410
+2026-10-26 00:04:54,020 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0255 val=0.0410
+2026-10-26 00:04:54,465 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0257 val=0.0412
+2026-10-26 00:04:54,930 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0252 val=0.0409
+2026-10-26 00:04:55,397 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0255 val=0.0410
+2026-10-26 00:04:55,883 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0251 val=0.0411
+2026-10-26 00:04:56,340 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0247 val=0.0414
+2026-10-26 00:04:56,801 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0246 val=0.0404
+2026-10-26 00:04:57,270 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0249 val=0.0406
+2026-10-26 00:04:57,714 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0251 val=0.0405
+2026-10-26 00:04:58,138 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0251 val=0.0418
+2026-10-26 00:04:58,596 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0247 val=0.0411
+2026-10-26 00:04:59,035 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0248 val=0.0415
+2026-10-26 00:04:59,494 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0244 val=0.0407
+2026-10-26 00:04:59,945 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0241 val=0.0405
+2026-10-26 00:05:00,408 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0243 val=0.0401
+2026-10-26 00:05:00,860 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0241 val=0.0409
+2026-10-26 00:05:01,332 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0244 val=0.0405
+2026-10-26 00:05:01,769 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0243 val=0.0404
+2026-10-26 00:05:02,214 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0241 val=0.0406
+2026-10-26 00:05:02,653 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0240 val=0.0413
+2026-10-26 00:05:03,097 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0241 val=0.0401
+2026-10-26 00:05:03,544 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0240 val=0.0407
+2026-10-26 00:05:03,977 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0240 val=0.0406
+2026-10-26 00:05:04,422 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0235 val=0.0401
+2026-10-26 00:05:04,880 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0238 val=0.0405
+2026-10-26 00:05:05,367 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0237 val=0.0399
+2026-10-26 00:05:05,824 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0237 val=0.0405
+2026-10-26 00:05:06,324 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0237 val=0.0401
+2026-10-26 00:05:06,783 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0240 val=0.0406
+2026-10-26 00:05:07,269 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0240 val=0.0406
+2026-10-26 00:05:07,742 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0239 val=0.0406
+2026-10-26 00:05:08,200 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0237 val=0.0400
+2026-10-26 00:05:08,662 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0238 val=0.0404
+2026-10-26 00:05:09,109 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0239 val=0.0402
+2026-10-26 00:05:09,581 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0236 val=0.0396
+2026-10-26 00:05:10,069 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0238 val=0.0410
+2026-10-26 00:05:10,534 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0235 val=0.0400
+2026-10-26 00:05:11,011 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0231 val=0.0400
+2026-10-26 00:05:11,469 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0232 val=0.0410
+2026-10-26 00:05:11,909 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0235 val=0.0407
+2026-10-26 00:05:12,394 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0232 val=0.0400
+2026-10-26 00:05:12,846 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0230 val=0.0402
+2026-10-26 00:05:13,309 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0231 val=0.0401
+2026-10-26 00:05:13,769 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0232 val=0.0403
+2026-10-26 00:05:14,247 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0229 val=0.0402
+2026-10-26 00:05:14,691 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0230 val=0.0402
+2026-10-26 00:05:15,136 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0230 val=0.0405
+2026-10-26 00:05:15,591 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0228 val=0.0404
+2026-10-26 00:05:16,031 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0229 val=0.0398
+2026-10-26 00:05:16,484 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0230 val=0.0399
+2026-10-26 00:05:16,929 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0232 val=0.0402
+2026-10-26 00:05:17,365 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0228 val=0.0401
+2026-10-26 00:05:17,802 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0231 val=0.0405
+2026-10-26 00:05:18,253 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0234 val=0.0400
+2026-10-26 00:05:18,691 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0226 val=0.0403
+2026-10-26 00:05:19,135 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0228 val=0.0398
+2026-10-26 00:05:19,577 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0226 val=0.0396
+2026-10-26 00:05:19,927 INFO mmasd:     epoch 1/100 train_loss=1.4686 val_loss=0.9178 (0.3s)
+2026-10-26 00:05:20,393 INFO mmasd:     epoch 2/100 train_loss=0.6717 val_loss=0.6625 (0.4s)
+2026-10-26 00:05:20,850 INFO mmasd:     epoch 3/100 train_loss=0.4623 val_loss=0.6210 (0.4s)
+2026-10-26 00:05:21,336 INFO mmasd:     epoch 4/100 train_loss=0.3271 val_loss=0.6135 (0.5s)
+2026-10-26 00:05:21,795 INFO mmasd:     epoch 5/100 train_loss=0.2480 val_loss=0.5943 (0.4s)
+2026-10-26 00:05:22,279 INFO mmasd:     epoch 6/100 train_loss=0.1694 val_loss=0.6367 (0.5s)
+2026-10-26 00:05:22,656 INFO mmasd:     epoch 7/100 train_loss=0.1622 val_loss=0.7799 (0.4s)
+2026-10-26 00:05:23,010 INFO mmasd:     epoch 8/100 train_loss=0.1140 val_loss=0.6168 (0.3s)
+2026-10-26 00:05:23,357 INFO mmasd:     epoch 9/100 train_loss=0.0910 val_loss=0.7740 (0.3s)
+2026-10-26 00:05:23,713 INFO mmasd:     epoch 10/100 train_loss=0.0604 val_loss=0.7773 (0.4s)
+2026-10-26 00:05:24,081 INFO mmasd:     epoch 11/100 train_loss=0.0655 val_loss=0.6969 (0.3s)
+2026-10-26 00:05:24,454 INFO mmasd:     epoch 12/100 train_loss=0.0522 val_loss=0.6451 (0.4s)
+2026-10-26 00:05:24,823 INFO mmasd:     epoch 13/100 train_loss=0.0718 val_loss=0.7102 (0.4s)
+2026-10-26 00:05:25,178 INFO mmasd:     epoch 14/100 train_loss=0.0441 val_loss=0.6781 (0.4s)
+2026-10-26 00:05:25,544 INFO mmasd:     epoch 15/100 train_loss=0.0398 val_loss=0.7286 (0.3s)
+2026-10-26 00:05:25,544 INFO mmasd:     early stop at epoch 15
+2026-10-26 00:05:26,210 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2847 val=0.1424
+2026-10-26 00:05:26,655 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1235 val=0.0868
+2026-10-26 00:05:27,094 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0846 val=0.0624
+2026-10-26 00:05:27,553 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0688 val=0.0534
+2026-10-26 00:05:27,978 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0595 val=0.0477
+2026-10-26 00:05:28,426 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0541 val=0.0428
+2026-10-26 00:05:28,863 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0501 val=0.0385
+2026-10-26 00:05:29,307 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0462 val=0.0370
+2026-10-26 00:05:29,766 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0453 val=0.0362
+2026-10-26 00:05:30,215 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0438 val=0.0368
+2026-10-26 00:05:30,669 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0422 val=0.0350
+2026-10-26 00:05:31,099 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0412 val=0.0344
+2026-10-26 00:05:31,554 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0393 val=0.0331
+2026-10-26 00:05:32,012 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0382 val=0.0321
+2026-10-26 00:05:32,474 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0370 val=0.0314
+2026-10-26 00:05:32,892 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0371 val=0.0322
+2026-10-26 00:05:33,355 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0358 val=0.0305
+2026-10-26 00:05:33,807 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0348 val=0.0300
+2026-10-26 00:05:34,251 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0345 val=0.0297
+2026-10-26 00:05:34,683 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0344 val=0.0299
+2026-10-26 00:05:35,135 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0337 val=0.0292
+2026-10-26 00:05:35,593 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0335 val=0.0290
+2026-10-26 00:05:36,022 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0330 val=0.0290
+2026-10-26 00:05:36,438 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0325 val=0.0288
+2026-10-26 00:05:36,890 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0322 val=0.0290
+2026-10-26 00:05:37,317 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0323 val=0.0288
+2026-10-26 00:05:37,775 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0317 val=0.0287
+2026-10-26 00:05:38,230 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0318 val=0.0287
+2026-10-26 00:05:38,684 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0313 val=0.0281
+2026-10-26 00:05:39,105 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0318 val=0.0279
+2026-10-26 00:05:39,544 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0312 val=0.0289
+2026-10-26 00:05:40,021 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0316 val=0.0283
+2026-10-26 00:05:40,466 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0312 val=0.0275
+2026-10-26 00:05:40,898 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0305 val=0.0274
+2026-10-26 00:05:41,348 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0302 val=0.0274
+2026-10-26 00:05:41,784 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0300 val=0.0275
+2026-10-26 00:05:42,243 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0302 val=0.0282
+2026-10-26 00:05:42,685 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0304 val=0.0284
+2026-10-26 00:05:43,132 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0302 val=0.0281
+2026-10-26 00:05:43,568 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0298 val=0.0269
+2026-10-26 00:05:44,016 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0293 val=0.0275
+2026-10-26 00:05:44,467 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0295 val=0.0276
+2026-10-26 00:05:44,903 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0298 val=0.0275
+2026-10-26 00:05:45,354 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0295 val=0.0285
+2026-10-26 00:05:45,785 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0294 val=0.0281
+2026-10-26 00:05:46,217 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0291 val=0.0274
+2026-10-26 00:05:46,661 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0292 val=0.0271
+2026-10-26 00:05:47,097 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0291 val=0.0276
+2026-10-26 00:05:47,549 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0288 val=0.0277
+2026-10-26 00:05:47,992 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0294 val=0.0278
+2026-10-26 00:05:48,453 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0286 val=0.0273
+2026-10-26 00:05:48,899 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0290 val=0.0274
+2026-10-26 00:05:49,343 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0284 val=0.0268
+2026-10-26 00:05:49,777 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0286 val=0.0274
+2026-10-26 00:05:50,225 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0288 val=0.0272
+2026-10-26 00:05:50,659 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0288 val=0.0279
+2026-10-26 00:05:51,110 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0289 val=0.0278
+2026-10-26 00:05:51,568 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0290 val=0.0273
+2026-10-26 00:05:51,987 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0285 val=0.0272
+2026-10-26 00:05:52,445 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0281 val=0.0275
+2026-10-26 00:05:52,902 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0280 val=0.0275
+2026-10-26 00:05:53,355 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0276 val=0.0273
+2026-10-26 00:05:53,799 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0279 val=0.0273
+2026-10-26 00:05:54,256 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0287 val=0.0292
+2026-10-26 00:05:54,763 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0283 val=0.0287
+2026-10-26 00:05:55,207 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0275 val=0.0277
+2026-10-26 00:05:55,667 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0281 val=0.0274
+2026-10-26 00:05:56,116 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0279 val=0.0276
+2026-10-26 00:05:56,561 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0275 val=0.0276
+2026-10-26 00:05:57,040 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0271 val=0.0270
+2026-10-26 00:05:57,498 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0276 val=0.0278
+2026-10-26 00:05:57,941 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0276 val=0.0282
+2026-10-26 00:05:58,388 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0272 val=0.0273
+2026-10-26 00:05:58,840 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0272 val=0.0271
+2026-10-26 00:05:59,297 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0273 val=0.0271
+2026-10-26 00:05:59,748 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0273 val=0.0273
+2026-10-26 00:06:00,217 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0267 val=0.0275
+2026-10-26 00:06:00,672 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0270 val=0.0275
+2026-10-26 00:06:01,102 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0267 val=0.0274
+2026-10-26 00:06:01,553 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0267 val=0.0270
+2026-10-26 00:06:02,014 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0266 val=0.0277
+2026-10-26 00:06:02,472 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0269 val=0.0272
+2026-10-26 00:06:02,930 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0272 val=0.0276
+2026-10-26 00:06:03,372 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0271 val=0.0273
+2026-10-26 00:06:03,846 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0266 val=0.0274
+2026-10-26 00:06:04,270 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0266 val=0.0276
+2026-10-26 00:06:04,715 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0264 val=0.0272
+2026-10-26 00:06:05,151 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0264 val=0.0269
+2026-10-26 00:06:05,581 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0265 val=0.0268
+2026-10-26 00:06:06,023 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0269 val=0.0269
+2026-10-26 00:06:06,449 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0266 val=0.0276
+2026-10-26 00:06:06,867 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0267 val=0.0277
+2026-10-26 00:06:07,310 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0264 val=0.0273
+2026-10-26 00:06:07,740 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0264 val=0.0272
+2026-10-26 00:06:08,170 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0265 val=0.0275
+2026-10-26 00:06:08,608 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0261 val=0.0266
+2026-10-26 00:06:09,058 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0263 val=0.0267
+2026-10-26 00:06:09,497 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0262 val=0.0268
+2026-10-26 00:06:09,922 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0260 val=0.0268
+2026-10-26 00:06:10,365 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0262 val=0.0275
+2026-10-26 00:06:10,702 INFO mmasd:     epoch 1/100 train_loss=1.4384 val_loss=1.0337 (0.3s)
+2026-10-26 00:06:11,123 INFO mmasd:     epoch 2/100 train_loss=0.6979 val_loss=0.9125 (0.4s)
+2026-10-26 00:06:11,601 INFO mmasd:     epoch 3/100 train_loss=0.4984 val_loss=0.8259 (0.4s)
+2026-10-26 00:06:12,031 INFO mmasd:     epoch 4/100 train_loss=0.3623 val_loss=0.8789 (0.4s)
+2026-10-26 00:06:12,371 INFO mmasd:     epoch 5/100 train_loss=0.2409 val_loss=0.7584 (0.3s)
+2026-10-26 00:06:12,804 INFO mmasd:     epoch 6/100 train_loss=0.1805 val_loss=0.6767 (0.4s)
+2026-10-26 00:06:13,253 INFO mmasd:     epoch 7/100 train_loss=0.1424 val_loss=0.6099 (0.4s)
+2026-10-26 00:06:13,732 INFO mmasd:     epoch 8/100 train_loss=0.1519 val_loss=0.6230 (0.4s)
+2026-10-26 00:06:14,040 INFO mmasd:     epoch 9/100 train_loss=0.0944 val_loss=0.5366 (0.3s)
+2026-10-26 00:06:14,484 INFO mmasd:     epoch 10/100 train_loss=0.0823 val_loss=0.6758 (0.4s)
+2026-10-26 00:06:14,781 INFO mmasd:     epoch 11/100 train_loss=0.0538 val_loss=0.5701 (0.3s)
+2026-10-26 00:06:15,084 INFO mmasd:     epoch 12/100 train_loss=0.0510 val_loss=0.6228 (0.3s)
+2026-10-26 00:06:15,389 INFO mmasd:     epoch 13/100 train_loss=0.0723 val_loss=0.6164 (0.3s)
+2026-10-26 00:06:15,683 INFO mmasd:     epoch 14/100 train_loss=0.0535 val_loss=0.8418 (0.3s)
+2026-10-26 00:06:15,968 INFO mmasd:     epoch 15/100 train_loss=0.0435 val_loss=0.9582 (0.3s)
+2026-10-26 00:06:16,259 INFO mmasd:     epoch 16/100 train_loss=0.0250 val_loss=0.7517 (0.3s)
+2026-10-26 00:06:16,546 INFO mmasd:     epoch 17/100 train_loss=0.0291 val_loss=0.7677 (0.3s)
+2026-10-26 00:06:16,848 INFO mmasd:     epoch 18/100 train_loss=0.0521 val_loss=0.7893 (0.3s)
+2026-10-26 00:06:17,135 INFO mmasd:     epoch 19/100 train_loss=0.0520 val_loss=0.6858 (0.3s)
+2026-10-26 00:06:17,135 INFO mmasd:     early stop at epoch 19
+2026-10-26 00:06:17,797 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2733 val=0.1484
+2026-10-26 00:06:18,239 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1226 val=0.0926
+2026-10-26 00:06:18,683 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0839 val=0.0746
+2026-10-26 00:06:19,141 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0665 val=0.0638
+2026-10-26 00:06:19,577 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0570 val=0.0582
+2026-10-26 00:06:20,034 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0508 val=0.0535
+2026-10-26 00:06:20,475 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0470 val=0.0481
+2026-10-26 00:06:20,919 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0432 val=0.0459
+2026-10-26 00:06:21,370 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0412 val=0.0455
+2026-10-26 00:06:21,823 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0407 val=0.0450
+2026-10-26 00:06:22,298 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0398 val=0.0432
+2026-10-26 00:06:22,739 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0384 val=0.0412
+2026-10-26 00:06:23,176 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0376 val=0.0411
+2026-10-26 00:06:23,627 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0361 val=0.0388
+2026-10-26 00:06:24,074 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0350 val=0.0392
+2026-10-26 00:06:24,523 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0345 val=0.0375
+2026-10-26 00:06:24,960 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0340 val=0.0381
+2026-10-26 00:06:25,410 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0327 val=0.0355
+2026-10-26 00:06:25,857 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0323 val=0.0356
+2026-10-26 00:06:26,309 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0319 val=0.0344
+2026-10-26 00:06:26,755 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0311 val=0.0342
+2026-10-26 00:06:27,196 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0308 val=0.0333
+2026-10-26 00:06:27,634 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0305 val=0.0342
+2026-10-26 00:06:28,078 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0304 val=0.0338
+2026-10-26 00:06:28,517 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0303 val=0.0340
+2026-10-26 00:06:28,963 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0304 val=0.0328
+2026-10-26 00:06:29,433 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0299 val=0.0331
+2026-10-26 00:06:29,897 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0298 val=0.0326
+2026-10-26 00:06:30,371 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0289 val=0.0320
+2026-10-26 00:06:30,822 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0288 val=0.0323
+2026-10-26 00:06:31,258 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0289 val=0.0321
+2026-10-26 00:06:31,723 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0286 val=0.0321
+2026-10-26 00:06:32,168 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0283 val=0.0323
+2026-10-26 00:06:32,610 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0288 val=0.0325
+2026-10-26 00:06:33,063 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0285 val=0.0329
+2026-10-26 00:06:33,501 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0279 val=0.0326
+2026-10-26 00:06:33,933 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0279 val=0.0324
+2026-10-26 00:06:34,363 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0282 val=0.0314
+2026-10-26 00:06:34,806 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0276 val=0.0321
+2026-10-26 00:06:35,237 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0276 val=0.0317
+2026-10-26 00:06:35,666 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0273 val=0.0313
+2026-10-26 00:06:36,091 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0275 val=0.0308
+2026-10-26 00:06:36,519 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0276 val=0.0317
+2026-10-26 00:06:36,947 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0271 val=0.0311
+2026-10-26 00:06:37,375 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0275 val=0.0316
+2026-10-26 00:06:37,820 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0270 val=0.0313
+2026-10-26 00:06:38,245 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0267 val=0.0315
+2026-10-26 00:06:38,646 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0270 val=0.0312
+2026-10-26 00:06:39,071 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0270 val=0.0315
+2026-10-26 00:06:39,531 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0264 val=0.0307
+2026-10-26 00:06:39,954 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0258 val=0.0307
+2026-10-26 00:06:40,392 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0263 val=0.0314
+2026-10-26 00:06:40,812 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0261 val=0.0310
+2026-10-26 00:06:41,250 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0265 val=0.0314
+2026-10-26 00:06:41,695 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0267 val=0.0307
+2026-10-26 00:06:42,132 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0259 val=0.0300
+2026-10-26 00:06:42,563 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0258 val=0.0303
+2026-10-26 00:06:42,994 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0260 val=0.0306
+2026-10-26 00:06:43,437 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0261 val=0.0313
+2026-10-26 00:06:43,847 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0266 val=0.0324
+2026-10-26 00:06:44,291 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0260 val=0.0307
+2026-10-26 00:06:44,721 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0258 val=0.0309
+2026-10-26 00:06:45,160 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0258 val=0.0312
+2026-10-26 00:06:45,596 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0258 val=0.0303
+2026-10-26 00:06:46,029 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0259 val=0.0309
+2026-10-26 00:06:46,472 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0254 val=0.0304
+2026-10-26 00:06:46,909 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0252 val=0.0303
+2026-10-26 00:06:47,353 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0252 val=0.0303
+2026-10-26 00:06:47,780 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0253 val=0.0310
+2026-10-26 00:06:48,214 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0250 val=0.0314
+2026-10-26 00:06:48,684 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0253 val=0.0301
+2026-10-26 00:06:49,112 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0248 val=0.0305
+2026-10-26 00:06:49,561 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0252 val=0.0307
+2026-10-26 00:06:49,996 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0254 val=0.0304
+2026-10-26 00:06:50,422 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0253 val=0.0309
+2026-10-26 00:06:50,861 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0246 val=0.0313
+2026-10-26 00:06:51,311 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0259 val=0.0311
+2026-10-26 00:06:51,742 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0254 val=0.0302
+2026-10-26 00:06:52,162 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0251 val=0.0302
+2026-10-26 00:06:52,609 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0245 val=0.0304
+2026-10-26 00:06:53,033 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0250 val=0.0306
+2026-10-26 00:06:53,465 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0247 val=0.0311
+2026-10-26 00:06:53,887 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0247 val=0.0309
+2026-10-26 00:06:54,317 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0244 val=0.0306
+2026-10-26 00:06:54,748 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0242 val=0.0304
+2026-10-26 00:06:55,171 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0244 val=0.0304
+2026-10-26 00:06:55,597 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0243 val=0.0301
+2026-10-26 00:06:56,040 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0244 val=0.0299
+2026-10-26 00:06:56,472 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0243 val=0.0307
+2026-10-26 00:06:56,890 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0248 val=0.0302
+2026-10-26 00:06:57,324 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0243 val=0.0305
+2026-10-26 00:06:57,748 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0243 val=0.0307
+2026-10-26 00:06:58,194 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0242 val=0.0307
+2026-10-26 00:06:58,685 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0240 val=0.0303
+2026-10-26 00:06:59,131 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0241 val=0.0307
+2026-10-26 00:06:59,577 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0247 val=0.0305
+2026-10-26 00:06:59,992 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0241 val=0.0304
+2026-10-26 00:07:00,449 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0236 val=0.0300
+2026-10-26 00:07:00,866 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0239 val=0.0301
+2026-10-26 00:07:01,310 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0234 val=0.0301
+2026-10-26 00:07:01,623 INFO mmasd:     epoch 1/100 train_loss=1.5234 val_loss=0.9691 (0.3s)
+2026-10-26 00:07:02,073 INFO mmasd:     epoch 2/100 train_loss=0.7453 val_loss=0.6346 (0.4s)
+2026-10-26 00:07:02,511 INFO mmasd:     epoch 3/100 train_loss=0.4815 val_loss=0.5894 (0.4s)
+2026-10-26 00:07:02,949 INFO mmasd:     epoch 4/100 train_loss=0.3358 val_loss=0.5734 (0.4s)
+2026-10-26 00:07:03,379 INFO mmasd:     epoch 5/100 train_loss=0.2360 val_loss=0.5142 (0.4s)
+2026-10-26 00:07:03,795 INFO mmasd:     epoch 6/100 train_loss=0.1876 val_loss=0.5174 (0.4s)
+2026-10-26 00:07:04,082 INFO mmasd:     epoch 7/100 train_loss=0.1532 val_loss=0.6050 (0.3s)
+2026-10-26 00:07:04,387 INFO mmasd:     epoch 8/100 train_loss=0.1212 val_loss=0.5737 (0.3s)
+2026-10-26 00:07:04,693 INFO mmasd:     epoch 9/100 train_loss=0.0883 val_loss=0.6548 (0.3s)
+2026-10-26 00:07:04,964 INFO mmasd:     epoch 10/100 train_loss=0.0735 val_loss=0.6212 (0.3s)
+2026-10-26 00:07:05,267 INFO mmasd:     epoch 11/100 train_loss=0.0627 val_loss=0.5168 (0.3s)
+2026-10-26 00:07:05,545 INFO mmasd:     epoch 12/100 train_loss=0.0443 val_loss=0.5491 (0.3s)
+2026-10-26 00:07:05,837 INFO mmasd:     epoch 13/100 train_loss=0.0368 val_loss=0.5434 (0.3s)
+2026-10-26 00:07:06,122 INFO mmasd:     epoch 14/100 train_loss=0.0634 val_loss=0.5385 (0.3s)
+2026-10-26 00:07:06,413 INFO mmasd:     epoch 15/100 train_loss=0.0447 val_loss=0.5578 (0.3s)
+2026-10-26 00:07:06,413 INFO mmasd:     early stop at epoch 15
+2026-10-26 00:07:07,038 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2705 val=0.1665
+2026-10-26 00:07:07,482 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1218 val=0.1065
+2026-10-26 00:07:07,927 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0820 val=0.0803
+2026-10-26 00:07:08,365 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0649 val=0.0668
+2026-10-26 00:07:08,802 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0548 val=0.0558
+2026-10-26 00:07:09,234 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0478 val=0.0488
+2026-10-26 00:07:09,704 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0435 val=0.0456
+2026-10-26 00:07:10,147 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0422 val=0.0441
+2026-10-26 00:07:10,593 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0399 val=0.0428
+2026-10-26 00:07:11,027 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0395 val=0.0416
+2026-10-26 00:07:11,463 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0378 val=0.0402
+2026-10-26 00:07:11,893 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0366 val=0.0392
+2026-10-26 00:07:12,338 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0362 val=0.0369
+2026-10-26 00:07:12,767 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0348 val=0.0360
+2026-10-26 00:07:13,202 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0339 val=0.0358
+2026-10-26 00:07:13,642 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0335 val=0.0337
+2026-10-26 00:07:14,068 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0327 val=0.0329
+2026-10-26 00:07:14,527 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0318 val=0.0318
+2026-10-26 00:07:14,947 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0316 val=0.0310
+2026-10-26 00:07:15,406 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0308 val=0.0305
+2026-10-26 00:07:15,842 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0306 val=0.0299
+2026-10-26 00:07:16,291 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0298 val=0.0298
+2026-10-26 00:07:16,735 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0295 val=0.0285
+2026-10-26 00:07:17,189 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0293 val=0.0281
+2026-10-26 00:07:17,643 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0289 val=0.0281
+2026-10-26 00:07:18,099 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0291 val=0.0275
+2026-10-26 00:07:18,525 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0284 val=0.0276
+2026-10-26 00:07:18,955 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0283 val=0.0277
+2026-10-26 00:07:19,380 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0285 val=0.0272
+2026-10-26 00:07:19,816 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0284 val=0.0269
+2026-10-26 00:07:20,238 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0280 val=0.0272
+2026-10-26 00:07:20,675 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0275 val=0.0265
+2026-10-26 00:07:21,115 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0275 val=0.0264
+2026-10-26 00:07:21,554 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0275 val=0.0268
+2026-10-26 00:07:21,987 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0274 val=0.0267
+2026-10-26 00:07:22,432 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0269 val=0.0262
+2026-10-26 00:07:22,869 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0268 val=0.0269
+2026-10-26 00:07:23,307 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0273 val=0.0263
+2026-10-26 00:07:23,728 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0272 val=0.0262
+2026-10-26 00:07:24,168 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0266 val=0.0258
+2026-10-26 00:07:24,605 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0263 val=0.0254
+2026-10-26 00:07:25,019 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0264 val=0.0258
+2026-10-26 00:07:25,466 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0264 val=0.0255
+2026-10-26 00:07:25,904 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0263 val=0.0248
+2026-10-26 00:07:26,342 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0264 val=0.0252
+2026-10-26 00:07:26,782 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0263 val=0.0255
+2026-10-26 00:07:27,218 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0258 val=0.0248
+2026-10-26 00:07:27,640 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0256 val=0.0250
+2026-10-26 00:07:28,078 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0258 val=0.0248
+2026-10-26 00:07:28,525 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0256 val=0.0247
+2026-10-26 00:07:28,973 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0254 val=0.0249
+2026-10-26 00:07:29,410 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0252 val=0.0258
+2026-10-26 00:07:29,850 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0258 val=0.0251
+2026-10-26 00:07:30,271 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0254 val=0.0254
+2026-10-26 00:07:30,711 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0254 val=0.0258
+2026-10-26 00:07:31,146 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0258 val=0.0246
+2026-10-26 00:07:31,602 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0254 val=0.0242
+2026-10-26 00:07:32,042 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0250 val=0.0249
+2026-10-26 00:07:32,481 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0255 val=0.0244
+2026-10-26 00:07:32,919 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0251 val=0.0246
+2026-10-26 00:07:33,361 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0248 val=0.0244
+2026-10-26 00:07:33,794 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0250 val=0.0250
+2026-10-26 00:07:34,221 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0249 val=0.0248
+2026-10-26 00:07:34,653 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0249 val=0.0253
+2026-10-26 00:07:35,092 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0245 val=0.0245
+2026-10-26 00:07:35,522 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0244 val=0.0242
+2026-10-26 00:07:35,958 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0248 val=0.0247
+2026-10-26 00:07:36,381 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0245 val=0.0243
+2026-10-26 00:07:36,807 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0249 val=0.0245
+2026-10-26 00:07:37,236 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0242 val=0.0248
+2026-10-26 00:07:37,666 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0241 val=0.0249
+2026-10-26 00:07:38,114 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0245 val=0.0245
+2026-10-26 00:07:38,558 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0247 val=0.0255
+2026-10-26 00:07:39,001 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0242 val=0.0242
+2026-10-26 00:07:39,481 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0241 val=0.0250
+2026-10-26 00:07:39,975 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0243 val=0.0253
+2026-10-26 00:07:40,452 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0240 val=0.0243
+2026-10-26 00:07:40,993 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0244 val=0.0244
+2026-10-26 00:07:41,416 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0237 val=0.0245
+2026-10-26 00:07:41,853 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0239 val=0.0240
+2026-10-26 00:07:42,290 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0237 val=0.0241
+2026-10-26 00:07:42,710 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0237 val=0.0248
+2026-10-26 00:07:43,145 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0239 val=0.0241
+2026-10-26 00:07:43,589 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0237 val=0.0238
+2026-10-26 00:07:44,020 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0233 val=0.0249
+2026-10-26 00:07:44,436 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0235 val=0.0248
+2026-10-26 00:07:44,882 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0233 val=0.0245
+2026-10-26 00:07:45,318 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0233 val=0.0242
+2026-10-26 00:07:45,756 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0237 val=0.0241
+2026-10-26 00:07:46,193 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0232 val=0.0246
+2026-10-26 00:07:46,621 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0230 val=0.0243
+2026-10-26 00:07:47,076 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0228 val=0.0237
+2026-10-26 00:07:47,500 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0237 val=0.0240
+2026-10-26 00:07:47,937 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0240 val=0.0250
+2026-10-26 00:07:48,382 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0238 val=0.0242
+2026-10-26 00:07:48,824 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0231 val=0.0238
+2026-10-26 00:07:49,250 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0231 val=0.0239
+2026-10-26 00:07:49,685 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0231 val=0.0241
+2026-10-26 00:07:50,124 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0230 val=0.0244
+2026-10-26 00:07:50,554 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0230 val=0.0243
+2026-10-26 00:07:50,880 INFO mmasd:     epoch 1/100 train_loss=1.5636 val_loss=1.2059 (0.3s)
+2026-10-26 00:07:51,285 INFO mmasd:     epoch 2/100 train_loss=0.7234 val_loss=0.9786 (0.4s)
+2026-10-26 00:07:51,706 INFO mmasd:     epoch 3/100 train_loss=0.4658 val_loss=0.8359 (0.4s)
+2026-10-26 00:07:52,109 INFO mmasd:     epoch 4/100 train_loss=0.3568 val_loss=0.7495 (0.4s)
+2026-10-26 00:07:52,505 INFO mmasd:     epoch 5/100 train_loss=0.2267 val_loss=0.8335 (0.4s)
+2026-10-26 00:07:52,796 INFO mmasd:     epoch 6/100 train_loss=0.1644 val_loss=0.7258 (0.3s)
+2026-10-26 00:07:53,220 INFO mmasd:     epoch 7/100 train_loss=0.1384 val_loss=0.7347 (0.4s)
+2026-10-26 00:07:53,511 INFO mmasd:     epoch 8/100 train_loss=0.1377 val_loss=0.8442 (0.3s)
+2026-10-26 00:07:53,810 INFO mmasd:     epoch 9/100 train_loss=0.0960 val_loss=0.7832 (0.3s)
+2026-10-26 00:07:54,111 INFO mmasd:     epoch 10/100 train_loss=0.0525 val_loss=0.8897 (0.3s)
+2026-10-26 00:07:54,400 INFO mmasd:     epoch 11/100 train_loss=0.0603 val_loss=0.7015 (0.3s)
+2026-10-26 00:07:54,803 INFO mmasd:     epoch 12/100 train_loss=0.0465 val_loss=0.6640 (0.4s)
+2026-10-26 00:07:55,198 INFO mmasd:     epoch 13/100 train_loss=0.0782 val_loss=0.8757 (0.4s)
+2026-10-26 00:07:55,511 INFO mmasd:     epoch 14/100 train_loss=0.0818 val_loss=0.8048 (0.3s)
+2026-10-26 00:07:55,840 INFO mmasd:     epoch 15/100 train_loss=0.0622 val_loss=0.6002 (0.3s)
+2026-10-26 00:07:56,242 INFO mmasd:     epoch 16/100 train_loss=0.0744 val_loss=0.7543 (0.4s)
+2026-10-26 00:07:56,559 INFO mmasd:     epoch 17/100 train_loss=0.0649 val_loss=0.8540 (0.3s)
+2026-10-26 00:07:56,872 INFO mmasd:     epoch 18/100 train_loss=0.0469 val_loss=0.7906 (0.3s)
+2026-10-26 00:07:57,180 INFO mmasd:     epoch 19/100 train_loss=0.0266 val_loss=0.7003 (0.3s)
+2026-10-26 00:07:57,495 INFO mmasd:     epoch 20/100 train_loss=0.0214 val_loss=0.6814 (0.3s)
+2026-10-26 00:07:57,798 INFO mmasd:     epoch 21/100 train_loss=0.0211 val_loss=0.6904 (0.3s)
+2026-10-26 00:07:58,102 INFO mmasd:     epoch 22/100 train_loss=0.0211 val_loss=0.7070 (0.3s)
+2026-10-26 00:07:58,417 INFO mmasd:     epoch 23/100 train_loss=0.0183 val_loss=0.6300 (0.3s)
+2026-10-26 00:07:58,726 INFO mmasd:     epoch 24/100 train_loss=0.0233 val_loss=0.7267 (0.3s)
+2026-10-26 00:07:59,026 INFO mmasd:     epoch 25/100 train_loss=0.0214 val_loss=0.7374 (0.3s)
+2026-10-26 00:07:59,026 INFO mmasd:     early stop at epoch 25
+2026-10-26 00:07:59,596 INFO mmasd:     [MAE] epoch 1/100 recon train=0.2766 val=0.1175
+2026-10-26 00:08:00,039 INFO mmasd:     [MAE] epoch 2/100 recon train=0.1269 val=0.0683
+2026-10-26 00:08:00,483 INFO mmasd:     [MAE] epoch 3/100 recon train=0.0841 val=0.0484
+2026-10-26 00:08:00,983 INFO mmasd:     [MAE] epoch 4/100 recon train=0.0655 val=0.0411
+2026-10-26 00:08:01,413 INFO mmasd:     [MAE] epoch 5/100 recon train=0.0572 val=0.0355
+2026-10-26 00:08:01,860 INFO mmasd:     [MAE] epoch 6/100 recon train=0.0517 val=0.0338
+2026-10-26 00:08:02,337 INFO mmasd:     [MAE] epoch 7/100 recon train=0.0492 val=0.0319
+2026-10-26 00:08:02,783 INFO mmasd:     [MAE] epoch 8/100 recon train=0.0467 val=0.0312
+2026-10-26 00:08:03,233 INFO mmasd:     [MAE] epoch 9/100 recon train=0.0453 val=0.0310
+2026-10-26 00:08:03,704 INFO mmasd:     [MAE] epoch 10/100 recon train=0.0440 val=0.0298
+2026-10-26 00:08:04,149 INFO mmasd:     [MAE] epoch 11/100 recon train=0.0429 val=0.0286
+2026-10-26 00:08:04,586 INFO mmasd:     [MAE] epoch 12/100 recon train=0.0418 val=0.0279
+2026-10-26 00:08:05,032 INFO mmasd:     [MAE] epoch 13/100 recon train=0.0402 val=0.0271
+2026-10-26 00:08:05,477 INFO mmasd:     [MAE] epoch 14/100 recon train=0.0394 val=0.0272
+2026-10-26 00:08:05,961 INFO mmasd:     [MAE] epoch 15/100 recon train=0.0384 val=0.0264
+2026-10-26 00:08:06,398 INFO mmasd:     [MAE] epoch 16/100 recon train=0.0375 val=0.0260
+2026-10-26 00:08:06,878 INFO mmasd:     [MAE] epoch 17/100 recon train=0.0368 val=0.0250
+2026-10-26 00:08:07,317 INFO mmasd:     [MAE] epoch 18/100 recon train=0.0361 val=0.0254
+2026-10-26 00:08:07,740 INFO mmasd:     [MAE] epoch 19/100 recon train=0.0360 val=0.0254
+2026-10-26 00:08:08,185 INFO mmasd:     [MAE] epoch 20/100 recon train=0.0356 val=0.0252
+2026-10-26 00:08:08,636 INFO mmasd:     [MAE] epoch 21/100 recon train=0.0348 val=0.0246
+2026-10-26 00:08:09,101 INFO mmasd:     [MAE] epoch 22/100 recon train=0.0344 val=0.0241
+2026-10-26 00:08:09,587 INFO mmasd:     [MAE] epoch 23/100 recon train=0.0338 val=0.0242
+2026-10-26 00:08:10,044 INFO mmasd:     [MAE] epoch 24/100 recon train=0.0336 val=0.0236
+2026-10-26 00:08:10,481 INFO mmasd:     [MAE] epoch 25/100 recon train=0.0341 val=0.0236
+2026-10-26 00:08:10,950 INFO mmasd:     [MAE] epoch 26/100 recon train=0.0333 val=0.0239
+2026-10-26 00:08:11,419 INFO mmasd:     [MAE] epoch 27/100 recon train=0.0336 val=0.0232
+2026-10-26 00:08:11,870 INFO mmasd:     [MAE] epoch 28/100 recon train=0.0331 val=0.0234
+2026-10-26 00:08:12,335 INFO mmasd:     [MAE] epoch 29/100 recon train=0.0326 val=0.0233
+2026-10-26 00:08:12,789 INFO mmasd:     [MAE] epoch 30/100 recon train=0.0324 val=0.0233
+2026-10-26 00:08:13,240 INFO mmasd:     [MAE] epoch 31/100 recon train=0.0325 val=0.0235
+2026-10-26 00:08:13,719 INFO mmasd:     [MAE] epoch 32/100 recon train=0.0323 val=0.0232
+2026-10-26 00:08:14,175 INFO mmasd:     [MAE] epoch 33/100 recon train=0.0322 val=0.0228
+2026-10-26 00:08:14,627 INFO mmasd:     [MAE] epoch 34/100 recon train=0.0322 val=0.0228
+2026-10-26 00:08:15,087 INFO mmasd:     [MAE] epoch 35/100 recon train=0.0320 val=0.0232
+2026-10-26 00:08:15,552 INFO mmasd:     [MAE] epoch 36/100 recon train=0.0318 val=0.0229
+2026-10-26 00:08:16,071 INFO mmasd:     [MAE] epoch 37/100 recon train=0.0314 val=0.0232
+2026-10-26 00:08:16,571 INFO mmasd:     [MAE] epoch 38/100 recon train=0.0318 val=0.0225
+2026-10-26 00:08:17,062 INFO mmasd:     [MAE] epoch 39/100 recon train=0.0318 val=0.0233
+2026-10-26 00:08:17,529 INFO mmasd:     [MAE] epoch 40/100 recon train=0.0312 val=0.0229
+2026-10-26 00:08:17,975 INFO mmasd:     [MAE] epoch 41/100 recon train=0.0310 val=0.0229
+2026-10-26 00:08:18,420 INFO mmasd:     [MAE] epoch 42/100 recon train=0.0303 val=0.0219
+2026-10-26 00:08:18,952 INFO mmasd:     [MAE] epoch 43/100 recon train=0.0306 val=0.0220
+2026-10-26 00:08:19,447 INFO mmasd:     [MAE] epoch 44/100 recon train=0.0305 val=0.0235
+2026-10-26 00:08:19,928 INFO mmasd:     [MAE] epoch 45/100 recon train=0.0305 val=0.0227
+2026-10-26 00:08:20,397 INFO mmasd:     [MAE] epoch 46/100 recon train=0.0303 val=0.0225
+2026-10-26 00:08:20,842 INFO mmasd:     [MAE] epoch 47/100 recon train=0.0306 val=0.0234
+2026-10-26 00:08:21,292 INFO mmasd:     [MAE] epoch 48/100 recon train=0.0303 val=0.0229
+2026-10-26 00:08:21,745 INFO mmasd:     [MAE] epoch 49/100 recon train=0.0299 val=0.0223
+2026-10-26 00:08:22,195 INFO mmasd:     [MAE] epoch 50/100 recon train=0.0301 val=0.0222
+2026-10-26 00:08:22,656 INFO mmasd:     [MAE] epoch 51/100 recon train=0.0299 val=0.0223
+2026-10-26 00:08:23,105 INFO mmasd:     [MAE] epoch 52/100 recon train=0.0300 val=0.0225
+2026-10-26 00:08:23,542 INFO mmasd:     [MAE] epoch 53/100 recon train=0.0300 val=0.0228
+2026-10-26 00:08:24,014 INFO mmasd:     [MAE] epoch 54/100 recon train=0.0296 val=0.0224
+2026-10-26 00:08:24,460 INFO mmasd:     [MAE] epoch 55/100 recon train=0.0298 val=0.0222
+2026-10-26 00:08:24,886 INFO mmasd:     [MAE] epoch 56/100 recon train=0.0295 val=0.0219
+2026-10-26 00:08:25,329 INFO mmasd:     [MAE] epoch 57/100 recon train=0.0293 val=0.0226
+2026-10-26 00:08:25,744 INFO mmasd:     [MAE] epoch 58/100 recon train=0.0301 val=0.0225
+2026-10-26 00:08:26,184 INFO mmasd:     [MAE] epoch 59/100 recon train=0.0299 val=0.0226
+2026-10-26 00:08:26,618 INFO mmasd:     [MAE] epoch 60/100 recon train=0.0293 val=0.0218
+2026-10-26 00:08:27,042 INFO mmasd:     [MAE] epoch 61/100 recon train=0.0292 val=0.0226
+2026-10-26 00:08:27,493 INFO mmasd:     [MAE] epoch 62/100 recon train=0.0293 val=0.0227
+2026-10-26 00:08:27,919 INFO mmasd:     [MAE] epoch 63/100 recon train=0.0294 val=0.0225
+2026-10-26 00:08:28,352 INFO mmasd:     [MAE] epoch 64/100 recon train=0.0291 val=0.0223
+2026-10-26 00:08:28,791 INFO mmasd:     [MAE] epoch 65/100 recon train=0.0290 val=0.0224
+2026-10-26 00:08:29,231 INFO mmasd:     [MAE] epoch 66/100 recon train=0.0287 val=0.0224
+2026-10-26 00:08:29,666 INFO mmasd:     [MAE] epoch 67/100 recon train=0.0290 val=0.0222
+2026-10-26 00:08:30,132 INFO mmasd:     [MAE] epoch 68/100 recon train=0.0287 val=0.0218
+2026-10-26 00:08:30,562 INFO mmasd:     [MAE] epoch 69/100 recon train=0.0285 val=0.0220
+2026-10-26 00:08:31,003 INFO mmasd:     [MAE] epoch 70/100 recon train=0.0287 val=0.0224
+2026-10-26 00:08:31,432 INFO mmasd:     [MAE] epoch 71/100 recon train=0.0286 val=0.0216
+2026-10-26 00:08:31,904 INFO mmasd:     [MAE] epoch 72/100 recon train=0.0284 val=0.0217
+2026-10-26 00:08:32,341 INFO mmasd:     [MAE] epoch 73/100 recon train=0.0280 val=0.0216
+2026-10-26 00:08:32,771 INFO mmasd:     [MAE] epoch 74/100 recon train=0.0282 val=0.0220
+2026-10-26 00:08:33,204 INFO mmasd:     [MAE] epoch 75/100 recon train=0.0283 val=0.0228
+2026-10-26 00:08:33,631 INFO mmasd:     [MAE] epoch 76/100 recon train=0.0282 val=0.0219
+2026-10-26 00:08:34,078 INFO mmasd:     [MAE] epoch 77/100 recon train=0.0286 val=0.0228
+2026-10-26 00:08:34,515 INFO mmasd:     [MAE] epoch 78/100 recon train=0.0285 val=0.0221
+2026-10-26 00:08:34,946 INFO mmasd:     [MAE] epoch 79/100 recon train=0.0280 val=0.0220
+2026-10-26 00:08:35,381 INFO mmasd:     [MAE] epoch 80/100 recon train=0.0278 val=0.0224
+2026-10-26 00:08:35,818 INFO mmasd:     [MAE] epoch 81/100 recon train=0.0281 val=0.0222
+2026-10-26 00:08:36,244 INFO mmasd:     [MAE] epoch 82/100 recon train=0.0278 val=0.0223
+2026-10-26 00:08:36,672 INFO mmasd:     [MAE] epoch 83/100 recon train=0.0280 val=0.0219
+2026-10-26 00:08:37,089 INFO mmasd:     [MAE] epoch 84/100 recon train=0.0277 val=0.0223
+2026-10-26 00:08:37,531 INFO mmasd:     [MAE] epoch 85/100 recon train=0.0278 val=0.0222
+2026-10-26 00:08:37,964 INFO mmasd:     [MAE] epoch 86/100 recon train=0.0277 val=0.0230
+2026-10-26 00:08:38,410 INFO mmasd:     [MAE] epoch 87/100 recon train=0.0276 val=0.0224
+2026-10-26 00:08:38,833 INFO mmasd:     [MAE] epoch 88/100 recon train=0.0275 val=0.0228
+2026-10-26 00:08:39,284 INFO mmasd:     [MAE] epoch 89/100 recon train=0.0278 val=0.0225
+2026-10-26 00:08:39,693 INFO mmasd:     [MAE] epoch 90/100 recon train=0.0277 val=0.0226
+2026-10-26 00:08:40,125 INFO mmasd:     [MAE] epoch 91/100 recon train=0.0274 val=0.0222
+2026-10-26 00:08:40,549 INFO mmasd:     [MAE] epoch 92/100 recon train=0.0270 val=0.0223
+2026-10-26 00:08:40,978 INFO mmasd:     [MAE] epoch 93/100 recon train=0.0271 val=0.0221
+2026-10-26 00:08:41,410 INFO mmasd:     [MAE] epoch 94/100 recon train=0.0272 val=0.0225
+2026-10-26 00:08:41,846 INFO mmasd:     [MAE] epoch 95/100 recon train=0.0271 val=0.0227
+2026-10-26 00:08:42,286 INFO mmasd:     [MAE] epoch 96/100 recon train=0.0271 val=0.0223
+2026-10-26 00:08:42,731 INFO mmasd:     [MAE] epoch 97/100 recon train=0.0270 val=0.0220
+2026-10-26 00:08:43,179 INFO mmasd:     [MAE] epoch 98/100 recon train=0.0269 val=0.0221
+2026-10-26 00:08:43,608 INFO mmasd:     [MAE] epoch 99/100 recon train=0.0270 val=0.0225
+2026-10-26 00:08:44,033 INFO mmasd:     [MAE] epoch 100/100 recon train=0.0270 val=0.0221
+2026-10-26 00:08:44,360 INFO mmasd:     epoch 1/100 train_loss=1.5424 val_loss=1.6049 (0.3s)
+2026-10-26 00:08:44,734 INFO mmasd:     epoch 2/100 train_loss=0.6873 val_loss=1.4471 (0.4s)
+2026-10-26 00:08:45,137 INFO mmasd:     epoch 3/100 train_loss=0.4015 val_loss=1.5331 (0.4s)
+2026-10-26 00:08:45,432 INFO mmasd:     epoch 4/100 train_loss=0.2851 val_loss=1.2616 (0.3s)
+2026-10-26 00:08:45,826 INFO mmasd:     epoch 5/100 train_loss=0.2126 val_loss=1.5629 (0.4s)
+2026-10-26 00:08:46,115 INFO mmasd:     epoch 6/100 train_loss=0.1395 val_loss=1.5154 (0.3s)
+2026-10-26 00:08:46,436 INFO mmasd:     epoch 7/100 train_loss=0.1167 val_loss=1.7655 (0.3s)
+2026-10-26 00:08:46,734 INFO mmasd:     epoch 8/100 train_loss=0.1098 val_loss=1.7132 (0.3s)
+2026-10-26 00:08:47,018 INFO mmasd:     epoch 9/100 train_loss=0.0849 val_loss=1.7813 (0.3s)
+2026-10-26 00:08:47,312 INFO mmasd:     epoch 10/100 train_loss=0.0648 val_loss=1.7490 (0.3s)
+2026-10-26 00:08:47,609 INFO mmasd:     epoch 11/100 train_loss=0.0498 val_loss=1.6777 (0.3s)
+2026-10-26 00:08:47,914 INFO mmasd:     epoch 12/100 train_loss=0.0359 val_loss=1.8426 (0.3s)
+2026-10-26 00:08:48,206 INFO mmasd:     epoch 13/100 train_loss=0.0533 val_loss=1.5958 (0.3s)
+2026-10-26 00:08:48,504 INFO mmasd:     epoch 14/100 train_loss=0.0399 val_loss=1.8852 (0.3s)
+2026-10-26 00:08:48,511 INFO mmasd:     early stop at epoch 14
+2026-10-26 00:08:50,453 INFO mmasd: ==> mae__3d_romp: acc=0.775 bal_acc=0.782 macroF1=0.775
+2026-10-26 00:08:51,083 INFO mmasd: 
+                  target             model  n_participants       mae       rmse        r2  spearman_rho
+0  ados_comparison_score  ridge_kinematics              20  1.296092   1.407386 -0.125417     -0.922979
+1  ados_comparison_score     mean_baseline              20  1.284211   1.396474 -0.108033     -1.000000
+2     ados_overall_total  ridge_kinematics              20  9.866923  12.427924 -0.483844     -0.490570
+3     ados_overall_total     mean_baseline              20  7.989474  10.739422 -0.108033     -1.000000
+2026-10-26 00:08:51,180 INFO mmasd: 
+                       model  pooled_accuracy  pooled_balanced_accuracy  pooled_macro_f1  macro_f1_std
+0        ctrgcn__2d_openpose         0.701536                  0.704035         0.693658      0.020791
+1  poseformerv2__2d_openpose         0.656913                  0.655382         0.646412      0.021869
+2           mae__2d_openpose         0.691295                  0.691567         0.684929      0.034664
+3            ctrgcn__3d_romp         0.692758                  0.695530         0.687548      0.100503
+4      poseformerv2__3d_romp         0.735187                  0.753015         0.744542      0.049016
+5               mae__3d_romp         0.774689                  0.781862         0.774519      0.067615

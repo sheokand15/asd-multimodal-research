@@ -1,0 +1,19 @@
+{
+  "n_paired_trials": 2709,
+  "participants": 33,
+  "asd_participants": 14,
+  "trials_per_participant": {
+    "count": 33.0,
+    "mean": 82.0909090909091,
+    "std": 50.75022391352306,
+    "min": 1.0,
+    "25%": 53.0,
+    "50%": 85.0,
+    "75%": 113.0,
+    "max": 186.0
+  },
+  "by_task": {
+    "dance": 1815,
+    "walk": 894
+  }
+}

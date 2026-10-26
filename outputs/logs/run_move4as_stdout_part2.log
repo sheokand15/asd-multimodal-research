@@ -1,0 +1,129 @@
+[23:10:04] START move4as_part2
+2026-10-25 23:10:07,517 INFO move4as: participants=34 ASD=14 folds:
+      count  sum
+fold            
+0         7    3
+1         7    3
+2         7    3
+3         7    3
+4         6    2
+2026-10-25 23:10:07,603 INFO move4as: paired trials=2709 participants=33 (ASD 14)
+2026-10-25 23:10:08,206 INFO move4as: --- motion_ctrgcn
+2026-10-25 23:10:21,565 INFO move4as:     epoch 1/3 train_loss=2.1066 val_loss=0.2253 (10.3s)
+2026-10-25 23:10:28,749 INFO move4as:     epoch 2/3 train_loss=1.0902 val_loss=0.1101 (7.1s)
+2026-10-25 23:10:35,986 INFO move4as:     epoch 3/3 train_loss=0.8983 val_loss=0.1197 (7.1s)
+2026-10-25 23:10:36,618 INFO move4as:   [motion_ctrgcn] fold 0: n_test_participants=7 threshold=0.500
+2026-10-25 23:10:44,002 INFO move4as:     epoch 1/3 train_loss=1.8432 val_loss=0.2771 (7.2s)
+2026-10-25 23:10:51,463 INFO move4as:     epoch 2/3 train_loss=0.9176 val_loss=0.3845 (7.4s)
+2026-10-25 23:10:58,994 INFO move4as:     epoch 3/3 train_loss=0.7961 val_loss=0.2551 (7.4s)
+2026-10-25 23:10:59,504 INFO move4as:   [motion_ctrgcn] fold 1: n_test_participants=6 threshold=0.500
+2026-10-25 23:11:07,544 INFO move4as:     epoch 1/3 train_loss=2.1190 val_loss=0.3475 (7.9s)
+2026-10-25 23:11:15,502 INFO move4as:     epoch 2/3 train_loss=1.3407 val_loss=0.2267 (7.8s)
+2026-10-25 23:11:23,626 INFO move4as:     epoch 3/3 train_loss=1.2435 val_loss=0.2585 (8.0s)
+2026-10-25 23:11:24,096 INFO move4as:   [motion_ctrgcn] fold 2: n_test_participants=7 threshold=0.500
+2026-10-25 23:11:30,934 INFO move4as:     epoch 1/3 train_loss=1.5516 val_loss=0.9261 (6.7s)
+2026-10-25 23:11:37,781 INFO move4as:     epoch 2/3 train_loss=1.1790 val_loss=0.7809 (6.7s)
+2026-10-25 23:11:44,644 INFO move4as:     epoch 3/3 train_loss=1.0396 val_loss=0.8589 (6.8s)
+2026-10-25 23:11:45,251 INFO move4as:   [motion_ctrgcn] fold 3: n_test_participants=7 threshold=0.404
+2026-10-25 23:11:53,383 INFO move4as:     epoch 1/3 train_loss=1.1944 val_loss=0.2035 (8.0s)
+2026-10-25 23:12:01,419 INFO move4as:     epoch 2/3 train_loss=0.9093 val_loss=0.1903 (7.9s)
+2026-10-25 23:12:09,518 INFO move4as:     epoch 3/3 train_loss=0.7211 val_loss=0.1532 (8.0s)
+2026-10-25 23:12:09,977 INFO move4as:   [motion_ctrgcn] fold 4: n_test_participants=6 threshold=0.500
+2026-10-25 23:12:13,428 INFO move4as: ==> motion_ctrgcn: participant AUC=0.9924812030075189 BA=0.9379699248120301 MCC=0.8759398496240601
+2026-10-25 23:12:13,428 INFO move4as: --- eeg_cnn
+2026-10-25 23:12:14,340 INFO move4as:     epoch 1/3 train_loss=0.7454 val_loss=0.7645 (0.9s)
+2026-10-25 23:12:15,091 INFO move4as:     epoch 2/3 train_loss=0.7377 val_loss=0.7754 (0.7s)
+2026-10-25 23:12:15,772 INFO move4as:     epoch 3/3 train_loss=0.7247 val_loss=0.7890 (0.7s)
+2026-10-25 23:12:15,812 INFO move4as:   [eeg_cnn] fold 0: n_test_participants=7 threshold=0.456
+2026-10-25 23:12:16,521 INFO move4as:     epoch 1/3 train_loss=0.7496 val_loss=0.7539 (0.7s)
+2026-10-25 23:12:17,216 INFO move4as:     epoch 2/3 train_loss=0.7454 val_loss=0.7472 (0.7s)
+2026-10-25 23:12:17,903 INFO move4as:     epoch 3/3 train_loss=0.7401 val_loss=0.7383 (0.7s)
+2026-10-25 23:12:17,943 INFO move4as:   [eeg_cnn] fold 1: n_test_participants=6 threshold=0.571
+2026-10-25 23:12:18,688 INFO move4as:     epoch 1/3 train_loss=0.7711 val_loss=0.7763 (0.7s)
+2026-10-25 23:12:19,400 INFO move4as:     epoch 2/3 train_loss=0.7644 val_loss=0.7712 (0.7s)
+2026-10-25 23:12:20,084 INFO move4as:     epoch 3/3 train_loss=0.7584 val_loss=0.7654 (0.7s)
+2026-10-25 23:12:20,114 INFO move4as:   [eeg_cnn] fold 2: n_test_participants=7 threshold=0.500
+2026-10-25 23:12:20,757 INFO move4as:     epoch 1/3 train_loss=0.8579 val_loss=0.8514 (0.6s)
+2026-10-25 23:12:21,351 INFO move4as:     epoch 2/3 train_loss=0.8522 val_loss=0.8508 (0.6s)
+2026-10-25 23:12:21,979 INFO move4as:     epoch 3/3 train_loss=0.8496 val_loss=0.8491 (0.6s)
+2026-10-25 23:12:22,018 INFO move4as:   [eeg_cnn] fold 3: n_test_participants=7 threshold=0.492
+2026-10-25 23:12:22,778 INFO move4as:     epoch 1/3 train_loss=0.7686 val_loss=0.7675 (0.7s)
+2026-10-25 23:12:23,468 INFO move4as:     epoch 2/3 train_loss=0.7650 val_loss=0.7627 (0.7s)
+2026-10-25 23:12:24,174 INFO move4as:     epoch 3/3 train_loss=0.7603 val_loss=0.7601 (0.7s)
+2026-10-25 23:12:24,202 INFO move4as:   [eeg_cnn] fold 4: n_test_participants=6 threshold=0.520
+2026-10-25 23:12:27,310 INFO move4as: ==> eeg_cnn: participant AUC=0.6090225563909775 BA=0.4943609022556391 MCC=-0.011587244366483038
+2026-10-25 23:12:27,310 INFO move4as: --- motion_mae
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:12:28,583 INFO move4as:     [MAE] epoch 1/3 recon train=0.1385 val=0.0761
+2026-10-25 23:12:29,750 INFO move4as:     [MAE] epoch 2/3 recon train=0.0615 val=0.0595
+2026-10-25 23:12:30,631 INFO move4as:     [MAE] epoch 3/3 recon train=0.0472 val=0.0414
+2026-10-25 23:12:32,966 INFO move4as:     epoch 1/3 train_loss=0.2688 val_loss=0.0574 (2.3s)
+2026-10-25 23:12:35,207 INFO move4as:     epoch 2/3 train_loss=0.0868 val_loss=0.1057 (2.2s)
+2026-10-25 23:12:37,443 INFO move4as:     epoch 3/3 train_loss=0.0496 val_loss=0.0542 (2.2s)
+2026-10-25 23:12:37,515 INFO move4as:   [motion_mae] fold 0: n_test_participants=7 threshold=0.978
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:12:38,614 INFO move4as:     [MAE] epoch 1/3 recon train=0.1360 val=0.0647
+2026-10-25 23:12:39,500 INFO move4as:     [MAE] epoch 2/3 recon train=0.0614 val=0.0536
+2026-10-25 23:12:40,403 INFO move4as:     [MAE] epoch 3/3 recon train=0.0464 val=0.0380
+2026-10-25 23:12:42,848 INFO move4as:     epoch 1/3 train_loss=0.2459 val_loss=0.3460 (2.4s)
+2026-10-25 23:12:45,230 INFO move4as:     epoch 2/3 train_loss=0.0639 val_loss=0.6269 (2.4s)
+2026-10-25 23:12:47,536 INFO move4as:     epoch 3/3 train_loss=0.0396 val_loss=0.7323 (2.3s)
+2026-10-25 23:12:47,608 INFO move4as:   [motion_mae] fold 1: n_test_participants=6 threshold=0.500
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:12:48,722 INFO move4as:     [MAE] epoch 1/3 recon train=0.1140 val=0.0671
+2026-10-25 23:12:49,684 INFO move4as:     [MAE] epoch 2/3 recon train=0.0503 val=0.0493
+2026-10-25 23:12:50,643 INFO move4as:     [MAE] epoch 3/3 recon train=0.0352 val=0.0314
+2026-10-25 23:12:53,194 INFO move4as:     epoch 1/3 train_loss=0.2668 val_loss=0.2757 (2.5s)
+2026-10-25 23:12:55,503 INFO move4as:     epoch 2/3 train_loss=0.0561 val_loss=0.4926 (2.3s)
+2026-10-25 23:12:57,943 INFO move4as:     epoch 3/3 train_loss=0.0351 val_loss=0.3498 (2.4s)
+2026-10-25 23:12:58,011 INFO move4as:   [motion_mae] fold 2: n_test_participants=7 threshold=0.500
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:12:58,971 INFO move4as:     [MAE] epoch 1/3 recon train=0.1261 val=0.0772
+2026-10-25 23:12:59,738 INFO move4as:     [MAE] epoch 2/3 recon train=0.0615 val=0.0551
+2026-10-25 23:13:00,519 INFO move4as:     [MAE] epoch 3/3 recon train=0.0425 val=0.0364
+2026-10-25 23:13:02,665 INFO move4as:     epoch 1/3 train_loss=0.3800 val_loss=0.2339 (2.1s)
+2026-10-25 23:13:04,675 INFO move4as:     epoch 2/3 train_loss=0.1376 val_loss=0.1246 (2.0s)
+2026-10-25 23:13:06,706 INFO move4as:     epoch 3/3 train_loss=0.0814 val_loss=0.2114 (2.0s)
+2026-10-25 23:13:06,779 INFO move4as:   [motion_mae] fold 3: n_test_participants=7 threshold=0.500
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:13:07,898 INFO move4as:     [MAE] epoch 1/3 recon train=0.1332 val=0.0723
+2026-10-25 23:13:08,809 INFO move4as:     [MAE] epoch 2/3 recon train=0.0611 val=0.0552
+2026-10-25 23:13:09,749 INFO move4as:     [MAE] epoch 3/3 recon train=0.0445 val=0.0373
+2026-10-25 23:13:12,330 INFO move4as:     epoch 1/3 train_loss=0.2582 val_loss=0.1963 (2.5s)
+2026-10-25 23:13:14,681 INFO move4as:     epoch 2/3 train_loss=0.0743 val_loss=0.0373 (2.3s)
+2026-10-25 23:13:17,095 INFO move4as:     epoch 3/3 train_loss=0.0309 val_loss=0.1583 (2.4s)
+2026-10-25 23:13:17,159 INFO move4as:   [motion_mae] fold 4: n_test_participants=6 threshold=0.500
+2026-10-25 23:13:20,360 INFO move4as: ==> motion_mae: participant AUC=0.9774436090225564 BA=0.9285714285714286 MCC=0.8806305718527109
+2026-10-25 23:13:23,353 INFO move4as: ==> late_fusion_deep: participant AUC=0.9924812030075189 BA=0.9379699248120301 MCC=0.8759398496240601
+2026-10-25 23:13:26,936 INFO move4as: ==> motion_feat_lr_all: participant AUC=0.9924812030075187 BA=0.9285714285714286 MCC=0.8806305718527109
+2026-10-25 23:13:30,986 INFO move4as: ==> eeg_feat_lr_all: participant AUC=0.6214285714285714 BA=0.6 MCC=0.20254787341673333
+2026-10-25 23:13:31,536 INFO move4as: 
+                  model  roc_auc_mean  roc_auc_std  pooled_roc_auc  balanced_accuracy_mean  mcc_mean
+0       early_fusion_lr      0.966667     0.074536        0.966165                0.858333  0.755884
+1               eeg_cnn      0.544444     0.335985        0.609023                0.491667 -0.024651
+2       eeg_feat_lr_all      0.666667     0.250000        0.621429                0.600000  0.224900
+3           eeg_feat_lr      0.627778     0.255797        0.601504                0.675000  0.372776
+4   intermediate_fusion      1.000000     0.000000        0.984962                0.933333  0.894281
+5      late_fusion_deep      1.000000     0.000000        0.992481                0.941667  0.891421
+6        late_fusion_lr      1.000000     0.000000        0.984962                0.891667  0.822550
+7         motion_ctrgcn      1.000000     0.000000        0.992481                0.941667  0.891421
+8    motion_feat_lr_all      1.000000     0.000000        0.992481                0.916667  0.872550
+9        motion_feat_lr      1.000000     0.000000        0.984962                0.858333  0.770772
+10           motion_mae      0.966667     0.074536        0.977444                0.933333  0.894281
+11  motion_poseformerv2      0.983333     0.037268        0.966165                0.916667  0.837481
+[23:13:32] EXIT 0

@@ -1,0 +1,43 @@
+flowchart TD
+    A["MMASD<br/>32 children, all ASD<br/>OpenPose 2D / ROMP 3D / ADOS-2"] --> D[Dataset audit<br/>CRC, structure, labels, QC]
+    B["Move4AS<br/>14 ASD + 20 control adults<br/>3D mocap + EEG"] --> D
+    C["Q-CHAT-10 toddlers (Kaggle)<br/>1,054 screens"] --> D
+
+    D --> E[Participant & label validation]
+
+    E --> F[MMASD skeleton branch<br/>person tracking, 2D/3D same subject]
+    E --> G[Move4AS motion branch<br/>21 rigid bodies, 4-s execution trials]
+    E --> H[Move4AS EEG branch<br/>14 common channels, 1-45 Hz]
+    E --> I[Questionnaire branch<br/>items vs no-items feature sets]
+
+    G <-.->|"trial-level alignment<br/>cue-sequence fingerprint (147/155 blocks)"| H
+
+    F --> J[CTR-GCN / PoseFormerV2 adapter / Skeleton MAE<br/>2D vs 3D]
+    G --> K[Motion encoders<br/>kinematic features + LR, CTR-GCN, PoseFormerV2, MAE]
+    H --> L[EEG encoders<br/>band-power + LR, EEGNet-lite CNN]
+    I --> M[LogReg / LightGBM / MLP]
+
+    K --> N[Early fusion<br/>feature concat + LR]
+    L --> N
+    K --> O[Intermediate fusion<br/>CTR-GCN + EEG CNN embeddings]
+    L --> O
+    K --> P[Late fusion<br/>weighted prob. average]
+    L --> P
+
+    N --> Q[ASD vs non-ASD<br/>Move4AS only]
+    O --> Q
+    P --> Q
+
+    J --> R["Activity recognition, MAE reconstruction,<br/>ADOS regression (n=20), movement summary"]
+    M --> S["Independent questionnaire results<br/>(screening-rule reproduction / demographics-only)"]
+
+    Q --> T[Participant-level 5-fold CV<br/>StratifiedGroupKFold, same folds for all models]
+    R --> T
+    S --> T
+    T --> U[Metrics, ROC/PR, confusion, calibration,<br/>sensitivity analyses, report]
+
+    X["Skeleton + questionnaire fusion<br/>3-modality fusion"]:::na
+    I -.->|"NOT POSSIBLE: no shared participants"| X
+    A -.->|"NO CONTROLS: no ASD-vs-non-ASD"| Q
+
+    classDef na fill:#fee2e2,stroke:#dc2626,color:#7f1d1d,stroke-dasharray: 5 5

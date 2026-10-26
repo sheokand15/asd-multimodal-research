@@ -1,0 +1,29 @@
+{
+ "archive": "E:\\ASD Project\\Dataset\\autism-screening-for-toddlers-data.zip",
+ "dest": "E:\\ASD Project\\Dataset\\Questionnaire",
+ "crc_failed_member": null,
+ "files": [
+  {
+   "member": "Autism_Screening_Data_Combined.csv",
+   "path": "E:\\ASD Project\\Dataset\\Questionnaire\\Autism_Screening_Data_Combined.csv",
+   "size": 214725,
+   "crc": "af4233d2",
+   "status": "extracted"
+  },
+  {
+   "member": "Toddler Autism dataset July 2018.csv",
+   "path": "E:\\ASD Project\\Dataset\\Questionnaire\\Toddler Autism dataset July 2018.csv",
+   "size": 70146,
+   "crc": "7c003263",
+   "status": "extracted"
+  },
+  {
+   "member": "Toddler data description.docx",
+   "path": "E:\\ASD Project\\Dataset\\Questionnaire\\Toddler data description.docx",
+   "size": 46775,
+   "crc": "42bd8a8d",
+   "status": "extracted"
+  }
+ ],
+ "status": "ok"
+}

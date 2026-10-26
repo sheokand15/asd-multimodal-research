@@ -1,0 +1,10 @@
+dataset_hint,path,kind,size_bytes,n_members,uncompressed_bytes,zip_open,n_files
+Move4AS (figshare bundle),E:\ASD Project\Dataset\28296518.zip,archive,5301146158,11.0,5301144180.0,ok,
+Questionnaire (Kaggle Q-CHAT-10 toddlers),E:\ASD Project\Dataset\autism-screening-for-toddlers-data.zip,archive,83665,3.0,331646.0,ok,
+MMASD (Google Drive part),E:\ASD Project\Dataset\drive-download-20261023T064244Z-1-002.zip,archive,1072029435,2.0,1071865313.0,ok,
+MMASD (Google Drive part),E:\ASD Project\Dataset\drive-download-20261023T064244Z-1-003.zip,archive,315520444,2.0,315507535.0,ok,
+MMASD (Google Drive part),E:\ASD Project\Dataset\drive-download-20261023T064244Z-1-004.zip,archive,357010174,2.0,356955291.0,ok,
+MMASD extracted,E:\ASD Project\Dataset\MMASD,extracted_dir,3918396013,,,,1187922.0
+Move4AS extracted,E:\ASD Project\Dataset\Move4AS,extracted_dir,10281778114,,,,697.0
+MMASD optical flow (not used: no skeleton/EEG/questionnaire),E:\ASD Project\Dataset\optical_flow-001.zip,archive,5866669177,481176.0,6465583448.0,ok,
+Questionnaire extracted,E:\ASD Project\Dataset\Questionnaire,extracted_dir,331646,,,,3.0

@@ -1,0 +1,88 @@
+{
+  "dataset": "Q-CHAT-10 toddler screening (Kaggle: autism-screening-for-toddlers)",
+  "files": [
+    "Autism_Screening_Data_Combined.csv",
+    "Toddler Autism dataset July 2018.csv",
+    "Toddler data description.docx"
+  ],
+  "primary_file": "Toddler Autism dataset July 2018.csv",
+  "n_rows": 1054,
+  "n_unique_case_no": 1054,
+  "participant_identifier": "Case_No (row index only; no link to MMASD/Move4AS participants)",
+  "target": {
+    "column": "Class/ASD Traits",
+    "positive": "Yes",
+    "counts": {
+      "1": 728,
+      "0": 326
+    },
+    "prevalence": 0.6907020872865275,
+    "type": "screening outcome (ASDTests app), not clinical diagnosis",
+    "rule": "Yes iff sum(A1..A10) > 3",
+    "rule_agreement": 1.0,
+    "score_column_equals_item_sum": true
+  },
+  "leakage": {
+    "target_defining_features": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "Qchat-10-Score"
+    ],
+    "decision": "report 'items' (rule reproduction) and 'no_items' (leakage-controlled) separately"
+  },
+  "missing_values": 0,
+  "exact_duplicate_rows_incl_id": 0,
+  "duplicate_rows_excluding_case_no": 79,
+  "age_months": {
+    "count": 1054.0,
+    "mean": 27.86717267552182,
+    "std": 7.9803536168829465,
+    "min": 12.0,
+    "25%": 23.0,
+    "50%": 30.0,
+    "75%": 36.0,
+    "max": 36.0
+  },
+  "sex": {
+    "m": 735,
+    "f": 319
+  },
+  "ethnicity": {
+    "White European": 334,
+    "asian": 299,
+    "middle eastern": 188,
+    "south asian": 60,
+    "black": 53,
+    "Hispanic": 40,
+    "Others": 35,
+    "Latino": 26,
+    "mixed": 8,
+    "Pacifica": 8,
+    "Native Indian": 3
+  },
+  "respondent": {
+    "family member": 1018,
+    "health care professional": 29,
+    "self": 4,
+    "others": 3
+  },
+  "combined_file_check": {
+    "file": "Autism_Screening_Data_Combined.csv",
+    "n_rows": 6075,
+    "exact_duplicates": 847,
+    "toddler_rows_age_le_3": 1054,
+    "toddler_rows_labelled_YES": 0,
+    "toddler_rows_with_score_gt_3": 728,
+    "decision": "EXCLUDED: toddler labels contradict the source scoring rule; mixes AQ-10 child/adolescent/adult screens (threshold >6) with Q-CHAT toddlers; unknown provenance."
+  },
+  "cohort_overlap": "None assumed. No identifiers shared with MMASD or Move4AS; different age groups (toddlers 12-36 months vs. MMASD children vs. Move4AS adults).",
+  "license": "Kaggle dataset page / original UCI-style release by F. Thabtah; check terms before redistribution."
+}

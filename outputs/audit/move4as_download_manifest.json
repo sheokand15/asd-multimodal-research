@@ -1,0 +1,95 @@
+{
+ "api": "https://api.figshare.com/v2/articles/28296518",
+ "license": "CC BY 4.0",
+ "doi": "10.6084/m9.figshare.28296518.v1",
+ "files": [
+  {
+   "name": "Preprocess_EEG_rawfiles.m",
+   "size": 10565,
+   "md5": "7af7d48a2663791d3237b5aa9cdb4cc7",
+   "url": "https://ndownloader.figshare.com/files/51982625",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_EEG_rawfiles.m"
+  },
+  {
+   "name": "channelslocation14to15channels.ced",
+   "size": 767,
+   "md5": "67d730a861ddd283d7cf220a0eee90d1",
+   "url": "https://ndownloader.figshare.com/files/51982631",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\channelslocation14to15channels.ced"
+  },
+  {
+   "name": "channelslocation16channels.ced",
+   "size": 868,
+   "md5": "81062c99bf0759f221ba513e1e266fa4",
+   "url": "https://ndownloader.figshare.com/files/51982634",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\channelslocation16channels.ced"
+  },
+  {
+   "name": "Participants.xlsx",
+   "size": 14574,
+   "md5": "8e2d190ae044cadd9ad66c06fae25dc0",
+   "url": "https://ndownloader.figshare.com/files/51982637",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\Participants.xlsx"
+  },
+  {
+   "name": "EEG_Participants_info.xlsx",
+   "size": 13268,
+   "md5": "152335c503be1694f7ee6f27d2e3841e",
+   "url": "https://ndownloader.figshare.com/files/51982640",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\EEG_Participants_info.xlsx"
+  },
+  {
+   "name": "Dataset.zip",
+   "size": 5299209205,
+   "md5": "096d662833acc83d31e64ff9dbabb54a",
+   "url": "https://ndownloader.figshare.com/files/51982814",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\28296518.zip::Dataset.zip"
+  },
+  {
+   "name": "README.txt",
+   "size": 3235,
+   "md5": "91bdfc3e48f2fc4a473949fe40bf2dfc",
+   "url": "https://ndownloader.figshare.com/files/54687653",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\README.txt"
+  },
+  {
+   "name": "Imitation_Tasks_videos.zip",
+   "size": 1859203,
+   "md5": "0fce941a97b4fc77723b1b7e2ca95b1e",
+   "url": "https://ndownloader.figshare.com/files/54687656",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\Imitation_Tasks_videos.zip"
+  },
+  {
+   "name": "Skeletal_info.mat",
+   "size": 1431,
+   "md5": "0251bef002425994618c300451093160",
+   "url": "https://ndownloader.figshare.com/files/54687659",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\Skeletal_info.mat"
+  },
+  {
+   "name": "Preprocess_3DMotion_rawfiles.zip",
+   "size": 11256,
+   "md5": "fc45f16559032e2ab7aeb57e44f4696d",
+   "url": "https://ndownloader.figshare.com/files/54687662",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles.zip"
+  },
+  {
+   "name": "3DMotion_Participants_info.xlsx",
+   "size": 19808,
+   "md5": "63faaf7d2cd4a5113d795b065cb63855",
+   "url": "https://ndownloader.figshare.com/files/54687665",
+   "local_status": "valid",
+   "local_source": "E:\\ASD Project\\Dataset\\Move4AS\\3DMotion_Participants_info.xlsx"
+  }
+ ]
+}

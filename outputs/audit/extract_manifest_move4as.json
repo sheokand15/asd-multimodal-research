@@ -1,0 +1,4895 @@
+{
+ "archive": "E:\\ASD Project\\Dataset\\28296518.zip",
+ "archive_size": 5301146158,
+ "dest": "E:\\ASD Project\\Dataset\\Move4AS",
+ "outer_crc_failed_member": null,
+ "outer_files": [
+  {
+   "member": "Preprocess_EEG_rawfiles.m",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_EEG_rawfiles.m",
+   "size": 10565,
+   "crc": "f19a8665",
+   "status": "extracted"
+  },
+  {
+   "member": "channelslocation14to15channels.ced",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\channelslocation14to15channels.ced",
+   "size": 767,
+   "crc": "2e8026ae",
+   "status": "extracted"
+  },
+  {
+   "member": "channelslocation16channels.ced",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\channelslocation16channels.ced",
+   "size": 868,
+   "crc": "4eaf2e59",
+   "status": "extracted"
+  },
+  {
+   "member": "Participants.xlsx",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Participants.xlsx",
+   "size": 14574,
+   "crc": "514aa803",
+   "status": "extracted"
+  },
+  {
+   "member": "EEG_Participants_info.xlsx",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\EEG_Participants_info.xlsx",
+   "size": 13268,
+   "crc": "8c7ac7bb",
+   "status": "extracted"
+  },
+  {
+   "member": "README.txt",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\README.txt",
+   "size": 3235,
+   "crc": "78c08f21",
+   "status": "extracted"
+  },
+  {
+   "member": "Imitation_Tasks_videos.zip",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Imitation_Tasks_videos.zip",
+   "size": 1859203,
+   "crc": "14d09cca",
+   "status": "extracted"
+  },
+  {
+   "member": "Skeletal_info.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Skeletal_info.mat",
+   "size": 1431,
+   "crc": "27513bb4",
+   "status": "extracted"
+  },
+  {
+   "member": "Preprocess_3DMotion_rawfiles.zip",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles.zip",
+   "size": 11256,
+   "crc": "4c7c8606",
+   "status": "extracted"
+  },
+  {
+   "member": "3DMotion_Participants_info.xlsx",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\3DMotion_Participants_info.xlsx",
+   "size": 19808,
+   "crc": "e4dbc61c",
+   "status": "extracted"
+  }
+ ],
+ "inner_crc_failed_member": null,
+ "inner_files": [
+  {
+   "member": "S15/dance/eeg_S15dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\eeg_S15dance1.mat",
+   "size": 5017876,
+   "crc": "f727e1d9",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/eeg_S15dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\eeg_S15dance2.mat",
+   "size": 5011808,
+   "crc": "7478a7d7",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/eeg_S15dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\eeg_S15dance3.mat",
+   "size": 5002661,
+   "crc": "aee1942c",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/eeg_S15dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\eeg_S15dance4.mat",
+   "size": 5046138,
+   "crc": "c15fd047",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/imu_S15dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\imu_S15dance1.mat",
+   "size": 314476,
+   "crc": "a04e4d08",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/imu_S15dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\imu_S15dance2.mat",
+   "size": 289685,
+   "crc": "4f64a3be",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/imu_S15dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\imu_S15dance3.mat",
+   "size": 299650,
+   "crc": "e478dae4",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/imu_S15dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\imu_S15dance4.mat",
+   "size": 302945,
+   "crc": "8adac60e",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/mdata_S15dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\mdata_S15dance1.mat",
+   "size": 40419016,
+   "crc": "e24741a4",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/mdata_S15dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\mdata_S15dance2.mat",
+   "size": 40480616,
+   "crc": "432f5109",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/mdata_S15dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\mdata_S15dance3.mat",
+   "size": 40504816,
+   "crc": "00074309",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/dance/mdata_S15dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\dance\\mdata_S15dance4.mat",
+   "size": 40489416,
+   "crc": "f5b35044",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/eeg_S15walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\eeg_S15walk1.mat",
+   "size": 7078307,
+   "crc": "a5879104",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/eeg_S15walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\eeg_S15walk2.mat",
+   "size": 7097370,
+   "crc": "bf13642f",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/eeg_S15walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\eeg_S15walk3.mat",
+   "size": 7077401,
+   "crc": "06b32650",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/eeg_S15walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\eeg_S15walk4.mat",
+   "size": 7150512,
+   "crc": "654c8d71",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/imu_S15walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\imu_S15walk1.mat",
+   "size": 554338,
+   "crc": "b7bd9ff9",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/imu_S15walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\imu_S15walk2.mat",
+   "size": 523807,
+   "crc": "3ca48151",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/imu_S15walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\imu_S15walk3.mat",
+   "size": 532910,
+   "crc": "a5afafb8",
+   "status": "extracted"
+  },
+  {
+   "member": "S15/walk/imu_S15walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S15\\walk\\imu_S15walk4.mat",
+   "size": 541856,
+   "crc": "d14a3eec",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/eeg_S16dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\eeg_S16dance1.mat",
+   "size": 5369987,
+   "crc": "f1aabe39",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/eeg_S16dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\eeg_S16dance2.mat",
+   "size": 5386575,
+   "crc": "6d668039",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/eeg_S16dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\eeg_S16dance3.mat",
+   "size": 5353894,
+   "crc": "c821149f",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/eeg_S16dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\eeg_S16dance4.mat",
+   "size": 5352277,
+   "crc": "8fe0af50",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/imu_S16dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\imu_S16dance1.mat",
+   "size": 326032,
+   "crc": "5ee7f710",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/imu_S16dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\imu_S16dance2.mat",
+   "size": 341318,
+   "crc": "f7f09f2a",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/imu_S16dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\imu_S16dance3.mat",
+   "size": 351763,
+   "crc": "9ee19e23",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/imu_S16dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\imu_S16dance4.mat",
+   "size": 346572,
+   "crc": "5551b8b8",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/mdata_S16dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\mdata_S16dance1.mat",
+   "size": 39231016,
+   "crc": "68b90fd3",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/mdata_S16dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\mdata_S16dance2.mat",
+   "size": 39121016,
+   "crc": "42098bd4",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/mdata_S16dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\mdata_S16dance3.mat",
+   "size": 38962616,
+   "crc": "6f01c23a",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/dance/mdata_S16dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\dance\\mdata_S16dance4.mat",
+   "size": 39195816,
+   "crc": "dfa49c0e",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/eeg_S16walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\eeg_S16walk1.mat",
+   "size": 7698640,
+   "crc": "4adda871",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/eeg_S16walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\eeg_S16walk2.mat",
+   "size": 7669676,
+   "crc": "edacbc04",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/eeg_S16walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\eeg_S16walk3.mat",
+   "size": 7573783,
+   "crc": "b0c3bd8f",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/eeg_S16walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\eeg_S16walk4.mat",
+   "size": 7609840,
+   "crc": "24e3cfd0",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/imu_S16walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\imu_S16walk1.mat",
+   "size": 487419,
+   "crc": "7f6d9f5b",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/imu_S16walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\imu_S16walk2.mat",
+   "size": 519646,
+   "crc": "316df046",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/imu_S16walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\imu_S16walk3.mat",
+   "size": 527208,
+   "crc": "61c55e30",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/imu_S16walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\imu_S16walk4.mat",
+   "size": 535885,
+   "crc": "71780cbf",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/mdata_S16walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\mdata_S16walk1.mat",
+   "size": 54867040,
+   "crc": "73ef4f2a",
+   "status": "extracted"
+  },
+  {
+   "member": "S16/walk/mdata_S16walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S16\\walk\\mdata_S16walk2.mat",
+   "size": 55044104,
+   "crc": "16e5187a",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/eeg_S17dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\eeg_S17dance1.mat",
+   "size": 5423519,
+   "crc": "d8c8d968",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/eeg_S17dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\eeg_S17dance2.mat",
+   "size": 5392533,
+   "crc": "df881f04",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/eeg_S17dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\eeg_S17dance3.mat",
+   "size": 5412083,
+   "crc": "c575465f",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/eeg_S17dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\eeg_S17dance4.mat",
+   "size": 5419194,
+   "crc": "892f4aff",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/imu_S17dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\imu_S17dance1.mat",
+   "size": 286032,
+   "crc": "53c68e81",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/imu_S17dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\imu_S17dance2.mat",
+   "size": 297250,
+   "crc": "2850989b",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/imu_S17dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\imu_S17dance3.mat",
+   "size": 318175,
+   "crc": "d0775d5c",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/imu_S17dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\imu_S17dance4.mat",
+   "size": 304229,
+   "crc": "61b0ab4d",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/mdata_S17dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\mdata_S17dance1.mat",
+   "size": 39827216,
+   "crc": "cf659a0e",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/mdata_S17dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\mdata_S17dance2.mat",
+   "size": 39679816,
+   "crc": "7c9dbdcf",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/mdata_S17dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\mdata_S17dance3.mat",
+   "size": 39818416,
+   "crc": "a9feecf0",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/dance/mdata_S17dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\dance\\mdata_S17dance4.mat",
+   "size": 39792016,
+   "crc": "d2cbb4d5",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/eeg_S17walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\eeg_S17walk1.mat",
+   "size": 7772037,
+   "crc": "205e1a3f",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/eeg_S17walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\eeg_S17walk2.mat",
+   "size": 7733492,
+   "crc": "d37447ad",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/eeg_S17walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\eeg_S17walk3.mat",
+   "size": 7724203,
+   "crc": "8f70acfb",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/eeg_S17walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\eeg_S17walk4.mat",
+   "size": 7753906,
+   "crc": "06a3c3d8",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/imu_S17walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\imu_S17walk1.mat",
+   "size": 489471,
+   "crc": "9960e740",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/imu_S17walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\imu_S17walk2.mat",
+   "size": 523720,
+   "crc": "db36c446",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/imu_S17walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\imu_S17walk3.mat",
+   "size": 516118,
+   "crc": "2c909c9d",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/imu_S17walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\imu_S17walk4.mat",
+   "size": 503451,
+   "crc": "d4a3f66c",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/mdata_S17walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\mdata_S17walk1.mat",
+   "size": 55872592,
+   "crc": "ad3c29a3",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/mdata_S17walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\mdata_S17walk2.mat",
+   "size": 55863856,
+   "crc": "a0c6f1ef",
+   "status": "extracted"
+  },
+  {
+   "member": "S17/walk/mdata_S17walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S17\\walk\\mdata_S17walk3.mat",
+   "size": 55824512,
+   "crc": "89542252",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/eeg_S18dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\eeg_S18dance1.mat",
+   "size": 5321051,
+   "crc": "8a5a827f",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/eeg_S18dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\eeg_S18dance2.mat",
+   "size": 5292150,
+   "crc": "5c806614",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/eeg_S18dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\eeg_S18dance3.mat",
+   "size": 5258443,
+   "crc": "e68e9cf4",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/eeg_S18dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\eeg_S18dance4.mat",
+   "size": 5259967,
+   "crc": "93cd4cdd",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/imu_S18dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\imu_S18dance1.mat",
+   "size": 373222,
+   "crc": "9227b064",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/imu_S18dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\imu_S18dance2.mat",
+   "size": 369617,
+   "crc": "76f1a6b9",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/imu_S18dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\imu_S18dance3.mat",
+   "size": 366796,
+   "crc": "b751de92",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/imu_S18dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\imu_S18dance4.mat",
+   "size": 365769,
+   "crc": "2a037f11",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/mdata_S18dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\mdata_S18dance1.mat",
+   "size": 39426816,
+   "crc": "e38cd480",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/mdata_S18dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\mdata_S18dance2.mat",
+   "size": 39459816,
+   "crc": "e3daac3e",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/mdata_S18dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\mdata_S18dance3.mat",
+   "size": 39455416,
+   "crc": "a13a73c7",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/dance/mdata_S18dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\dance\\mdata_S18dance4.mat",
+   "size": 39327816,
+   "crc": "dbf6d37b",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/eeg_S18walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\eeg_S18walk1.mat",
+   "size": 7604199,
+   "crc": "f8c4c4d7",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/eeg_S18walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\eeg_S18walk2.mat",
+   "size": 7511445,
+   "crc": "35fcac73",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/eeg_S18walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\eeg_S18walk3.mat",
+   "size": 7542187,
+   "crc": "66d31be2",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/eeg_S18walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\eeg_S18walk4.mat",
+   "size": 7617229,
+   "crc": "d4742557",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/imu_S18walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\imu_S18walk1.mat",
+   "size": 501395,
+   "crc": "cfb78547",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/imu_S18walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\imu_S18walk2.mat",
+   "size": 491612,
+   "crc": "b3ee15a4",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/imu_S18walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\imu_S18walk3.mat",
+   "size": 494029,
+   "crc": "a25d3780",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/imu_S18walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\imu_S18walk4.mat",
+   "size": 488088,
+   "crc": "db8f9db0",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/mdata_S18walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\mdata_S18walk2.mat",
+   "size": 55389496,
+   "crc": "e2bbae16",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/mdata_S18walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\mdata_S18walk3.mat",
+   "size": 55389496,
+   "crc": "bc85efa6",
+   "status": "extracted"
+  },
+  {
+   "member": "S18/walk/mdata_S18walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S18\\walk\\mdata_S18walk4.mat",
+   "size": 55306424,
+   "crc": "6df6d82c",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/eeg_S19dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\eeg_S19dance1.mat",
+   "size": 5390239,
+   "crc": "bca70a14",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/eeg_S19dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\eeg_S19dance2.mat",
+   "size": 5402512,
+   "crc": "ca8fb1bb",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/eeg_S19dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\eeg_S19dance3.mat",
+   "size": 5382970,
+   "crc": "fe027b12",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/eeg_S19dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\eeg_S19dance4.mat",
+   "size": 5396076,
+   "crc": "d6dcdac3",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/imu_S19dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\imu_S19dance1.mat",
+   "size": 329330,
+   "crc": "23b78d67",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/imu_S19dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\imu_S19dance2.mat",
+   "size": 325994,
+   "crc": "1ea26bc9",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/imu_S19dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\imu_S19dance3.mat",
+   "size": 323105,
+   "crc": "a8067017",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/imu_S19dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\imu_S19dance4.mat",
+   "size": 327011,
+   "crc": "00159b56",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/mdata_S19dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\mdata_S19dance1.mat",
+   "size": 38986816,
+   "crc": "7eaca218",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/mdata_S19dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\mdata_S19dance2.mat",
+   "size": 38890016,
+   "crc": "598a322e",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/mdata_S19dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\mdata_S19dance3.mat",
+   "size": 11284760,
+   "crc": "b50f2bb9",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/dance/mdata_S19dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\dance\\mdata_S19dance4.mat",
+   "size": 39310216,
+   "crc": "f4ab4f7b",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/eeg_S19walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\eeg_S19walk1.mat",
+   "size": 7669224,
+   "crc": "8d718f45",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/eeg_S19walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\eeg_S19walk2.mat",
+   "size": 7676903,
+   "crc": "8afeb0ac",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/eeg_S19walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\eeg_S19walk3.mat",
+   "size": 7608488,
+   "crc": "5cb8238b",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/eeg_S19walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\eeg_S19walk4.mat",
+   "size": 7590478,
+   "crc": "02f02954",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/imu_S19walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\imu_S19walk1.mat",
+   "size": 526287,
+   "crc": "62e324e6",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/imu_S19walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\imu_S19walk2.mat",
+   "size": 558858,
+   "crc": "5992a2b4",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/imu_S19walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\imu_S19walk3.mat",
+   "size": 525772,
+   "crc": "0f797cdd",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/imu_S19walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\imu_S19walk4.mat",
+   "size": 485632,
+   "crc": "652c7fc0",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/mdata_S19walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\mdata_S19walk1.mat",
+   "size": 54515096,
+   "crc": "83f9e219",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/mdata_S19walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\mdata_S19walk2.mat",
+   "size": 54600352,
+   "crc": "6e989d79",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/mdata_S19walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\mdata_S19walk3.mat",
+   "size": 54700896,
+   "crc": "6025468e",
+   "status": "extracted"
+  },
+  {
+   "member": "S19/walk/mdata_S19walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S19\\walk\\mdata_S19walk4.mat",
+   "size": 54665920,
+   "crc": "c3b81a81",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/eeg_S20dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\eeg_S20dance1.mat",
+   "size": 5269303,
+   "crc": "079bfdaa",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/eeg_S20dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\eeg_S20dance2.mat",
+   "size": 5244276,
+   "crc": "27da6c4a",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/eeg_S20dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\eeg_S20dance3.mat",
+   "size": 5190982,
+   "crc": "b68c242c",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/eeg_S20dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\eeg_S20dance4.mat",
+   "size": 5218252,
+   "crc": "4726f376",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/imu_S20dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\imu_S20dance1.mat",
+   "size": 340278,
+   "crc": "b5f309bc",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/imu_S20dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\imu_S20dance2.mat",
+   "size": 358981,
+   "crc": "01be8c97",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/imu_S20dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\imu_S20dance3.mat",
+   "size": 358624,
+   "crc": "d3fb3fd7",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/imu_S20dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\imu_S20dance4.mat",
+   "size": 367132,
+   "crc": "ae75626a",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/mdata_S20dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\mdata_S20dance1.mat",
+   "size": 39154016,
+   "crc": "aa7eb680",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/mdata_S20dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\mdata_S20dance2.mat",
+   "size": 39345416,
+   "crc": "fa2628dc",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/mdata_S20dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\mdata_S20dance3.mat",
+   "size": 39327816,
+   "crc": "d17d06cb",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/dance/mdata_S20dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\dance\\mdata_S20dance4.mat",
+   "size": 35472848,
+   "crc": "c9c13d29",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/eeg_S20walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\eeg_S20walk1.mat",
+   "size": 7491516,
+   "crc": "01ecc99e",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/eeg_S20walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\eeg_S20walk2.mat",
+   "size": 7454568,
+   "crc": "89773db3",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/eeg_S20walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\eeg_S20walk3.mat",
+   "size": 7425557,
+   "crc": "f3e6728f",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/eeg_S20walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\eeg_S20walk4.mat",
+   "size": 7380562,
+   "crc": "b15a926e",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/imu_S20walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\imu_S20walk1.mat",
+   "size": 448363,
+   "crc": "d750bc53",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/imu_S20walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\imu_S20walk2.mat",
+   "size": 480544,
+   "crc": "b0aabdca",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/imu_S20walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\imu_S20walk3.mat",
+   "size": 483821,
+   "crc": "a7b5115b",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/imu_S20walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\imu_S20walk4.mat",
+   "size": 457031,
+   "crc": "6adb039e",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/mdata_S20walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\mdata_S20walk1.mat",
+   "size": 55208048,
+   "crc": "4fa15217",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/mdata_S20walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\mdata_S20walk2.mat",
+   "size": 55216800,
+   "crc": "f0994020",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/mdata_S20walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\mdata_S20walk3.mat",
+   "size": 55146848,
+   "crc": "0c3bcae1",
+   "status": "extracted"
+  },
+  {
+   "member": "S20/walk/mdata_S20walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S20\\walk\\mdata_S20walk4.mat",
+   "size": 55205864,
+   "crc": "dd11002c",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/eeg_P1dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\eeg_P1dance1.mat",
+   "size": 5091876,
+   "crc": "726ca5e3",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/eeg_P1dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\eeg_P1dance2.mat",
+   "size": 5037819,
+   "crc": "5617e278",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/eeg_P1dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\eeg_P1dance3.mat",
+   "size": 5047862,
+   "crc": "4db4cd79",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/imu_P1dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\imu_P1dance1.mat",
+   "size": 406514,
+   "crc": "e5b532c9",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/imu_P1dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\imu_P1dance2.mat",
+   "size": 404073,
+   "crc": "62a6d1bc",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/imu_P1dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\imu_P1dance3.mat",
+   "size": 399716,
+   "crc": "61388d37",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/mdata_P1dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\mdata_P1dance1.mat",
+   "size": 40883216,
+   "crc": "adf1d845",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/mdata_P1dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\mdata_P1dance2.mat",
+   "size": 40940416,
+   "crc": "68797144",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/dance/mdata_P1dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\dance\\mdata_P1dance3.mat",
+   "size": 40762216,
+   "crc": "f304f5a1",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/eeg_P1walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\eeg_P1walk2.mat",
+   "size": 7178997,
+   "crc": "f0608a1a",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/eeg_P1walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\eeg_P1walk3.mat",
+   "size": 7223627,
+   "crc": "19be5c13",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/eeg_P1walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\eeg_P1walk4.mat",
+   "size": 7297739,
+   "crc": "f4274690",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/imu_P1walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\imu_P1walk2.mat",
+   "size": 516524,
+   "crc": "848a2fdb",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/imu_P1walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\imu_P1walk3.mat",
+   "size": 515446,
+   "crc": "e4258d5f",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/imu_P1walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\imu_P1walk4.mat",
+   "size": 520159,
+   "crc": "4a0b013a",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/mdata_P1walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\mdata_P1walk2.mat",
+   "size": 57048672,
+   "crc": "4668a38f",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/mdata_P1walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\mdata_P1walk3.mat",
+   "size": 57579864,
+   "crc": "07379449",
+   "status": "extracted"
+  },
+  {
+   "member": "P1/walk/mdata_P1walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P1\\walk\\mdata_P1walk4.mat",
+   "size": 57579864,
+   "crc": "473e3e94",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/eeg_P2dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\eeg_P2dance1.mat",
+   "size": 5071671,
+   "crc": "0a529ee2",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/eeg_P2dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\eeg_P2dance2.mat",
+   "size": 5092005,
+   "crc": "58a1b796",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/eeg_P2dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\eeg_P2dance3.mat",
+   "size": 5116404,
+   "crc": "2f261c86",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/imu_P2dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\imu_P2dance1.mat",
+   "size": 355896,
+   "crc": "94c82894",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/imu_P2dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\imu_P2dance2.mat",
+   "size": 325519,
+   "crc": "acb7b128",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/imu_P2dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\imu_P2dance3.mat",
+   "size": 329750,
+   "crc": "f2dd9e03",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/mdata_P2dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\mdata_P2dance1.mat",
+   "size": 41107616,
+   "crc": "8e21678e",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/mdata_P2dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\mdata_P2dance2.mat",
+   "size": 41083416,
+   "crc": "6356c634",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/dance/mdata_P2dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\dance\\mdata_P2dance3.mat",
+   "size": 41008616,
+   "crc": "6a6dff97",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/eeg_P2walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\eeg_P2walk1.mat",
+   "size": 3610851,
+   "crc": "440fe460",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/eeg_P2walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\eeg_P2walk2.mat",
+   "size": 7255040,
+   "crc": "db05733a",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/eeg_P2walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\eeg_P2walk3.mat",
+   "size": 7325097,
+   "crc": "4366e372",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/eeg_P2walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\eeg_P2walk4.mat",
+   "size": 3660312,
+   "crc": "dacec811",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/imu_P2walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\imu_P2walk1.mat",
+   "size": 258317,
+   "crc": "fecca66e",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/imu_P2walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\imu_P2walk2.mat",
+   "size": 513375,
+   "crc": "d586379c",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/imu_P2walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\imu_P2walk3.mat",
+   "size": 531508,
+   "crc": "8d779442",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/imu_P2walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\imu_P2walk4.mat",
+   "size": 271910,
+   "crc": "293f3c05",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/mdata_P2walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\mdata_P2walk3.mat",
+   "size": 57505544,
+   "crc": "621731bc",
+   "status": "extracted"
+  },
+  {
+   "member": "P2/walk/mdata_P2walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P2\\walk\\mdata_P2walk4.mat",
+   "size": 28683136,
+   "crc": "c84f5e4a",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/eeg_P3dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\eeg_P3dance1.mat",
+   "size": 5086056,
+   "crc": "a5196311",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/eeg_P3dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\eeg_P3dance2.mat",
+   "size": 5211908,
+   "crc": "ccb288e1",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/eeg_P3dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\eeg_P3dance3.mat",
+   "size": 5184068,
+   "crc": "ed14c10d",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/imu_P3dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\imu_P3dance1.mat",
+   "size": 443157,
+   "crc": "7bd8aa47",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/imu_P3dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\imu_P3dance2.mat",
+   "size": 472201,
+   "crc": "87a62679",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/imu_P3dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\imu_P3dance3.mat",
+   "size": 431954,
+   "crc": "eb09c300",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/mdata_P3dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\mdata_P3dance2.mat",
+   "size": 40938216,
+   "crc": "07dc8373",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/dance/mdata_P3dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\dance\\mdata_P3dance3.mat",
+   "size": 40815016,
+   "crc": "4497f948",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/readme.txt",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\readme.txt",
+   "size": 247,
+   "crc": "b5783636",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/walk/eeg_P3walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\walk\\eeg_P3walk1.mat",
+   "size": 7618145,
+   "crc": "175ed1e9",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/walk/eeg_P3walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\walk\\eeg_P3walk2.mat",
+   "size": 7448267,
+   "crc": "16cf8863",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/walk/eeg_P3walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\walk\\eeg_P3walk3.mat",
+   "size": 7066956,
+   "crc": "ffc446bc",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/walk/imu_P3walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\walk\\imu_P3walk1.mat",
+   "size": 603526,
+   "crc": "890697e8",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/walk/imu_P3walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\walk\\imu_P3walk2.mat",
+   "size": 630132,
+   "crc": "a9f17e99",
+   "status": "extracted"
+  },
+  {
+   "member": "P3/walk/imu_P3walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P3\\walk\\imu_P3walk3.mat",
+   "size": 609049,
+   "crc": "279e0552",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/eeg_P4dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\eeg_P4dance1.mat",
+   "size": 4949009,
+   "crc": "6303f88f",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/eeg_P4dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\eeg_P4dance4.mat",
+   "size": 4960754,
+   "crc": "3c9875d8",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/eeg_P4dance5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\eeg_P4dance5.mat",
+   "size": 4945179,
+   "crc": "80d3c14f",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/eeg_P4dance6.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\eeg_P4dance6.mat",
+   "size": 4971971,
+   "crc": "bd9bdf1b",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/imu_P4dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\imu_P4dance1.mat",
+   "size": 358902,
+   "crc": "4036e5ad",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/imu_P4dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\imu_P4dance4.mat",
+   "size": 395237,
+   "crc": "09f87a90",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/imu_P4dance5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\imu_P4dance5.mat",
+   "size": 401755,
+   "crc": "cc056ea6",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/imu_P4dance6.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\imu_P4dance6.mat",
+   "size": 396105,
+   "crc": "7a955467",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/mdata_P4dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\mdata_P4dance4.mat",
+   "size": 40335416,
+   "crc": "1a38f301",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/mdata_P4dance5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\mdata_P4dance5.mat",
+   "size": 41054816,
+   "crc": "7d84df1d",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/dance/mdata_P4dance6.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\dance\\mdata_P4dance6.mat",
+   "size": 40991016,
+   "crc": "df4c3173",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/walk/eeg_P4walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\walk\\eeg_P4walk1.mat",
+   "size": 7252924,
+   "crc": "441761b4",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/walk/eeg_P4walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\walk\\eeg_P4walk2.mat",
+   "size": 7193473,
+   "crc": "d5b1ba59",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/walk/eeg_P4walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\walk\\eeg_P4walk3.mat",
+   "size": 7091009,
+   "crc": "68ecaab3",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/walk/imu_P4walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\walk\\imu_P4walk1.mat",
+   "size": 546455,
+   "crc": "f6eb3663",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/walk/imu_P4walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\walk\\imu_P4walk2.mat",
+   "size": 555101,
+   "crc": "75967a68",
+   "status": "extracted"
+  },
+  {
+   "member": "P4/walk/imu_P4walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P4\\walk\\imu_P4walk3.mat",
+   "size": 551284,
+   "crc": "0dbe9c63",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/eeg_P5dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\eeg_P5dance1.mat",
+   "size": 5223435,
+   "crc": "5dfff0e3",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/eeg_P5dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\eeg_P5dance2.mat",
+   "size": 5029583,
+   "crc": "c8ccf180",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/eeg_P5dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\eeg_P5dance3.mat",
+   "size": 4955813,
+   "crc": "c947a7fe",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/imu_P5dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\imu_P5dance1.mat",
+   "size": 304353,
+   "crc": "cad93bab",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/imu_P5dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\imu_P5dance2.mat",
+   "size": 308810,
+   "crc": "43753b00",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/imu_P5dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\imu_P5dance3.mat",
+   "size": 308672,
+   "crc": "bad08ad6",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/mdata_P5dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\mdata_P5dance1.mat",
+   "size": 41263816,
+   "crc": "52684273",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/mdata_P5dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\mdata_P5dance2.mat",
+   "size": 41125216,
+   "crc": "fb5af4ce",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/dance/mdata_P5dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\dance\\mdata_P5dance3.mat",
+   "size": 41120816,
+   "crc": "cc0c4ded",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/eeg_P5walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\eeg_P5walk1.mat",
+   "size": 7319744,
+   "crc": "d65cd4a6",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/eeg_P5walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\eeg_P5walk2.mat",
+   "size": 7227859,
+   "crc": "b11e5ad6",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/eeg_P5walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\eeg_P5walk3.mat",
+   "size": 6928338,
+   "crc": "4b979333",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/imu_P5walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\imu_P5walk1.mat",
+   "size": 483992,
+   "crc": "9caa933c",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/imu_P5walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\imu_P5walk2.mat",
+   "size": 479497,
+   "crc": "a9329755",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/imu_P5walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\imu_P5walk3.mat",
+   "size": 493272,
+   "crc": "7620b83d",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/mdata_P5walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\mdata_P5walk1.mat",
+   "size": 57409352,
+   "crc": "1c132058",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/mdata_P5walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\mdata_P5walk2.mat",
+   "size": 57424656,
+   "crc": "946565e6",
+   "status": "extracted"
+  },
+  {
+   "member": "P5/walk/mdata_P5walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P5\\walk\\mdata_P5walk3.mat",
+   "size": 57359072,
+   "crc": "17e629e4",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/eeg_P6dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\eeg_P6dance1.mat",
+   "size": 5083438,
+   "crc": "3665a435",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/eeg_P6dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\eeg_P6dance2.mat",
+   "size": 4965685,
+   "crc": "efbe7876",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/eeg_P6dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\eeg_P6dance3.mat",
+   "size": 4886288,
+   "crc": "9a93c1e7",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/imu_P6dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\imu_P6dance1.mat",
+   "size": 323701,
+   "crc": "a440e79d",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/imu_P6dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\imu_P6dance2.mat",
+   "size": 332249,
+   "crc": "754e74b8",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/imu_P6dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\imu_P6dance3.mat",
+   "size": 344491,
+   "crc": "a4d568de",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/mdata_P6dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\mdata_P6dance1.mat",
+   "size": 37759216,
+   "crc": "c1e97ecf",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/mdata_P6dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\mdata_P6dance2.mat",
+   "size": 37823016,
+   "crc": "77c52cac",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/dance/mdata_P6dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\dance\\mdata_P6dance3.mat",
+   "size": 38573216,
+   "crc": "d625e5c9",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/eeg_P6walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\eeg_P6walk1.mat",
+   "size": 7127650,
+   "crc": "3aed19e8",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/eeg_P6walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\eeg_P6walk2.mat",
+   "size": 7157523,
+   "crc": "6b426e20",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/eeg_P6walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\eeg_P6walk3.mat",
+   "size": 6952005,
+   "crc": "962c3c10",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/imu_P6walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\imu_P6walk1.mat",
+   "size": 516003,
+   "crc": "daa49afc",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/imu_P6walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\imu_P6walk2.mat",
+   "size": 503477,
+   "crc": "0a27e839",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/imu_P6walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\imu_P6walk3.mat",
+   "size": 535190,
+   "crc": "2dd697a6",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/mdata_P6walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\mdata_P6walk1.mat",
+   "size": 54392680,
+   "crc": "e2ce86e1",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/mdata_P6walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\mdata_P6walk2.mat",
+   "size": 53472368,
+   "crc": "3354cfd0",
+   "status": "extracted"
+  },
+  {
+   "member": "P6/walk/mdata_P6walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P6\\walk\\mdata_P6walk3.mat",
+   "size": 53255960,
+   "crc": "de4403e9",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/eeg_P7dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\eeg_P7dance1.mat",
+   "size": 4722001,
+   "crc": "85014620",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/eeg_P7dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\eeg_P7dance2.mat",
+   "size": 4752367,
+   "crc": "e350a669",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/eeg_P7dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\eeg_P7dance3.mat",
+   "size": 4664803,
+   "crc": "e9cf684a",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/imu_P7dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\imu_P7dance1.mat",
+   "size": 386248,
+   "crc": "1a205d3b",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/imu_P7dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\imu_P7dance2.mat",
+   "size": 410233,
+   "crc": "f6ac57d5",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/imu_P7dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\imu_P7dance3.mat",
+   "size": 371999,
+   "crc": "e2a783e5",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/mdata_P7dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\mdata_P7dance1.mat",
+   "size": 41008616,
+   "crc": "d78fdca3",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/mdata_P7dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\mdata_P7dance2.mat",
+   "size": 40830416,
+   "crc": "ec8f96d6",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/dance/mdata_P7dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\dance\\mdata_P7dance3.mat",
+   "size": 40797416,
+   "crc": "2dcb65d0",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/eeg_P7walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\eeg_P7walk1.mat",
+   "size": 6908312,
+   "crc": "1dee31e0",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/eeg_P7walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\eeg_P7walk2.mat",
+   "size": 6844808,
+   "crc": "66a8b5bc",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/eeg_P7walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\eeg_P7walk3.mat",
+   "size": 6793445,
+   "crc": "fb1851b0",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/imu_P7walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\imu_P7walk1.mat",
+   "size": 599860,
+   "crc": "21f63717",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/imu_P7walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\imu_P7walk2.mat",
+   "size": 595784,
+   "crc": "31a9edeb",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/imu_P7walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\imu_P7walk3.mat",
+   "size": 579356,
+   "crc": "756289a0",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/mdata_P7walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\mdata_P7walk1.mat",
+   "size": 57359072,
+   "crc": "e479bf6b",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/mdata_P7walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\mdata_P7walk2.mat",
+   "size": 57265080,
+   "crc": "c152fe62",
+   "status": "extracted"
+  },
+  {
+   "member": "P7/walk/mdata_P7walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P7\\walk\\mdata_P7walk3.mat",
+   "size": 56989640,
+   "crc": "17f628db",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/eeg_P8dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\eeg_P8dance1.mat",
+   "size": 5505348,
+   "crc": "cf689037",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/eeg_P8dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\eeg_P8dance2.mat",
+   "size": 5600697,
+   "crc": "d5f4ffec",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/eeg_P8dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\eeg_P8dance3.mat",
+   "size": 5652111,
+   "crc": "0dd1a339",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/imu_P8dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\imu_P8dance1.mat",
+   "size": 389903,
+   "crc": "8b7ce790",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/imu_P8dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\imu_P8dance2.mat",
+   "size": 385127,
+   "crc": "ae0a5f40",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/imu_P8dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\imu_P8dance3.mat",
+   "size": 408577,
+   "crc": "aee4d794",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/mdata_P8dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\mdata_P8dance1.mat",
+   "size": 40894216,
+   "crc": "b503de1f",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/mdata_P8dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\mdata_P8dance2.mat",
+   "size": 40872216,
+   "crc": "ebd276fb",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/dance/mdata_P8dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\dance\\mdata_P8dance3.mat",
+   "size": 40944816,
+   "crc": "8cacf976",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/eeg_P8walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\eeg_P8walk1.mat",
+   "size": 7632577,
+   "crc": "c8c344ce",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/eeg_P8walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\eeg_P8walk2.mat",
+   "size": 7818184,
+   "crc": "e3a74d0c",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/eeg_P8walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\eeg_P8walk3.mat",
+   "size": 7906029,
+   "crc": "337aa856",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/imu_P8walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\imu_P8walk1.mat",
+   "size": 526032,
+   "crc": "364c7d32",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/imu_P8walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\imu_P8walk2.mat",
+   "size": 539741,
+   "crc": "e570ef26",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/imu_P8walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\imu_P8walk3.mat",
+   "size": 567694,
+   "crc": "b13f31ee",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/mdata_P8walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\mdata_P8walk1.mat",
+   "size": 57468384,
+   "crc": "c54adc9d",
+   "status": "extracted"
+  },
+  {
+   "member": "P8/walk/mdata_P8walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P8\\walk\\mdata_P8walk2.mat",
+   "size": 57304424,
+   "crc": "091adfd7",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/eeg_P9dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\eeg_P9dance1.mat",
+   "size": 5717330,
+   "crc": "5c7521a1",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/eeg_P9dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\eeg_P9dance2.mat",
+   "size": 5684406,
+   "crc": "6022de4e",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/eeg_P9dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\eeg_P9dance3.mat",
+   "size": 5761173,
+   "crc": "6a14d21f",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/imu_P9dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\imu_P9dance1.mat",
+   "size": 330164,
+   "crc": "44e5ecc4",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/imu_P9dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\imu_P9dance2.mat",
+   "size": 342573,
+   "crc": "4c641824",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/imu_P9dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\imu_P9dance3.mat",
+   "size": 351198,
+   "crc": "4ae624bf",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/mdata_P9dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\mdata_P9dance1.mat",
+   "size": 40366216,
+   "crc": "b6ffe79a",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/mdata_P9dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\mdata_P9dance2.mat",
+   "size": 40850216,
+   "crc": "e4a0fab6",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/dance/mdata_P9dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\dance\\mdata_P9dance3.mat",
+   "size": 40731416,
+   "crc": "ac56e619",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/eeg_P9walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\eeg_P9walk1.mat",
+   "size": 7766675,
+   "crc": "be79393b",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/eeg_P9walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\eeg_P9walk2.mat",
+   "size": 7827253,
+   "crc": "15a344c1",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/eeg_P9walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\eeg_P9walk3.mat",
+   "size": 8022253,
+   "crc": "87226b07",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/imu_P9walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\imu_P9walk1.mat",
+   "size": 461995,
+   "crc": "f11a708d",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/imu_P9walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\imu_P9walk2.mat",
+   "size": 429242,
+   "crc": "cdc9a10c",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/imu_P9walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\imu_P9walk3.mat",
+   "size": 451669,
+   "crc": "a8fa5179",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/mdata_P9walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\mdata_P9walk1.mat",
+   "size": 56003760,
+   "crc": "e9c03db5",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/mdata_P9walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\mdata_P9walk2.mat",
+   "size": 56095568,
+   "crc": "024536dd",
+   "status": "extracted"
+  },
+  {
+   "member": "P9/walk/mdata_P9walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P9\\walk\\mdata_P9walk3.mat",
+   "size": 56106504,
+   "crc": "76cb2ec9",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/dance/eeg_P10dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\dance\\eeg_P10dance1.mat",
+   "size": 5211622,
+   "crc": "b6837af9",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/dance/eeg_P10dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\dance\\eeg_P10dance2.mat",
+   "size": 5181341,
+   "crc": "fb57b06e",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/dance/imu_P10dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\dance\\imu_P10dance1.mat",
+   "size": 407823,
+   "crc": "cd2c0f15",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/dance/imu_P10dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\dance\\imu_P10dance2.mat",
+   "size": 432618,
+   "crc": "70371761",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/dance/mdata_P10dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\dance\\mdata_P10dance1.mat",
+   "size": 41272616,
+   "crc": "dd7ba191",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/dance/mdata_P10dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\dance\\mdata_P10dance2.mat",
+   "size": 41250616,
+   "crc": "5ef2f7cb",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/walk/eeg_P10walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\walk\\eeg_P10walk1.mat",
+   "size": 7327394,
+   "crc": "d6a8ae54",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/walk/eeg_P10walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\walk\\eeg_P10walk2.mat",
+   "size": 7268329,
+   "crc": "1cb2fc9e",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/walk/imu_P10walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\walk\\imu_P10walk1.mat",
+   "size": 577921,
+   "crc": "1c57adaf",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/walk/imu_P10walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\walk\\imu_P10walk2.mat",
+   "size": 593560,
+   "crc": "3504f302",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/walk/mdata_P10walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\walk\\mdata_P10walk1.mat",
+   "size": 57761296,
+   "crc": "98c988b9",
+   "status": "extracted"
+  },
+  {
+   "member": "P10/walk/mdata_P10walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P10\\walk\\mdata_P10walk2.mat",
+   "size": 57780968,
+   "crc": "0ed3ffba",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/eeg_P11dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\eeg_P11dance1.mat",
+   "size": 5548973,
+   "crc": "bdf024f5",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/eeg_P11dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\eeg_P11dance2.mat",
+   "size": 5514174,
+   "crc": "6fca4e07",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/eeg_P11dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\eeg_P11dance3.mat",
+   "size": 5523246,
+   "crc": "64a05ace",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/imu_P11dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\imu_P11dance1.mat",
+   "size": 398629,
+   "crc": "e938c894",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/imu_P11dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\imu_P11dance2.mat",
+   "size": 386295,
+   "crc": "959d6669",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/imu_P11dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\imu_P11dance3.mat",
+   "size": 373073,
+   "crc": "a74fae0d",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/mdata_P11dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\mdata_P11dance1.mat",
+   "size": 41230816,
+   "crc": "0eda1a90",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/mdata_P11dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\mdata_P11dance2.mat",
+   "size": 41310016,
+   "crc": "88bce0b9",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/dance/mdata_P11dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\dance\\mdata_P11dance3.mat",
+   "size": 41244016,
+   "crc": "1fb21283",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/eeg_P11walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\eeg_P11walk1.mat",
+   "size": 7624368,
+   "crc": "51bb86ac",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/eeg_P11walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\eeg_P11walk2.mat",
+   "size": 7810156,
+   "crc": "7e1929ba",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/eeg_P11walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\eeg_P11walk3.mat",
+   "size": 7812669,
+   "crc": "6d36e165",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/imu_P11walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\imu_P11walk1.mat",
+   "size": 562722,
+   "crc": "ed5f56df",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/imu_P11walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\imu_P11walk2.mat",
+   "size": 576095,
+   "crc": "23641724",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/imu_P11walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\imu_P11walk3.mat",
+   "size": 561012,
+   "crc": "5d451c46",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/mdata_P11walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\mdata_P11walk1.mat",
+   "size": 57761296,
+   "crc": "a53f4d76",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/mdata_P11walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\mdata_P11walk2.mat",
+   "size": 57597352,
+   "crc": "ba76bced",
+   "status": "extracted"
+  },
+  {
+   "member": "P11/walk/mdata_P11walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P11\\walk\\mdata_P11walk3.mat",
+   "size": 58113240,
+   "crc": "c03addce",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/eeg_P12dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\eeg_P12dance1.mat",
+   "size": 5669535,
+   "crc": "3c0a61df",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/eeg_P12dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\eeg_P12dance2.mat",
+   "size": 5730366,
+   "crc": "066c40c8",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/eeg_P12dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\eeg_P12dance3.mat",
+   "size": 5736711,
+   "crc": "9ac7a0dc",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/imu_P12dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\imu_P12dance1.mat",
+   "size": 365446,
+   "crc": "45da35c5",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/imu_P12dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\imu_P12dance2.mat",
+   "size": 392645,
+   "crc": "d643c256",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/imu_P12dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\imu_P12dance3.mat",
+   "size": 394372,
+   "crc": "033a3fb2",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/mdata_P12dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\mdata_P12dance2.mat",
+   "size": 41219816,
+   "crc": "427b8cc8",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/dance/mdata_P12dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\dance\\mdata_P12dance3.mat",
+   "size": 41193416,
+   "crc": "762c6ebe",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/eeg_P12walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\eeg_P12walk1.mat",
+   "size": 7862456,
+   "crc": "c9473f8e",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/eeg_P12walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\eeg_P12walk2.mat",
+   "size": 7957780,
+   "crc": "42aca779",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/eeg_P12walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\eeg_P12walk3.mat",
+   "size": 8048599,
+   "crc": "352fac34",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/imu_P12walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\imu_P12walk1.mat",
+   "size": 576772,
+   "crc": "b8901511",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/imu_P12walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\imu_P12walk2.mat",
+   "size": 582939,
+   "crc": "f2c82db8",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/imu_P12walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\imu_P12walk3.mat",
+   "size": 559938,
+   "crc": "900f9353",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/mdata_P12walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\mdata_P12walk1.mat",
+   "size": 57719768,
+   "crc": "b58e0a4b",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/mdata_P12walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\mdata_P12walk2.mat",
+   "size": 57525216,
+   "crc": "34ae5445",
+   "status": "extracted"
+  },
+  {
+   "member": "P12/walk/mdata_P12walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P12\\walk\\mdata_P12walk3.mat",
+   "size": 57501160,
+   "crc": "6dc13a64",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/eeg_P13dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\eeg_P13dance1.mat",
+   "size": 5741354,
+   "crc": "a0005db9",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/eeg_P13dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\eeg_P13dance2.mat",
+   "size": 5691427,
+   "crc": "ddc9128d",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/eeg_P13dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\eeg_P13dance3.mat",
+   "size": 5696778,
+   "crc": "b041babd",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/imu_P13dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\imu_P13dance1.mat",
+   "size": 392812,
+   "crc": "23e7f70d",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/imu_P13dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\imu_P13dance2.mat",
+   "size": 383907,
+   "crc": "0f5a3aa7",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/imu_P13dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\imu_P13dance3.mat",
+   "size": 381620,
+   "crc": "915296e5",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/mdata_P13dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\mdata_P13dance2.mat",
+   "size": 40161616,
+   "crc": "8c168690",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/dance/mdata_P13dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\dance\\mdata_P13dance3.mat",
+   "size": 40397016,
+   "crc": "0a75d32c",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/walk/eeg_P13walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\walk\\eeg_P13walk1.mat",
+   "size": 8039275,
+   "crc": "a5bafd78",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/walk/eeg_P13walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\walk\\eeg_P13walk2.mat",
+   "size": 7914519,
+   "crc": "0d5d34a7",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/walk/eeg_P13walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\walk\\eeg_P13walk3.mat",
+   "size": 7889564,
+   "crc": "b183ecfd",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/walk/imu_P13walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\walk\\imu_P13walk1.mat",
+   "size": 521618,
+   "crc": "d8cd7ac7",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/walk/imu_P13walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\walk\\imu_P13walk2.mat",
+   "size": 505590,
+   "crc": "1b083a20",
+   "status": "extracted"
+  },
+  {
+   "member": "P13/walk/imu_P13walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P13\\walk\\imu_P13walk3.mat",
+   "size": 527735,
+   "crc": "d6a57b82",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/eeg_P14dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\eeg_P14dance1.mat",
+   "size": 5450889,
+   "crc": "ecd834ea",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/eeg_P14dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\eeg_P14dance2.mat",
+   "size": 5522818,
+   "crc": "df681e59",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/eeg_P14dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\eeg_P14dance3.mat",
+   "size": 5578676,
+   "crc": "07e38c04",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/imu_P14dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\imu_P14dance1.mat",
+   "size": 342451,
+   "crc": "77b2a7fe",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/imu_P14dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\imu_P14dance2.mat",
+   "size": 355230,
+   "crc": "ba54d185",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/imu_P14dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\imu_P14dance3.mat",
+   "size": 331265,
+   "crc": "541f76f6",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/dance/mdata_P14dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\dance\\mdata_P14dance1.mat",
+   "size": 40298016,
+   "crc": "a904580d",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/eeg_P14walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\eeg_P14walk1.mat",
+   "size": 7569540,
+   "crc": "76b94cf6",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/eeg_P14walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\eeg_P14walk2.mat",
+   "size": 7598074,
+   "crc": "407d6878",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/eeg_P14walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\eeg_P14walk3.mat",
+   "size": 7695376,
+   "crc": "a84d95d6",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/imu_P14walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\imu_P14walk1.mat",
+   "size": 510107,
+   "crc": "2d11dbf4",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/imu_P14walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\imu_P14walk2.mat",
+   "size": 530095,
+   "crc": "524f1bf4",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/imu_P14walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\imu_P14walk3.mat",
+   "size": 542186,
+   "crc": "c09c50cd",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/mdata_P14walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\mdata_P14walk1.mat",
+   "size": 56158968,
+   "crc": "28ee2f87",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/mdata_P14walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\mdata_P14walk2.mat",
+   "size": 56060592,
+   "crc": "aee847e1",
+   "status": "extracted"
+  },
+  {
+   "member": "P14/walk/mdata_P14walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\P14\\walk\\mdata_P14walk3.mat",
+   "size": 56217984,
+   "crc": "059f2949",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/eeg_S1dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\eeg_S1dance1.mat",
+   "size": 5401959,
+   "crc": "f25e3f7e",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/eeg_S1dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\eeg_S1dance2.mat",
+   "size": 5314752,
+   "crc": "8c8e4da4",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/eeg_S1dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\eeg_S1dance3.mat",
+   "size": 5333362,
+   "crc": "1662966d",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/eeg_S1dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\eeg_S1dance4.mat",
+   "size": 5291036,
+   "crc": "b9e5d1bc",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/imu_S1dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\imu_S1dance1.mat",
+   "size": 353493,
+   "crc": "16ca9abc",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/imu_S1dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\imu_S1dance2.mat",
+   "size": 360362,
+   "crc": "adf38184",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/imu_S1dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\imu_S1dance3.mat",
+   "size": 369348,
+   "crc": "0eb464b9",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/imu_S1dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\imu_S1dance4.mat",
+   "size": 386516,
+   "crc": "919b0f9c",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/mdata_S1dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\mdata_S1dance1.mat",
+   "size": 39877816,
+   "crc": "1d63a618",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/mdata_S1dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\mdata_S1dance2.mat",
+   "size": 41035016,
+   "crc": "f45a2b5f",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/mdata_S1dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\mdata_S1dance3.mat",
+   "size": 40947016,
+   "crc": "951a6342",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/dance/mdata_S1dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\dance\\mdata_S1dance4.mat",
+   "size": 40953616,
+   "crc": "bf87b561",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/eeg_S1walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\eeg_S1walk2.mat",
+   "size": 7571785,
+   "crc": "b43af084",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/eeg_S1walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\eeg_S1walk3.mat",
+   "size": 7545799,
+   "crc": "0dc6f752",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/eeg_S1walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\eeg_S1walk4.mat",
+   "size": 7523639,
+   "crc": "d6479bc3",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/eeg_S1walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\eeg_S1walk5.mat",
+   "size": 7484310,
+   "crc": "1c777ba3",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/imu_S1walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\imu_S1walk2.mat",
+   "size": 586374,
+   "crc": "6a220164",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/imu_S1walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\imu_S1walk3.mat",
+   "size": 621059,
+   "crc": "d6f3592e",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/imu_S1walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\imu_S1walk4.mat",
+   "size": 633416,
+   "crc": "b51b8f33",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/imu_S1walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\imu_S1walk5.mat",
+   "size": 602263,
+   "crc": "8c87b55b",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/mdata_S1walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\mdata_S1walk2.mat",
+   "size": 58135616,
+   "crc": "081f72cd",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/mdata_S1walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\mdata_S1walk3.mat",
+   "size": 58129016,
+   "crc": "1e56ea01",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/mdata_S1walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\mdata_S1walk4.mat",
+   "size": 58184016,
+   "crc": "3b1de41b",
+   "status": "extracted"
+  },
+  {
+   "member": "S1/walk/mdata_S1walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S1\\walk\\mdata_S1walk5.mat",
+   "size": 58153216,
+   "crc": "572622f0",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/dance/eeg_S2dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\dance\\eeg_S2dance1.mat",
+   "size": 5569376,
+   "crc": "127d584d",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/dance/eeg_S2dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\dance\\eeg_S2dance2.mat",
+   "size": 5475211,
+   "crc": "f4d8bceb",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/dance/eeg_S2dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\dance\\eeg_S2dance3.mat",
+   "size": 3822865,
+   "crc": "b94145d7",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/dance/imu_S2dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\dance\\imu_S2dance1.mat",
+   "size": 326414,
+   "crc": "59fab4b4",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/dance/imu_S2dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\dance\\imu_S2dance2.mat",
+   "size": 323645,
+   "crc": "25843c67",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/dance/imu_S2dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\dance\\imu_S2dance3.mat",
+   "size": 226829,
+   "crc": "b45dd113",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/walk/eeg_S2walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\walk\\eeg_S2walk1.mat",
+   "size": 7735189,
+   "crc": "02db8654",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/walk/eeg_S2walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\walk\\eeg_S2walk2.mat",
+   "size": 7799544,
+   "crc": "064058d1",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/walk/eeg_S2walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\walk\\eeg_S2walk3.mat",
+   "size": 7740250,
+   "crc": "2f24d096",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/walk/imu_S2walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\walk\\imu_S2walk1.mat",
+   "size": 546363,
+   "crc": "946c4d57",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/walk/imu_S2walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\walk\\imu_S2walk2.mat",
+   "size": 499574,
+   "crc": "4fdbc8ae",
+   "status": "extracted"
+  },
+  {
+   "member": "S2/walk/imu_S2walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S2\\walk\\imu_S2walk3.mat",
+   "size": 526378,
+   "crc": "66e66899",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/eeg_S3dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\eeg_S3dance1.mat",
+   "size": 5250091,
+   "crc": "1e09ea50",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/eeg_S3dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\eeg_S3dance2.mat",
+   "size": 5224454,
+   "crc": "90cabefc",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/eeg_S3dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\eeg_S3dance3.mat",
+   "size": 5195089,
+   "crc": "b7e5f8bc",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/eeg_S3dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\eeg_S3dance4.mat",
+   "size": 5127750,
+   "crc": "4780e978",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/imu_S3dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\imu_S3dance1.mat",
+   "size": 369893,
+   "crc": "a720bdf5",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/imu_S3dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\imu_S3dance2.mat",
+   "size": 377555,
+   "crc": "22e9fa00",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/imu_S3dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\imu_S3dance3.mat",
+   "size": 377453,
+   "crc": "4f41e1d5",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/imu_S3dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\imu_S3dance4.mat",
+   "size": 381316,
+   "crc": "7474db38",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/mdata_S3dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\mdata_S3dance1.mat",
+   "size": 38091416,
+   "crc": "bd00ad4e",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/mdata_S3dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\mdata_S3dance2.mat",
+   "size": 38230016,
+   "crc": "eef40c78",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/mdata_S3dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\mdata_S3dance3.mat",
+   "size": 38227816,
+   "crc": "2c79f5aa",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/dance/mdata_S3dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\dance\\mdata_S3dance4.mat",
+   "size": 38201416,
+   "crc": "4dd50112",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/eeg_S3walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\eeg_S3walk1.mat",
+   "size": 7674491,
+   "crc": "b1e52e3e",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/eeg_S3walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\eeg_S3walk2.mat",
+   "size": 7520371,
+   "crc": "8ae0afc9",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/eeg_S3walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\eeg_S3walk3.mat",
+   "size": 7441565,
+   "crc": "0cf9bd60",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/eeg_S3walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\eeg_S3walk4.mat",
+   "size": 7394948,
+   "crc": "863c06c6",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/imu_S3walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\imu_S3walk1.mat",
+   "size": 553591,
+   "crc": "6695c5dc",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/imu_S3walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\imu_S3walk2.mat",
+   "size": 577582,
+   "crc": "13496db8",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/imu_S3walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\imu_S3walk3.mat",
+   "size": 574799,
+   "crc": "f1ddcce2",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/imu_S3walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\imu_S3walk4.mat",
+   "size": 542167,
+   "crc": "bbc2cc44",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/mdata_S3walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\mdata_S3walk1.mat",
+   "size": 54331816,
+   "crc": "7f224de9",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/mdata_S3walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\mdata_S3walk2.mat",
+   "size": 54301016,
+   "crc": "3974d178",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/mdata_S3walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\mdata_S3walk3.mat",
+   "size": 10119616,
+   "crc": "80f26baf",
+   "status": "extracted"
+  },
+  {
+   "member": "S3/walk/mdata_S3walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S3\\walk\\mdata_S3walk4.mat",
+   "size": 54228416,
+   "crc": "45fb6149",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/eeg_S4dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\eeg_S4dance1.mat",
+   "size": 5373951,
+   "crc": "716255b2",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/eeg_S4dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\eeg_S4dance2.mat",
+   "size": 5326804,
+   "crc": "b9837f34",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/eeg_S4dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\eeg_S4dance3.mat",
+   "size": 5254033,
+   "crc": "85622467",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/eeg_S4dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\eeg_S4dance4.mat",
+   "size": 5226202,
+   "crc": "5b772f6c",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/imu_S4dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\imu_S4dance1.mat",
+   "size": 333566,
+   "crc": "e669b2e5",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/imu_S4dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\imu_S4dance2.mat",
+   "size": 359486,
+   "crc": "4520c683",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/imu_S4dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\imu_S4dance3.mat",
+   "size": 354689,
+   "crc": "e4235814",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/imu_S4dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\imu_S4dance4.mat",
+   "size": 365551,
+   "crc": "6510ad88",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/mdata_S4dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\mdata_S4dance1.mat",
+   "size": 38025416,
+   "crc": "b62a7e66",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/mdata_S4dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\mdata_S4dance2.mat",
+   "size": 38256416,
+   "crc": "f72ec7c0",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/mdata_S4dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\mdata_S4dance3.mat",
+   "size": 38179416,
+   "crc": "9816a1e7",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/dance/mdata_S4dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\dance\\mdata_S4dance4.mat",
+   "size": 38199216,
+   "crc": "fbf474eb",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/eeg_S4walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\eeg_S4walk1.mat",
+   "size": 7790041,
+   "crc": "1de38433",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/eeg_S4walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\eeg_S4walk2.mat",
+   "size": 7730233,
+   "crc": "7cda4e7a",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/eeg_S4walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\eeg_S4walk3.mat",
+   "size": 7752519,
+   "crc": "d371c967",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/eeg_S4walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\eeg_S4walk4.mat",
+   "size": 7810516,
+   "crc": "847e504c",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/imu_S4walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\imu_S4walk1.mat",
+   "size": 554050,
+   "crc": "26dfe1d3",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/imu_S4walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\imu_S4walk2.mat",
+   "size": 567901,
+   "crc": "05dc285e",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/imu_S4walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\imu_S4walk3.mat",
+   "size": 565041,
+   "crc": "454ba39d",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/imu_S4walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\imu_S4walk4.mat",
+   "size": 575011,
+   "crc": "3efe7b85",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/mdata_S4walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\mdata_S4walk1.mat",
+   "size": 53846168,
+   "crc": "3379d56c",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/mdata_S4walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\mdata_S4walk2.mat",
+   "size": 53629760,
+   "crc": "f1b9536c",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/mdata_S4walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\mdata_S4walk3.mat",
+   "size": 53784968,
+   "crc": "5d0e4a99",
+   "status": "extracted"
+  },
+  {
+   "member": "S4/walk/mdata_S4walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S4\\walk\\mdata_S4walk4.mat",
+   "size": 53695344,
+   "crc": "4bd88e33",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/eeg_S5dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\eeg_S5dance1.mat",
+   "size": 5377996,
+   "crc": "4d504e07",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/eeg_S5dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\eeg_S5dance2.mat",
+   "size": 5409518,
+   "crc": "35795c9e",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/eeg_S5dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\eeg_S5dance3.mat",
+   "size": 5442372,
+   "crc": "14d26633",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/eeg_S5dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\eeg_S5dance4.mat",
+   "size": 5368676,
+   "crc": "469256cb",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/imu_S5dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\imu_S5dance1.mat",
+   "size": 336912,
+   "crc": "fe1193d6",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/imu_S5dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\imu_S5dance2.mat",
+   "size": 341199,
+   "crc": "bfcd7a6c",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/imu_S5dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\imu_S5dance3.mat",
+   "size": 335007,
+   "crc": "046b022d",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/imu_S5dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\imu_S5dance4.mat",
+   "size": 326153,
+   "crc": "5009e7cc",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/mdata_S5dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\mdata_S5dance1.mat",
+   "size": 37820816,
+   "crc": "3d8e88c1",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/mdata_S5dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\mdata_S5dance2.mat",
+   "size": 37897816,
+   "crc": "48fd703e",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/mdata_S5dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\mdata_S5dance3.mat",
+   "size": 6320352,
+   "crc": "dcb81020",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/dance/mdata_S5dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\dance\\mdata_S5dance4.mat",
+   "size": 4411976,
+   "crc": "44268712",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/eeg_S5walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\eeg_S5walk1.mat",
+   "size": 8090475,
+   "crc": "75ec2194",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/eeg_S5walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\eeg_S5walk2.mat",
+   "size": 8021152,
+   "crc": "9ba709d7",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/eeg_S5walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\eeg_S5walk3.mat",
+   "size": 8019744,
+   "crc": "7ac8a7f1",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/eeg_S5walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\eeg_S5walk4.mat",
+   "size": 7906585,
+   "crc": "7dedba46",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/imu_S5walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\imu_S5walk1.mat",
+   "size": 572419,
+   "crc": "77636672",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/imu_S5walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\imu_S5walk2.mat",
+   "size": 583130,
+   "crc": "c8494806",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/imu_S5walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\imu_S5walk3.mat",
+   "size": 578128,
+   "crc": "233b7a37",
+   "status": "extracted"
+  },
+  {
+   "member": "S5/walk/imu_S5walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S5\\walk\\imu_S5walk4.mat",
+   "size": 582610,
+   "crc": "d3c8caa6",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/eeg_S6dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\eeg_S6dance1.mat",
+   "size": 5218385,
+   "crc": "b22de439",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/eeg_S6dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\eeg_S6dance2.mat",
+   "size": 5205953,
+   "crc": "dbc2ea67",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/eeg_S6dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\eeg_S6dance3.mat",
+   "size": 5294545,
+   "crc": "993c8784",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/eeg_S6dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\eeg_S6dance4.mat",
+   "size": 5321207,
+   "crc": "94763893",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/imu_S6dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\imu_S6dance1.mat",
+   "size": 364207,
+   "crc": "7d422925",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/imu_S6dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\imu_S6dance2.mat",
+   "size": 356745,
+   "crc": "0a7c1dc8",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/imu_S6dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\imu_S6dance3.mat",
+   "size": 349005,
+   "crc": "7ecb8f4f",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/imu_S6dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\imu_S6dance4.mat",
+   "size": 354799,
+   "crc": "5e690d40",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/mdata_S6dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\mdata_S6dance1.mat",
+   "size": 37539216,
+   "crc": "0b2e08e8",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/mdata_S6dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\mdata_S6dance2.mat",
+   "size": 37444616,
+   "crc": "18ab2f6b",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/mdata_S6dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\mdata_S6dance3.mat",
+   "size": 37323616,
+   "crc": "d1418243",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/dance/mdata_S6dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\dance\\mdata_S6dance4.mat",
+   "size": 37409416,
+   "crc": "1a5dc6ec",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/eeg_S6walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\eeg_S6walk1.mat",
+   "size": 7770560,
+   "crc": "ee3e38ce",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/eeg_S6walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\eeg_S6walk2.mat",
+   "size": 7822609,
+   "crc": "db24fbc1",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/eeg_S6walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\eeg_S6walk3.mat",
+   "size": 7808646,
+   "crc": "ef351c53",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/eeg_S6walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\eeg_S6walk4.mat",
+   "size": 7821404,
+   "crc": "bd3743b1",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/imu_S6walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\imu_S6walk1.mat",
+   "size": 629069,
+   "crc": "66ba2428",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/imu_S6walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\imu_S6walk2.mat",
+   "size": 641066,
+   "crc": "b3a3d884",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/imu_S6walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\imu_S6walk3.mat",
+   "size": 640551,
+   "crc": "b7837b4f",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/imu_S6walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\imu_S6walk4.mat",
+   "size": 641708,
+   "crc": "920eea13",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/mdata_S6walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\mdata_S6walk1.mat",
+   "size": 52748808,
+   "crc": "42d39f77",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/mdata_S6walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\mdata_S6walk2.mat",
+   "size": 52484304,
+   "crc": "8bba6d95",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/mdata_S6walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\mdata_S6walk3.mat",
+   "size": 52545504,
+   "crc": "7953cff2",
+   "status": "extracted"
+  },
+  {
+   "member": "S6/walk/mdata_S6walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S6\\walk\\mdata_S6walk4.mat",
+   "size": 52453696,
+   "crc": "c723f1c2",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/eeg_S7dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\eeg_S7dance1.mat",
+   "size": 5462138,
+   "crc": "67bec697",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/eeg_S7dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\eeg_S7dance2.mat",
+   "size": 5391993,
+   "crc": "599fad99",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/eeg_S7dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\eeg_S7dance3.mat",
+   "size": 5412661,
+   "crc": "e2c8fbf3",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/eeg_S7dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\eeg_S7dance4.mat",
+   "size": 5429650,
+   "crc": "af9b14cc",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/imu_S7dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\imu_S7dance1.mat",
+   "size": 350951,
+   "crc": "6230e7e6",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/imu_S7dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\imu_S7dance2.mat",
+   "size": 368365,
+   "crc": "7bffc686",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/imu_S7dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\imu_S7dance3.mat",
+   "size": 356918,
+   "crc": "960ee29b",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/dance/imu_S7dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\dance\\imu_S7dance4.mat",
+   "size": 356440,
+   "crc": "ab0501b6",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/eeg_S7walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\eeg_S7walk2.mat",
+   "size": 8028074,
+   "crc": "4794ce0e",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/eeg_S7walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\eeg_S7walk3.mat",
+   "size": 7976526,
+   "crc": "e7e8a657",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/eeg_S7walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\eeg_S7walk4.mat",
+   "size": 7927320,
+   "crc": "08bcf87c",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/eeg_S7walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\eeg_S7walk5.mat",
+   "size": 7949043,
+   "crc": "c35fb7de",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/imu_S7walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\imu_S7walk2.mat",
+   "size": 584201,
+   "crc": "862b955f",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/imu_S7walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\imu_S7walk3.mat",
+   "size": 566575,
+   "crc": "421d5cda",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/imu_S7walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\imu_S7walk4.mat",
+   "size": 606124,
+   "crc": "94902987",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/imu_S7walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\imu_S7walk5.mat",
+   "size": 620609,
+   "crc": "002fd480",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/mdata_S7walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\mdata_S7walk2.mat",
+   "size": 53715016,
+   "crc": "8a8dfff6",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/mdata_S7walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\mdata_S7walk3.mat",
+   "size": 53933608,
+   "crc": "063967c2",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/mdata_S7walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\mdata_S7walk4.mat",
+   "size": 53758728,
+   "crc": "8edef83a",
+   "status": "extracted"
+  },
+  {
+   "member": "S7/walk/mdata_S7walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S7\\walk\\mdata_S7walk5.mat",
+   "size": 53769664,
+   "crc": "c1e9d16d",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/eeg_S8dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\eeg_S8dance1.mat",
+   "size": 5425203,
+   "crc": "93505be1",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/eeg_S8dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\eeg_S8dance2.mat",
+   "size": 5356526,
+   "crc": "6a3d915f",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/eeg_S8dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\eeg_S8dance3.mat",
+   "size": 5319007,
+   "crc": "ee7aca9c",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/eeg_S8dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\eeg_S8dance4.mat",
+   "size": 5323254,
+   "crc": "2d68f48b",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/imu_S8dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\imu_S8dance1.mat",
+   "size": 389447,
+   "crc": "3324f2c8",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/imu_S8dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\imu_S8dance2.mat",
+   "size": 374245,
+   "crc": "577afc61",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/imu_S8dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\imu_S8dance3.mat",
+   "size": 347407,
+   "crc": "d8e3902e",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/imu_S8dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\imu_S8dance4.mat",
+   "size": 350387,
+   "crc": "4ff26564",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/mdata_S8dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\mdata_S8dance1.mat",
+   "size": 36186216,
+   "crc": "1f9e10d7",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/mdata_S8dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\mdata_S8dance2.mat",
+   "size": 36085016,
+   "crc": "d5a81314",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/mdata_S8dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\mdata_S8dance3.mat",
+   "size": 36008016,
+   "crc": "f83df11d",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/dance/mdata_S8dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\dance\\mdata_S8dance4.mat",
+   "size": 16271024,
+   "crc": "1e4f5392",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/eeg_S8walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\eeg_S8walk1.mat",
+   "size": 8029506,
+   "crc": "df14966d",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/eeg_S8walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\eeg_S8walk2.mat",
+   "size": 7946163,
+   "crc": "af160e2b",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/eeg_S8walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\eeg_S8walk3.mat",
+   "size": 7862631,
+   "crc": "73c55b92",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/eeg_S8walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\eeg_S8walk4.mat",
+   "size": 7848498,
+   "crc": "aa84bbdc",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/imu_S8walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\imu_S8walk1.mat",
+   "size": 564206,
+   "crc": "043980c5",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/imu_S8walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\imu_S8walk2.mat",
+   "size": 561309,
+   "crc": "f11be3ce",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/imu_S8walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\imu_S8walk3.mat",
+   "size": 539147,
+   "crc": "746b81fd",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/imu_S8walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\imu_S8walk4.mat",
+   "size": 552342,
+   "crc": "ec70fb4d",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/mdata_S8walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\mdata_S8walk1.mat",
+   "size": 50833864,
+   "crc": "d141c6e2",
+   "status": "extracted"
+  },
+  {
+   "member": "S8/walk/mdata_S8walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S8\\walk\\mdata_S8walk2.mat",
+   "size": 50836048,
+   "crc": "1f737825",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/eeg_S9dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\eeg_S9dance1.mat",
+   "size": 5334016,
+   "crc": "4d78aa7e",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/eeg_S9dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\eeg_S9dance2.mat",
+   "size": 5233627,
+   "crc": "a753ae66",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/eeg_S9dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\eeg_S9dance3.mat",
+   "size": 5242023,
+   "crc": "a91af339",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/eeg_S9dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\eeg_S9dance4.mat",
+   "size": 5301736,
+   "crc": "c35e1d81",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/imu_S9dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\imu_S9dance1.mat",
+   "size": 385105,
+   "crc": "4d79f3bc",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/imu_S9dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\imu_S9dance2.mat",
+   "size": 385115,
+   "crc": "c04a6f6d",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/imu_S9dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\imu_S9dance3.mat",
+   "size": 391086,
+   "crc": "378060fb",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/imu_S9dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\imu_S9dance4.mat",
+   "size": 405401,
+   "crc": "2c5c8416",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/mdata_S9dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\mdata_S9dance1.mat",
+   "size": 36575616,
+   "crc": "dabac9dd",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/mdata_S9dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\mdata_S9dance2.mat",
+   "size": 36586616,
+   "crc": "7b53d74b",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/mdata_S9dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\mdata_S9dance3.mat",
+   "size": 36670216,
+   "crc": "dd32beb2",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/dance/mdata_S9dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\dance\\mdata_S9dance4.mat",
+   "size": 36492016,
+   "crc": "96bca0e5",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/eeg_S9walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\eeg_S9walk1.mat",
+   "size": 7962717,
+   "crc": "7c67db8d",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/eeg_S9walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\eeg_S9walk2.mat",
+   "size": 8058639,
+   "crc": "f681e713",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/eeg_S9walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\eeg_S9walk3.mat",
+   "size": 8001186,
+   "crc": "6926e2ac",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/eeg_S9walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\eeg_S9walk4.mat",
+   "size": 7850976,
+   "crc": "8afe3daf",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/imu_S9walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\imu_S9walk1.mat",
+   "size": 583743,
+   "crc": "320ae11a",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/imu_S9walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\imu_S9walk2.mat",
+   "size": 568627,
+   "crc": "d9b37c00",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/imu_S9walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\imu_S9walk3.mat",
+   "size": 601428,
+   "crc": "af1daf72",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/imu_S9walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\imu_S9walk4.mat",
+   "size": 594647,
+   "crc": "256542f5",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/mdata_S9walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\mdata_S9walk1.mat",
+   "size": 51511528,
+   "crc": "ccf106c4",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/mdata_S9walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\mdata_S9walk2.mat",
+   "size": 51771664,
+   "crc": "391ae65b",
+   "status": "extracted"
+  },
+  {
+   "member": "S9/walk/mdata_S9walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S9\\walk\\mdata_S9walk3.mat",
+   "size": 51730120,
+   "crc": "7cadd15b",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/eeg_S10dance6.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\eeg_S10dance6.mat",
+   "size": 5367877,
+   "crc": "f1b84b65",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/eeg_S10dance7.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\eeg_S10dance7.mat",
+   "size": 5361454,
+   "crc": "d4031cf3",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/eeg_S10dance8.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\eeg_S10dance8.mat",
+   "size": 5343174,
+   "crc": "fb31960a",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/eeg_S10dance9.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\eeg_S10dance9.mat",
+   "size": 5349035,
+   "crc": "c00f4e2a",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/imu_S10dance6.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\imu_S10dance6.mat",
+   "size": 389902,
+   "crc": "606fda0d",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/imu_S10dance7.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\imu_S10dance7.mat",
+   "size": 411064,
+   "crc": "305fbc40",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/imu_S10dance8.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\imu_S10dance8.mat",
+   "size": 390357,
+   "crc": "9bd2e268",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/imu_S10dance9.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\imu_S10dance9.mat",
+   "size": 399234,
+   "crc": "d0737a38",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/mdata_S10dance6.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\mdata_S10dance6.mat",
+   "size": 37541416,
+   "crc": "cbf1afc5",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/mdata_S10dance7.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\mdata_S10dance7.mat",
+   "size": 37552416,
+   "crc": "03e8d8c4",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/mdata_S10dance8.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\mdata_S10dance8.mat",
+   "size": 30812288,
+   "crc": "2a40db62",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/dance/mdata_S10dance9.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\dance\\mdata_S10dance9.mat",
+   "size": 6912760,
+   "crc": "deeef03d",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/eeg_S10walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\eeg_S10walk1.mat",
+   "size": 8255964,
+   "crc": "d52eafaf",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/eeg_S10walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\eeg_S10walk2.mat",
+   "size": 8072582,
+   "crc": "35cbe197",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/eeg_S10walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\eeg_S10walk3.mat",
+   "size": 8058418,
+   "crc": "ed406c67",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/eeg_S10walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\eeg_S10walk4.mat",
+   "size": 7910273,
+   "crc": "0d8c3480",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/imu_S10walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\imu_S10walk1.mat",
+   "size": 629054,
+   "crc": "399ee303",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/imu_S10walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\imu_S10walk2.mat",
+   "size": 618982,
+   "crc": "db0f1343",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/imu_S10walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\imu_S10walk3.mat",
+   "size": 621990,
+   "crc": "b13f48df",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/imu_S10walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\imu_S10walk4.mat",
+   "size": 632180,
+   "crc": "ed6bd660",
+   "status": "extracted"
+  },
+  {
+   "member": "S10/walk/mdata_S10walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S10\\walk\\mdata_S10walk4.mat",
+   "size": 52648248,
+   "crc": "c193a723",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/eeg_S11dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\eeg_S11dance1.mat",
+   "size": 5238967,
+   "crc": "ac96c36b",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/eeg_S11dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\eeg_S11dance2.mat",
+   "size": 5200434,
+   "crc": "ef506cac",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/eeg_S11dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\eeg_S11dance3.mat",
+   "size": 5087833,
+   "crc": "0d36fdb0",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/eeg_S11dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\eeg_S11dance4.mat",
+   "size": 5056247,
+   "crc": "fdda9f83",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/imu_S11dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\imu_S11dance1.mat",
+   "size": 292727,
+   "crc": "f1aaaa84",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/imu_S11dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\imu_S11dance2.mat",
+   "size": 293760,
+   "crc": "72ad585a",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/imu_S11dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\imu_S11dance3.mat",
+   "size": 280739,
+   "crc": "f22c385e",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/imu_S11dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\imu_S11dance4.mat",
+   "size": 281115,
+   "crc": "9dd04882",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/mdata_S11dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\mdata_S11dance1.mat",
+   "size": 39594016,
+   "crc": "7f64a328",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/mdata_S11dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\mdata_S11dance2.mat",
+   "size": 39717216,
+   "crc": "650fb5b4",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/mdata_S11dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\mdata_S11dance3.mat",
+   "size": 25253288,
+   "crc": "56de6329",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/dance/mdata_S11dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\dance\\mdata_S11dance4.mat",
+   "size": 39121016,
+   "crc": "1f889152",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/eeg_S11walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\eeg_S11walk1.mat",
+   "size": 2499888,
+   "crc": "eec19e0a",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/eeg_S11walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\eeg_S11walk2.mat",
+   "size": 5468646,
+   "crc": "6d465ccc",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/eeg_S11walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\eeg_S11walk3.mat",
+   "size": 7715262,
+   "crc": "89e1525f",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/eeg_S11walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\eeg_S11walk4.mat",
+   "size": 7635403,
+   "crc": "f102ea66",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/eeg_S11walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\eeg_S11walk5.mat",
+   "size": 7573968,
+   "crc": "0663683a",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/imu_S11walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\imu_S11walk1.mat",
+   "size": 162025,
+   "crc": "87789a58",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/imu_S11walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\imu_S11walk2.mat",
+   "size": 345694,
+   "crc": "8e993d27",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/imu_S11walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\imu_S11walk3.mat",
+   "size": 459202,
+   "crc": "83a91fdb",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/imu_S11walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\imu_S11walk4.mat",
+   "size": 424805,
+   "crc": "42442e78",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/imu_S11walk5.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\imu_S11walk5.mat",
+   "size": 445110,
+   "crc": "a0226841",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/mdata_S11walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\mdata_S11walk1.mat",
+   "size": 16581440,
+   "crc": "8cc078c4",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/mdata_S11walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\mdata_S11walk2.mat",
+   "size": 38858952,
+   "crc": "f109eb55",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/mdata_S11walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\mdata_S11walk3.mat",
+   "size": 55658368,
+   "crc": "027293be",
+   "status": "extracted"
+  },
+  {
+   "member": "S11/walk/mdata_S11walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S11\\walk\\mdata_S11walk4.mat",
+   "size": 55629944,
+   "crc": "2c82c917",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/eeg_S12dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\eeg_S12dance1.mat",
+   "size": 5470179,
+   "crc": "3cf3a6a3",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/eeg_S12dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\eeg_S12dance2.mat",
+   "size": 5429826,
+   "crc": "6e267aad",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/eeg_S12dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\eeg_S12dance3.mat",
+   "size": 5432067,
+   "crc": "68afcfbd",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/eeg_S12dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\eeg_S12dance4.mat",
+   "size": 5420394,
+   "crc": "8e40015f",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/imu_S12dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\imu_S12dance1.mat",
+   "size": 387023,
+   "crc": "88fad72d",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/imu_S12dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\imu_S12dance2.mat",
+   "size": 404547,
+   "crc": "c2283e1b",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/imu_S12dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\imu_S12dance3.mat",
+   "size": 408550,
+   "crc": "7d4041be",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/imu_S12dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\imu_S12dance4.mat",
+   "size": 406206,
+   "crc": "320be939",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/mdata_S12dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\mdata_S12dance1.mat",
+   "size": 39877816,
+   "crc": "3b8c174d",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/mdata_S12dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\mdata_S12dance2.mat",
+   "size": 39816216,
+   "crc": "577905cd",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/mdata_S12dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\mdata_S12dance3.mat",
+   "size": 39706216,
+   "crc": "b923a99d",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/dance/mdata_S12dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\dance\\mdata_S12dance4.mat",
+   "size": 39836016,
+   "crc": "3b166843",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/eeg_S12walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\eeg_S12walk1.mat",
+   "size": 7687500,
+   "crc": "ddf95a73",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/eeg_S12walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\eeg_S12walk2.mat",
+   "size": 7705487,
+   "crc": "849792c7",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/eeg_S12walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\eeg_S12walk3.mat",
+   "size": 7705927,
+   "crc": "5c500b6f",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/eeg_S12walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\eeg_S12walk4.mat",
+   "size": 7739115,
+   "crc": "7f9c90dc",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/imu_S12walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\imu_S12walk1.mat",
+   "size": 490265,
+   "crc": "df7e2fe1",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/imu_S12walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\imu_S12walk2.mat",
+   "size": 515645,
+   "crc": "f9dfdbb1",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/imu_S12walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\imu_S12walk3.mat",
+   "size": 514236,
+   "crc": "31d241ff",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/imu_S12walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\imu_S12walk4.mat",
+   "size": 525011,
+   "crc": "4bbd6462",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/mdata_S12walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\mdata_S12walk1.mat",
+   "size": 55791720,
+   "crc": "70ef2b42",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/mdata_S12walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\mdata_S12walk2.mat",
+   "size": 55925056,
+   "crc": "9c900227",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/mdata_S12walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\mdata_S12walk3.mat",
+   "size": 55903200,
+   "crc": "4780e432",
+   "status": "extracted"
+  },
+  {
+   "member": "S12/walk/mdata_S12walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S12\\walk\\mdata_S12walk4.mat",
+   "size": 55859488,
+   "crc": "cedd35b5",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/eeg_S13dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\eeg_S13dance1.mat",
+   "size": 5299428,
+   "crc": "dab92742",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/eeg_S13dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\eeg_S13dance2.mat",
+   "size": 5306485,
+   "crc": "5f97a4a9",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/eeg_S13dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\eeg_S13dance3.mat",
+   "size": 5286526,
+   "crc": "039056e0",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/eeg_S13dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\eeg_S13dance4.mat",
+   "size": 5212464,
+   "crc": "db37ec6f",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/imu_S13dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\imu_S13dance1.mat",
+   "size": 274232,
+   "crc": "523e7b7a",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/imu_S13dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\imu_S13dance2.mat",
+   "size": 301036,
+   "crc": "87221cfc",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/imu_S13dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\imu_S13dance3.mat",
+   "size": 295262,
+   "crc": "ca2d7c59",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/imu_S13dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\imu_S13dance4.mat",
+   "size": 308469,
+   "crc": "aa5d5a12",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/mdata_S13dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\mdata_S13dance2.mat",
+   "size": 39085816,
+   "crc": "ea228b06",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/mdata_S13dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\mdata_S13dance3.mat",
+   "size": 38841616,
+   "crc": "c0f08e60",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/dance/mdata_S13dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\dance\\mdata_S13dance4.mat",
+   "size": 39101216,
+   "crc": "7c203f76",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/eeg_S13walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\eeg_S13walk1.mat",
+   "size": 7514277,
+   "crc": "94afc276",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/eeg_S13walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\eeg_S13walk2.mat",
+   "size": 7565874,
+   "crc": "9356ab0f",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/eeg_S13walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\eeg_S13walk3.mat",
+   "size": 7531149,
+   "crc": "b8cb54e3",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/eeg_S13walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\eeg_S13walk4.mat",
+   "size": 7545669,
+   "crc": "62b18e66",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/imu_S13walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\imu_S13walk1.mat",
+   "size": 494166,
+   "crc": "260f6793",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/imu_S13walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\imu_S13walk2.mat",
+   "size": 545015,
+   "crc": "528ea3ff",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/imu_S13walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\imu_S13walk3.mat",
+   "size": 564107,
+   "crc": "a55aa954",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/imu_S13walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\imu_S13walk4.mat",
+   "size": 536719,
+   "crc": "89c5d043",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/mdata_S13walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\mdata_S13walk1.mat",
+   "size": 54893264,
+   "crc": "b64d9ee2",
+   "status": "extracted"
+  },
+  {
+   "member": "S13/walk/mdata_S13walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S13\\walk\\mdata_S13walk3.mat",
+   "size": 54838616,
+   "crc": "eda7ae26",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/eeg_S14dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\eeg_S14dance1.mat",
+   "size": 4700934,
+   "crc": "f0533404",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/eeg_S14dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\eeg_S14dance2.mat",
+   "size": 4624272,
+   "crc": "f0f72a17",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/eeg_S14dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\eeg_S14dance3.mat",
+   "size": 4621258,
+   "crc": "6ce985db",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/eeg_S14dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\eeg_S14dance4.mat",
+   "size": 4603344,
+   "crc": "f1052164",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/imu_S14dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\imu_S14dance1.mat",
+   "size": 407513,
+   "crc": "050c4a68",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/imu_S14dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\imu_S14dance2.mat",
+   "size": 361431,
+   "crc": "f6a034f2",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/imu_S14dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\imu_S14dance3.mat",
+   "size": 362399,
+   "crc": "3d607d91",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/imu_S14dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\imu_S14dance4.mat",
+   "size": 371562,
+   "crc": "9f084245",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/mdata_S14dance1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\mdata_S14dance1.mat",
+   "size": 40203416,
+   "crc": "f07bc2de",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/mdata_S14dance2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\mdata_S14dance2.mat",
+   "size": 40324416,
+   "crc": "81453e7d",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/mdata_S14dance3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\mdata_S14dance3.mat",
+   "size": 27229432,
+   "crc": "016ffd7a",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/dance/mdata_S14dance4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\dance\\mdata_S14dance4.mat",
+   "size": 40509216,
+   "crc": "e0d42503",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/eeg_S14walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\eeg_S14walk1.mat",
+   "size": 7632527,
+   "crc": "9ce85f2d",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/eeg_S14walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\eeg_S14walk2.mat",
+   "size": 7362787,
+   "crc": "753d7df1",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/eeg_S14walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\eeg_S14walk3.mat",
+   "size": 7147160,
+   "crc": "ee1a06e2",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/eeg_S14walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\eeg_S14walk4.mat",
+   "size": 6954521,
+   "crc": "2fee2ffa",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/imu_S14walk1.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\imu_S14walk1.mat",
+   "size": 623974,
+   "crc": "cca1fb61",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/imu_S14walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\imu_S14walk2.mat",
+   "size": 615551,
+   "crc": "c568ee3e",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/imu_S14walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\imu_S14walk3.mat",
+   "size": 599615,
+   "crc": "0d2bc96f",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/imu_S14walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\imu_S14walk4.mat",
+   "size": 617910,
+   "crc": "ac87f67f",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/mdata_S14walk2.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\mdata_S14walk2.mat",
+   "size": 56217984,
+   "crc": "3397f6e5",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/mdata_S14walk3.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\mdata_S14walk3.mat",
+   "size": 56185192,
+   "crc": "9f91de95",
+   "status": "extracted"
+  },
+  {
+   "member": "S14/walk/mdata_S14walk4.mat",
+   "path": "E:\\ASD Project\\Dataset\\Move4AS\\Dataset\\S14\\walk\\mdata_S14walk4.mat",
+   "size": 56311976,
+   "crc": "7d1564e5",
+   "status": "extracted"
+  }
+ ],
+ "nested": {
+  "Preprocess_3DMotion_rawfiles.zip": [
+   {
+    "member": "__MACOSX/._Preprocess_3DMotion_rawfiles",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\__MACOSX\\._Preprocess_3DMotion_rawfiles",
+    "size": 212,
+    "crc": "ef0f172d",
+    "status": "extracted"
+   },
+   {
+    "member": "Preprocess_3DMotion_rawfiles/.DS_Store",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\Preprocess_3DMotion_rawfiles\\.DS_Store",
+    "size": 6148,
+    "crc": "cd4deac1",
+    "status": "extracted"
+   },
+   {
+    "member": "__MACOSX/Preprocess_3DMotion_rawfiles/._.DS_Store",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\__MACOSX\\Preprocess_3DMotion_rawfiles\\._.DS_Store",
+    "size": 120,
+    "crc": "38c0880b",
+    "status": "extracted"
+   },
+   {
+    "member": "Preprocess_3DMotion_rawfiles/03_normalize.py",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\Preprocess_3DMotion_rawfiles\\03_normalize.py",
+    "size": 13380,
+    "crc": "f6307eea",
+    "status": "extracted"
+   },
+   {
+    "member": "Preprocess_3DMotion_rawfiles/02_interpolate.py",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\Preprocess_3DMotion_rawfiles\\02_interpolate.py",
+    "size": 5428,
+    "crc": "7a8041c8",
+    "status": "extracted"
+   },
+   {
+    "member": "Preprocess_3DMotion_rawfiles/README.txt",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\Preprocess_3DMotion_rawfiles\\README.txt",
+    "size": 760,
+    "crc": "36cce86a",
+    "status": "extracted"
+   },
+   {
+    "member": "__MACOSX/Preprocess_3DMotion_rawfiles/._README.txt",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\__MACOSX\\Preprocess_3DMotion_rawfiles\\._README.txt",
+    "size": 542,
+    "crc": "0d997268",
+    "status": "extracted"
+   },
+   {
+    "member": "Preprocess_3DMotion_rawfiles/01_parse_and_extract_parts.py",
+    "path": "E:\\ASD Project\\Dataset\\Move4AS\\Preprocess_3DMotion_rawfiles\\Preprocess_3DMotion_rawfiles\\01_parse_and_extract_parts.py",
+    "size": 10142,
+    "crc": "abf57ef0",
+    "status": "extracted"
+   }
+  ]
+ },
+ "status": "ok"
+}

@@ -1,0 +1,241 @@
+2026-10-25 23:20:35,977 INFO mmasd: B1: 1367 clips, 10 activities ['arm_swing_as', 'body_swing_bs', 'chest_expansion_ce', 'drumming_dr', 'maracas_forward_shaking_mfs', 'maracas_shaking_ms', 'sing_and_clap_sac', 'squat_sq', 'tree_pose_tr', 'twist_pose_tw'], 32 participants (excluded: ['frog_pose_fg'] — <30 clips or no OpenPose)
+2026-10-25 23:20:35,977 INFO mmasd: --- ctrgcn__2d_openpose
+2026-10-25 23:20:44,693 INFO mmasd:     epoch 1/3 train_loss=5.0830 val_loss=2.5549 (5.9s)
+2026-10-25 23:20:48,616 INFO mmasd:     epoch 2/3 train_loss=3.4906 val_loss=1.9673 (3.9s)
+2026-10-25 23:20:52,282 INFO mmasd:     epoch 3/3 train_loss=2.9942 val_loss=1.9566 (3.6s)
+2026-10-25 23:20:56,348 INFO mmasd:     epoch 1/3 train_loss=5.0839 val_loss=3.3142 (3.7s)
+2026-10-25 23:21:00,046 INFO mmasd:     epoch 2/3 train_loss=3.4948 val_loss=2.4397 (3.6s)
+2026-10-25 23:21:03,749 INFO mmasd:     epoch 3/3 train_loss=3.0131 val_loss=2.1108 (3.6s)
+2026-10-25 23:21:07,703 INFO mmasd:     epoch 1/3 train_loss=3.9262 val_loss=3.0810 (3.7s)
+2026-10-25 23:21:11,417 INFO mmasd:     epoch 2/3 train_loss=3.3915 val_loss=2.4920 (3.7s)
+2026-10-25 23:21:15,270 INFO mmasd:     epoch 3/3 train_loss=2.9535 val_loss=2.3154 (3.8s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:21:19,675 INFO mmasd:     epoch 1/3 train_loss=4.1364 val_loss=3.4771 (4.1s)
+2026-10-25 23:21:23,710 INFO mmasd:     epoch 2/3 train_loss=3.1915 val_loss=2.6888 (4.0s)
+2026-10-25 23:21:27,799 INFO mmasd:     epoch 3/3 train_loss=2.7274 val_loss=2.2160 (4.0s)
+2026-10-25 23:21:31,961 INFO mmasd:     epoch 1/3 train_loss=4.4451 val_loss=2.8412 (3.9s)
+2026-10-25 23:21:35,924 INFO mmasd:     epoch 2/3 train_loss=3.5079 val_loss=2.4255 (3.9s)
+2026-10-25 23:21:40,006 INFO mmasd:     epoch 3/3 train_loss=3.0673 val_loss=2.3448 (4.0s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:21:42,272 INFO mmasd: ==> ctrgcn__2d_openpose: acc=0.269 bal_acc=0.279 macroF1=0.256
+2026-10-25 23:21:42,272 INFO mmasd: --- poseformerv2__2d_openpose
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:21:44,214 INFO mmasd:     epoch 1/3 train_loss=1.8942 val_loss=2.0310 (1.9s)
+2026-10-25 23:21:45,562 INFO mmasd:     epoch 2/3 train_loss=1.2771 val_loss=1.3319 (1.3s)
+2026-10-25 23:21:46,901 INFO mmasd:     epoch 3/3 train_loss=0.9755 val_loss=1.1835 (1.3s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:21:48,545 INFO mmasd:     epoch 1/3 train_loss=2.0893 val_loss=1.5634 (1.5s)
+2026-10-25 23:21:49,873 INFO mmasd:     epoch 2/3 train_loss=1.3491 val_loss=1.1354 (1.3s)
+2026-10-25 23:21:51,199 INFO mmasd:     epoch 3/3 train_loss=0.9857 val_loss=0.9831 (1.3s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:21:52,804 INFO mmasd:     epoch 1/3 train_loss=2.0876 val_loss=1.6112 (1.4s)
+2026-10-25 23:21:54,185 INFO mmasd:     epoch 2/3 train_loss=1.4216 val_loss=1.1733 (1.3s)
+2026-10-25 23:21:55,567 INFO mmasd:     epoch 3/3 train_loss=1.0341 val_loss=0.9629 (1.3s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:21:57,177 INFO mmasd:     epoch 1/3 train_loss=1.9366 val_loss=1.6861 (1.4s)
+2026-10-25 23:21:58,673 INFO mmasd:     epoch 2/3 train_loss=1.2495 val_loss=1.3731 (1.5s)
+2026-10-25 23:22:00,226 INFO mmasd:     epoch 3/3 train_loss=0.9073 val_loss=1.2530 (1.5s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:22:01,860 INFO mmasd:     epoch 1/3 train_loss=2.0799 val_loss=2.0248 (1.5s)
+2026-10-25 23:22:03,218 INFO mmasd:     epoch 2/3 train_loss=1.3524 val_loss=1.6434 (1.3s)
+2026-10-25 23:22:04,808 INFO mmasd:     epoch 3/3 train_loss=0.9668 val_loss=1.6103 (1.5s)
+2026-10-25 23:22:06,877 INFO mmasd: ==> poseformerv2__2d_openpose: acc=0.517 bal_acc=0.556 macroF1=0.533
+2026-10-25 23:22:06,877 INFO mmasd: --- mae__2d_openpose
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:22:07,443 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2947 val=0.0764
+2026-10-25 23:22:07,836 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1022 val=0.0593
+2026-10-25 23:22:08,228 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0725 val=0.0442
+2026-10-25 23:22:09,295 INFO mmasd:     epoch 1/3 train_loss=1.9107 val_loss=1.8692 (1.0s)
+2026-10-25 23:22:10,467 INFO mmasd:     epoch 2/3 train_loss=1.3732 val_loss=1.7116 (1.2s)
+2026-10-25 23:22:11,595 INFO mmasd:     epoch 3/3 train_loss=1.0780 val_loss=1.5194 (1.1s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:22:12,150 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2829 val=0.1202
+2026-10-25 23:22:12,542 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1003 val=0.0886
+2026-10-25 23:22:12,946 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0754 val=0.0632
+2026-10-25 23:22:14,026 INFO mmasd:     epoch 1/3 train_loss=1.9996 val_loss=1.5913 (1.0s)
+2026-10-25 23:22:15,216 INFO mmasd:     epoch 2/3 train_loss=1.4151 val_loss=1.3292 (1.2s)
+2026-10-25 23:22:16,438 INFO mmasd:     epoch 3/3 train_loss=1.1497 val_loss=1.1332 (1.2s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:22:16,996 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2813 val=0.0993
+2026-10-25 23:22:17,404 INFO mmasd:     [MAE] epoch 2/3 recon train=0.0991 val=0.0729
+2026-10-25 23:22:17,879 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0691 val=0.0562
+2026-10-25 23:22:18,990 INFO mmasd:     epoch 1/3 train_loss=1.9906 val_loss=1.6223 (1.1s)
+2026-10-25 23:22:20,099 INFO mmasd:     epoch 2/3 train_loss=1.5075 val_loss=1.4098 (1.1s)
+2026-10-25 23:22:21,230 INFO mmasd:     epoch 3/3 train_loss=1.2465 val_loss=1.3004 (1.1s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:22:21,785 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2777 val=0.1287
+2026-10-25 23:22:22,224 INFO mmasd:     [MAE] epoch 2/3 recon train=0.0973 val=0.1015
+2026-10-25 23:22:22,647 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0691 val=0.0796
+2026-10-25 23:22:23,803 INFO mmasd:     epoch 1/3 train_loss=1.9279 val_loss=1.5310 (1.1s)
+2026-10-25 23:22:24,965 INFO mmasd:     epoch 2/3 train_loss=1.3195 val_loss=1.4199 (1.1s)
+2026-10-25 23:22:26,044 INFO mmasd:     epoch 3/3 train_loss=1.0578 val_loss=1.4400 (1.1s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:22:26,610 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2681 val=0.0886
+2026-10-25 23:22:27,047 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1042 val=0.0698
+2026-10-25 23:22:27,485 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0770 val=0.0565
+2026-10-25 23:22:28,590 INFO mmasd:     epoch 1/3 train_loss=1.9576 val_loss=1.9174 (1.1s)
+2026-10-25 23:22:29,687 INFO mmasd:     epoch 2/3 train_loss=1.3657 val_loss=1.8069 (1.1s)
+2026-10-25 23:22:30,780 INFO mmasd:     epoch 3/3 train_loss=1.0504 val_loss=1.5639 (1.1s)
+2026-10-25 23:22:32,850 INFO mmasd: ==> mae__2d_openpose: acc=0.480 bal_acc=0.479 macroF1=0.458
+2026-10-25 23:22:32,850 INFO mmasd: --- ctrgcn__3d_romp
+2026-10-25 23:22:38,432 INFO mmasd:     epoch 1/3 train_loss=5.2753 val_loss=4.3821 (5.5s)
+2026-10-25 23:22:42,053 INFO mmasd:     epoch 2/3 train_loss=4.5259 val_loss=3.7063 (3.6s)
+2026-10-25 23:22:45,736 INFO mmasd:     epoch 3/3 train_loss=3.8654 val_loss=3.0159 (3.6s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:22:49,621 INFO mmasd:     epoch 1/3 train_loss=5.4533 val_loss=3.9915 (3.6s)
+2026-10-25 23:22:53,302 INFO mmasd:     epoch 2/3 train_loss=4.1767 val_loss=2.9378 (3.6s)
+2026-10-25 23:22:57,003 INFO mmasd:     epoch 3/3 train_loss=3.4154 val_loss=2.3293 (3.6s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:23:01,086 INFO mmasd:     epoch 1/3 train_loss=6.3573 val_loss=5.3441 (3.8s)
+2026-10-25 23:23:04,856 INFO mmasd:     epoch 2/3 train_loss=4.7091 val_loss=3.8115 (3.7s)
+2026-10-25 23:23:08,647 INFO mmasd:     epoch 3/3 train_loss=3.6065 val_loss=2.9280 (3.7s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:23:12,817 INFO mmasd:     epoch 1/3 train_loss=5.0493 val_loss=2.9904 (3.9s)
+2026-10-25 23:23:16,736 INFO mmasd:     epoch 2/3 train_loss=4.0048 val_loss=2.2156 (3.9s)
+2026-10-25 23:23:21,177 INFO mmasd:     epoch 3/3 train_loss=3.1816 val_loss=1.6568 (4.4s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:23:25,513 INFO mmasd:     epoch 1/3 train_loss=4.8277 val_loss=3.2137 (4.1s)
+2026-10-25 23:23:29,596 INFO mmasd:     epoch 2/3 train_loss=3.6629 val_loss=2.6960 (4.0s)
+2026-10-25 23:23:33,651 INFO mmasd:     epoch 3/3 train_loss=3.0328 val_loss=2.4365 (4.0s)
+E:\ASD Project\.venv\Lib\site-packages\sklearn\metrics\_classification.py:304: UserWarning: The y_prob values do not sum to one. Make sure to pass probabilities.
+  warnings.warn(
+2026-10-25 23:23:35,853 INFO mmasd: ==> ctrgcn__3d_romp: acc=0.210 bal_acc=0.223 macroF1=0.213
+2026-10-25 23:23:35,853 INFO mmasd: --- poseformerv2__3d_romp
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:23:37,359 INFO mmasd:     epoch 1/3 train_loss=1.8206 val_loss=1.3887 (1.4s)
+2026-10-25 23:23:38,733 INFO mmasd:     epoch 2/3 train_loss=1.0718 val_loss=0.9199 (1.3s)
+2026-10-25 23:23:40,181 INFO mmasd:     epoch 3/3 train_loss=0.7354 val_loss=0.7470 (1.4s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:23:41,726 INFO mmasd:     epoch 1/3 train_loss=1.7030 val_loss=1.2313 (1.4s)
+2026-10-25 23:23:43,035 INFO mmasd:     epoch 2/3 train_loss=0.9326 val_loss=0.9049 (1.3s)
+2026-10-25 23:23:44,337 INFO mmasd:     epoch 3/3 train_loss=0.6806 val_loss=0.7532 (1.3s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:23:45,886 INFO mmasd:     epoch 1/3 train_loss=1.7936 val_loss=1.2083 (1.4s)
+2026-10-25 23:23:47,208 INFO mmasd:     epoch 2/3 train_loss=1.0054 val_loss=0.8377 (1.3s)
+2026-10-25 23:23:48,539 INFO mmasd:     epoch 3/3 train_loss=0.7301 val_loss=0.7988 (1.3s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:23:50,107 INFO mmasd:     epoch 1/3 train_loss=1.9682 val_loss=1.3989 (1.4s)
+2026-10-25 23:23:51,468 INFO mmasd:     epoch 2/3 train_loss=1.0021 val_loss=1.1834 (1.3s)
+2026-10-25 23:23:52,836 INFO mmasd:     epoch 3/3 train_loss=0.6654 val_loss=0.9716 (1.3s)
+E:\ASD Project\src\models\poseformer.py:42: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.spatial = nn.TransformerEncoder(enc(dim_joint), depth_s)
+E:\ASD Project\src\models\poseformer.py:47: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.temporal = nn.TransformerEncoder(enc(dim_frame), depth_t)
+2026-10-25 23:23:54,394 INFO mmasd:     epoch 1/3 train_loss=1.9067 val_loss=1.6328 (1.4s)
+2026-10-25 23:23:55,836 INFO mmasd:     epoch 2/3 train_loss=1.0366 val_loss=1.5011 (1.4s)
+2026-10-25 23:23:57,221 INFO mmasd:     epoch 3/3 train_loss=0.6612 val_loss=1.3778 (1.3s)
+2026-10-25 23:23:59,252 INFO mmasd: ==> poseformerv2__3d_romp: acc=0.652 bal_acc=0.671 macroF1=0.663
+2026-10-25 23:23:59,252 INFO mmasd: --- mae__3d_romp
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:23:59,781 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2687 val=0.1229
+2026-10-25 23:24:00,245 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1252 val=0.0851
+2026-10-25 23:24:00,654 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0847 val=0.0688
+2026-10-25 23:24:01,758 INFO mmasd:     epoch 1/3 train_loss=2.0136 val_loss=1.6977 (1.0s)
+2026-10-25 23:24:02,879 INFO mmasd:     epoch 2/3 train_loss=1.3919 val_loss=1.2995 (1.1s)
+2026-10-25 23:24:04,136 INFO mmasd:     epoch 3/3 train_loss=1.0110 val_loss=0.9633 (1.2s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:24:04,710 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2847 val=0.1424
+2026-10-25 23:24:05,140 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1235 val=0.0868
+2026-10-25 23:24:05,553 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0846 val=0.0624
+2026-10-25 23:24:06,685 INFO mmasd:     epoch 1/3 train_loss=1.8965 val_loss=1.5215 (1.1s)
+2026-10-25 23:24:07,775 INFO mmasd:     epoch 2/3 train_loss=1.2918 val_loss=1.2302 (1.1s)
+2026-10-25 23:24:08,906 INFO mmasd:     epoch 3/3 train_loss=0.9787 val_loss=1.0185 (1.1s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:24:09,494 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2733 val=0.1484
+2026-10-25 23:24:09,927 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1226 val=0.0926
+2026-10-25 23:24:10,369 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0839 val=0.0746
+2026-10-25 23:24:11,507 INFO mmasd:     epoch 1/3 train_loss=1.9547 val_loss=1.5897 (1.1s)
+2026-10-25 23:24:12,632 INFO mmasd:     epoch 2/3 train_loss=1.3186 val_loss=1.2398 (1.1s)
+2026-10-25 23:24:13,759 INFO mmasd:     epoch 3/3 train_loss=1.0420 val_loss=1.0188 (1.1s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:24:14,374 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2705 val=0.1665
+2026-10-25 23:24:14,829 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1218 val=0.1065
+2026-10-25 23:24:15,257 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0820 val=0.0803
+2026-10-25 23:24:16,461 INFO mmasd:     epoch 1/3 train_loss=1.9903 val_loss=1.4956 (1.2s)
+2026-10-25 23:24:17,614 INFO mmasd:     epoch 2/3 train_loss=1.3323 val_loss=1.1291 (1.1s)
+2026-10-25 23:24:18,785 INFO mmasd:     epoch 3/3 train_loss=0.9727 val_loss=1.0826 (1.2s)
+E:\ASD Project\src\models\mae.py:30: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer(embed_dim), depth)
+E:\ASD Project\src\models\mae.py:35: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.decoder = nn.TransformerEncoder(layer(dec_dim), dec_depth)
+2026-10-25 23:24:19,388 INFO mmasd:     [MAE] epoch 1/3 recon train=0.2766 val=0.1174
+2026-10-25 23:24:19,840 INFO mmasd:     [MAE] epoch 2/3 recon train=0.1268 val=0.0683
+2026-10-25 23:24:20,299 INFO mmasd:     [MAE] epoch 3/3 recon train=0.0841 val=0.0484
+2026-10-25 23:24:21,455 INFO mmasd:     epoch 1/3 train_loss=1.8687 val_loss=1.7447 (1.1s)
+2026-10-25 23:24:22,582 INFO mmasd:     epoch 2/3 train_loss=1.2016 val_loss=1.8147 (1.1s)
+2026-10-25 23:24:23,736 INFO mmasd:     epoch 3/3 train_loss=0.9239 val_loss=1.7734 (1.1s)
+2026-10-25 23:24:25,725 INFO mmasd: ==> mae__3d_romp: acc=0.525 bal_acc=0.562 macroF1=0.518
+2026-10-25 23:24:26,259 INFO mmasd: 
+                  target             model  n_participants       mae       rmse        r2  spearman_rho
+0  ados_comparison_score  ridge_kinematics              20  1.296092   1.407386 -0.125417     -0.922979
+1  ados_comparison_score     mean_baseline              20  1.284211   1.396474 -0.108033     -1.000000
+2     ados_overall_total  ridge_kinematics              20  9.866923  12.427924 -0.483844     -0.490570
+3     ados_overall_total     mean_baseline              20  7.989474  10.739422 -0.108033     -1.000000
+2026-10-25 23:24:26,450 INFO mmasd: 
+                       model  pooled_accuracy  pooled_balanced_accuracy  pooled_macro_f1  macro_f1_std
+0        ctrgcn__2d_openpose         0.269203                  0.278947         0.256260      0.042968
+1  poseformerv2__2d_openpose         0.517191                  0.555537         0.533484      0.058862
+2           mae__2d_openpose         0.479883                  0.478676         0.458112      0.099596
+3            ctrgcn__3d_romp         0.209949                  0.222811         0.212934      0.045471
+4      poseformerv2__3d_romp         0.651792                  0.670648         0.662541      0.047501
+5               mae__3d_romp         0.525238                  0.562400         0.518475      0.092662

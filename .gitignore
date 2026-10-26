@@ -1,0 +1,24 @@
+# Raw datasets: large and under their own licences - obtain them from the original sources (see README)
+Dataset/
+Project/
+
+# Derived data tensors (regenerate with scripts/build_*.py)
+data/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model checkpoints (regenerate by re-running the experiments)
+*.pt
+outputs/checkpoints/
+outputs/full/checkpoints/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
